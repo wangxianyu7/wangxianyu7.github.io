@@ -1,0 +1,867 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Head tag -->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="google-site-verification" content="xBT4GhYoi5qRD5tr338pgPM5OWHHIDR6mNg1a3euekI" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="keyword"  content="">
+    <link rel="shortcut icon" href="/img/Alfred.jpg">
+	<link href="https://cdn.bootcss.com/KaTeX/0.7.1/katex.min.css" rel="stylesheet">
+    <!-- Place this tag in your head or just before your close body tag. -->
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
+    <title>
+        
+          Alfred
+        
+    </title>
+
+    <link rel="canonical" href="http://www.wangxianyu.com/archives/2/">
+
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+
+    <!-- Custom CSS --> 
+    <link rel="stylesheet" href="/css/beantech.min.css">
+    
+    <!-- Pygments Highlight CSS -->
+    <link rel="stylesheet" href="/css/highlight.css">
+
+    <link rel="stylesheet" href="/css/widget.css">
+
+    <link rel="stylesheet" href="/css/rocket.css">
+
+    <link rel="stylesheet" href="/css/signature.css">
+
+    <link rel="stylesheet" href="/css/toc.css">
+
+    <!-- Custom Fonts -->
+    <!-- <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css"> -->
+    <!-- Hux change font-awesome CDN to qiniu -->
+    <link href="https://cdn.staticfile.org/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+
+    <!-- Hux Delete, sad but pending in China
+    <link href='http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/
+    css'>
+    -->
+
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- ga & ba script hoook -->
+    <script></script>
+</head>
+
+
+<!-- hack iOS CSS :active style -->
+<body ontouchstart="">
+	<!-- Modified by Yu-Hsuan Yen -->
+<!-- Post Header -->
+<style type="text/css">
+    header.intro-header{
+        
+            background-image: url('/img/header_img/home-bg-2-dark2.jpeg') 
+            /*config*/
+        
+    }
+    
+</style>
+
+<header class="intro-header" >
+    <!-- Signature -->
+    <div id="signature">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                
+                    <div class="site-heading">
+                        <h1>Alfred</h1>
+                        <!--<hr class="small">-->
+                        <span class="subheading">Suffering is a ladder.</span>
+                    </div>
+                
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+	
+    <!-- Navigation -->
+<nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header page-scroll">
+            <button type="button" class="navbar-toggle">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/">Alfred</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <!-- Known Issue, found by Hux:
+            <nav>'s height woule be hold on by its content.
+            so, when navbar scale out, the <nav> will cover tags.
+            also mask any touch event of tags, unfortunately.
+        -->
+        <div id="huxblog_navbar">
+            <div class="navbar-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="/">Home</a>
+                    </li>
+
+                    
+
+                        
+                    
+
+                        
+                        <li>
+                            <a href="/about/">关于我</a>
+                        </li>
+                        
+                    
+
+                        
+                        <li>
+                            <a href="/archive/">所有文章</a>
+                        </li>
+                        
+                    
+
+                        
+                        <li>
+                            <a href="/tags/">分类</a>
+                        </li>
+                        
+                    
+                    
+                </ul>
+            </div>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container -->
+</nav>
+<script>
+    // Drop Bootstarp low-performance Navbar
+    // Use customize navbar with high-quality material design animation
+    // in high-perf jank-free CSS3 implementation
+    var $body   = document.body;
+    var $toggle = document.querySelector('.navbar-toggle');
+    var $navbar = document.querySelector('#huxblog_navbar');
+    var $collapse = document.querySelector('.navbar-collapse');
+
+    $toggle.addEventListener('click', handleMagic)
+    function handleMagic(e){
+        if ($navbar.className.indexOf('in') > 0) {
+        // CLOSE
+            $navbar.className = " ";
+            // wait until animation end.
+            setTimeout(function(){
+                // prevent frequently toggle
+                if($navbar.className.indexOf('in') < 0) {
+                    $collapse.style.height = "0px"
+                }
+            },400)
+        }else{
+        // OPEN
+            $collapse.style.height = "auto"
+            $navbar.className += " in";
+        }
+    }
+</script>
+
+
+    <!-- Main Content -->
+    <!-- Main Content -->
+<div class="container">
+    <div class="row">
+        
+
+<!-- USE SIDEBAR -->
+    <!-- Post Container -->
+            <div class="
+                col-lg-8 col-lg-offset-1
+                col-md-8 col-md-offset-1
+                col-sm-12
+                col-xs-12
+                post-container
+            ">
+            
+                <!-- Main Content -->
+
+
+<div class="post-preview">
+
+    <a href="/2018/06/18/kaoyanjiaoliu/">
+        <h2 class="post-title">
+            考研经验交流会
+        </h2>
+        <h3 class="post-subtitle">
+            NEW START
+        </h3>
+        <div class="post-content-preview">
+            图片故事：守望者2009「Never,never surrender.」
+考研经验交流
+录取学校与专业：中国科学院国家天文台 天体物理学
+考研经历：
+怀着最好的期望，做最坏的打算
+现在是五月初，想必我院大三的同学已经开始考虑自己毕业之后的去向，保研、考研、工作亦或是出国。如往届学长所言，保研、考研、出国和工作本无高低贵贱之分。如果早就做好了打算，每一个选择都是上上策。可最怕什么呢，最怕没得选......
+        </div>
+    </a>
+    
+        <p class="post-meta" style="margin: 10px 0;">
+            Posted by Alfred on
+            2018-06-18
+        </p>
+        <div class="tags">
+            
+              <a href="/tags/#学习日常" title="学习日常">学习日常</a>
+            
+        </div>
+    
+
+</div>
+<hr>
+
+<div class="post-preview">
+
+    <a href="/2018/02/28/kaoyan/">
+        <h2 class="post-title">
+            考研杂谈
+        </h2>
+        <h3 class="post-subtitle">
+            人生没有一劳永逸
+        </h3>
+        <div class="post-content-preview">
+            图片故事： 《超能查派》 关于机器人身份的问题会随着AI的迅速发展而逐渐变得激烈，仿生人也不止会梦见羊…
+考研杂谈
+逐渐明白人生没有一劳永逸
+没有选择的选择
+曾有学长讲，保研、考研、找工作和出国没有高低贵贱之分，他还特意强调了很多次。但是，在我看来其中是有很大的差别的，至于高低，也是有的。要我讲，相比考研，保研更好。如果早就做好了工作以及出国的打算，这两个选择也是上上策。可最怕什么呢，最怕没......
+        </div>
+    </a>
+    
+        <p class="post-meta" style="margin: 10px 0;">
+            Posted by Alfred on
+            2018-02-28
+        </p>
+        <div class="tags">
+            
+              <a href="/tags/#生活日常" title="生活日常">生活日常</a>
+            
+        </div>
+    
+
+</div>
+<hr>
+
+<div class="post-preview">
+
+    <a href="/2018/02/19/revtex4/">
+        <h2 class="post-title">
+            Ubuntu16.04中texmaker缺少revtex4.cls的解决方法
+        </h2>
+        <h3 class="post-subtitle">
+            缺少依赖同样适用
+        </h3>
+        <div class="post-content-preview">
+            图片故事：《生化危机：来生》 MY NAME IS ALICE, I WORKED FOR UMBRELLA CORPORATION.
+Ubuntu16.04中texmaker缺少revtex4.cls的解决方法
+找到相关的包   sudo apt-cache search revtex
+出现texlive-publishers - TeX Live: Publisher styles, t......
+        </div>
+    </a>
+    
+        <p class="post-meta" style="margin: 10px 0;">
+            Posted by Alfred on
+            2018-02-19
+        </p>
+        <div class="tags">
+            
+              <a href="/tags/#科研日常" title="科研日常">科研日常</a>
+            
+        </div>
+    
+
+</div>
+<hr>
+
+<div class="post-preview">
+
+    <a href="/2018/02/19/idl82/">
+        <h2 class="post-title">
+            Ubuntu16.04下安装IDL8.2的要点
+        </h2>
+        <h3 class="post-subtitle">
+            一些补充说明
+        </h3>
+        <div class="post-content-preview">
+            图片故事：《君の名は。》 只要记住你的名字 不管你在世界的哪个地方 我一定会,去见你。
+Ubuntu下安装IDL8.2的要点
+建议修改网卡名称为eth0
+执行sudo gedit /etc/default/grub
+找到GRUB_CMDLINE_LINUX=&quot;&quot;
+改为GRUB_CMDLINE_LINUX=&quot;net.ifnames=0 biosdevname=0&......
+        </div>
+    </a>
+    
+        <p class="post-meta" style="margin: 10px 0;">
+            Posted by Alfred on
+            2018-02-19
+        </p>
+        <div class="tags">
+            
+              <a href="/tags/#科研日常" title="科研日常">科研日常</a>
+            
+        </div>
+    
+
+</div>
+<hr>
+
+<div class="post-preview">
+
+    <a href="/2018/02/18/jieqianjiehou/">
+        <h2 class="post-title">
+            节后杂谈
+        </h2>
+        <h3 class="post-subtitle">
+            I can't feel alive
+        </h3>
+        <div class="post-content-preview">
+            图片故事：《降临》  从女主角的视角看去，朦胧的外星飞船被神秘所笼罩
+节后杂谈
+
+计划赶不上变化
+很久没有写点什么了，之前潦潦草草地写过一些如本网站所展示的小教程和小技巧。写点什么的意思就是，去记录生活，去记录当下的状态或者对于某些事情的思考。
+当然，我不是一开始就是这样不愿说些什么的。我最初是很健谈的，健谈到自己想到什么就说什么。自然，这是非常不好的，于自己，于他人都是不好的。近些日子来，......
+        </div>
+    </a>
+    
+        <p class="post-meta" style="margin: 10px 0;">
+            Posted by Alfred on
+            2018-02-18
+        </p>
+        <div class="tags">
+            
+              <a href="/tags/#生活日常" title="生活日常">生活日常</a>
+            
+        </div>
+    
+
+</div>
+<hr>
+
+<div class="post-preview">
+
+    <a href="/2018/02/07/cv/">
+        <h2 class="post-title">
+            Create and Modify your CV on Sharelatex
+        </h2>
+        <h3 class="post-subtitle">
+            Move on
+        </h3>
+        <div class="post-content-preview">
+            图片故事：「You know nothing, Jon Snow」
+Create and Modify your CV on Sharelatex
+无论在寻找工作还是考研复试，一份精美的简历都会为个人表现增色不少。现以在线Latex编译平台Sharelatex上的moderncv模板为例，创建并修改cv，已达到预期的cv效果。
+注册Sharelatex
+目前，Sharelatex无法注册，具......
+        </div>
+    </a>
+    
+        <p class="post-meta" style="margin: 10px 0;">
+            Posted by Alfred on
+            2018-02-07
+        </p>
+        <div class="tags">
+            
+              <a href="/tags/#学习日常" title="学习日常">学习日常</a>
+            
+        </div>
+    
+
+</div>
+<hr>
+
+<div class="post-preview">
+
+    <a href="/2018/02/02/wsl_idl71/">
+        <h2 class="post-title">
+            关于基于WSL(Windows Subsystem for Linux)安装IDL71
+        </h2>
+        <h3 class="post-subtitle">
+            怎么方便怎么来
+        </h3>
+        <div class="post-content-preview">
+            图片故事：《海边的曼彻斯特》 没有戏剧性的转折，没有令人振奋的结束，无法面对的痛苦与救赎，这场争吵诠释了这部电影的核心–真实。
+关于基于WSL(Windows Subsystem for Linux)安装IDL71
+关于WSL的安装
+网上教程已经很多了，出于不愿重复造轮子的懒劲和秉着对广大读者负责任的心情，我找到了一篇比较不错的教程→这篇文章。
+但是有几个地方需要注意：
+1.由于现在Wind......
+        </div>
+    </a>
+    
+        <p class="post-meta" style="margin: 10px 0;">
+            Posted by Alfred on
+            2018-02-02
+        </p>
+        <div class="tags">
+            
+              <a href="/tags/#科研日常" title="科研日常">科研日常</a>
+            
+        </div>
+    
+
+</div>
+<hr>
+
+<div class="post-preview">
+
+    <a href="/2018/01/31/rebuildsys/">
+        <h2 class="post-title">
+            关于重装系统Ubuntu16.04
+        </h2>
+        <h3 class="post-subtitle">
+            装系统已成家常便饭
+        </h3>
+        <div class="post-content-preview">
+            图片故事：《银翼杀手2049》 虚拟美女挑逗高司令——无论从创意、构图、色彩、摄影还是表演，这是《银翼杀手2049》最标志性的画面之一。
+关于重装系统
+为什么要重装系统
+我试图在Ubuntu下将Python的link从Python2.7转接为Python3.5，而比较智障的一点就是，在没有修改成功之后，我一气之下把Python3.4的文件夹删掉了，这导致了我的terminal无法正常启动，许......
+        </div>
+    </a>
+    
+        <p class="post-meta" style="margin: 10px 0;">
+            Posted by Alfred on
+            2018-01-31
+        </p>
+        <div class="tags">
+            
+              <a href="/tags/#科研日常" title="科研日常">科研日常</a>
+            
+        </div>
+    
+
+</div>
+<hr>
+
+<div class="post-preview">
+
+    <a href="/2017/02/22/JKTEBOP/">
+        <h2 class="post-title">
+            JKTEBOP在Windows下的运行
+        </h2>
+        <h3 class="post-subtitle">
+            亲测有效
+        </h3>
+        <div class="post-content-preview">
+            JKTEBOP code (http://www.astro.keele.ac.uk/jkt/codes/jktebop.html) 是用来做双星以及系外行星的光变曲线的拟合的程序，该程序托生于EOP program，用Fortran写成，可读性好，运行结果可信度高，现在被诸多学者使用，有较为丰厚的科学产出。
+但是该程序基于Fortran，大多数人对于Fortran程序的运行不是很熟悉，假如......
+        </div>
+    </a>
+    
+        <p class="post-meta" style="margin: 10px 0;">
+            Posted by Alfred on
+            2017-02-22
+        </p>
+        <div class="tags">
+            
+              <a href="/tags/#科研日常" title="科研日常">科研日常</a>
+            
+        </div>
+    
+
+</div>
+<hr>
+
+<div class="post-preview">
+
+    <a href="/2017/02/11/webs/">
+        <h2 class="post-title">
+            科研常用的一些网站
+        </h2>
+        <h3 class="post-subtitle">
+            初窥门径
+        </h3>
+        <div class="post-content-preview">
+            图片故事：美国《综艺》杂志2017年度十佳电影镜头 《神奇女侠》 NO.1
+常用网站
+
+如何在网站上找到合适的天文sci文章以及专业书籍
+（1）百度学术：不错的sci搜索引擎，尤其是在无法Google的情况下，输入文章的名字基本就可以得到文章，有些还能下载pdf。百度学术
+（2）谷粉搜搜：有些同学不想翻墙还想使用Google。呐，这里就有福利了，当我们被墙了的时候，我们可以使用谷粉搜搜，这个......
+        </div>
+    </a>
+    
+        <p class="post-meta" style="margin: 10px 0;">
+            Posted by Alfred on
+            2017-02-11
+        </p>
+        <div class="tags">
+            
+              <a href="/tags/#科研日常" title="科研日常">科研日常</a>
+            
+        </div>
+    
+
+</div>
+<hr>
+
+
+
+<!-- Pager -->
+
+<ul class="pager">
+    
+        <li class="previous">
+            <a href="/">&larr; Newer Posts</a>
+        </li>
+    
+    
+</ul>
+
+
+
+                <!-- 如果开启评论功能 -->
+                
+            </div>
+
+          <!-- Sidebar Container -->
+<div class="
+    col-lg-3 col-lg-offset-0
+    col-md-3 col-md-offset-0
+    col-sm-12
+    col-xs-12
+    sidebar-container
+">
+    
+        <!-- Featured Tags -->
+
+<section>
+    <!-- no hr -->
+    <h5><a href="/tags/">FEATURED TAGS</a></h5>
+    <div class="tags">
+        
+            
+            <a href="/tags/#科研日常" title="科研日常" rel="10">科研日常</a>
+            
+        
+            
+            <a href="/tags/#旅行日记" title="旅行日记" rel="1">旅行日记</a>
+            
+        
+            
+            <a href="/tags/#学习日常" title="学习日常" rel="2">学习日常</a>
+            
+        
+            
+            <a href="/tags/#生活日常" title="生活日常" rel="5">生活日常</a>
+            
+        
+            
+            <a href="/tags/#Hexo" title="Hexo" rel="1">Hexo</a>
+            
+        
+            
+            <a href="/tags/#LaTeX" title="LaTeX" rel="1">LaTeX</a>
+            
+        
+    </div>
+</section>
+
+        <hr>
+    
+        <!-- Short About -->
+<section class="visible-md visible-lg">
+    <h5><a href="/about/">ABOUT ME</a></h5>
+    <div class="short-about">
+
+        
+            <img id = "avatar_pic" src="/img/Alfred.jpg" />
+        
+
+        
+            <p>SDUer, UCASer, NAOCer, 天文从业者, 系外行星搜寻&amp;天体动力学, 杂食阅读者, 心理学爱好者</p>
+        
+
+        <!-- SNS Link -->
+        <ul class="list-inline">
+            
+            
+            
+
+            
+                <li>
+                    <a target="_blank" href="http://weibo.com/5359717595">
+                        <span class="fa-stack fa-lg">
+                            <i class="fa fa-circle fa-stack-2x"></i>
+                            <i class="fa fa-weibo fa-stack-1x fa-inverse"></i>
+                        </span>
+                    </a>
+                </li>
+            
+
+            
+
+            
+                <li>
+                    <a target="_blank"  href="https://github.com/wangxianyu7">
+                        <span class="fa-stack fa-lg">
+                            <i class="fa fa-circle fa-stack-2x"></i>
+                            <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                        </span>
+                    </a>
+                </li>
+            
+            
+            
+            
+        </ul>
+    </div>
+</section>
+        <hr>
+    
+        
+  <h5>RECENT POSTS</h3>
+  <div class="widget">
+    <ul>
+      
+        <li>
+          <a href="/2019/05/12/wasp12/">夜谈‘竞争’</a>
+        </li>
+      
+        <li>
+          <a href="/2019/05/05/atpingyao/">在平遥</a>
+        </li>
+      
+        <li>
+          <a href="/2019/04/28/loadslow/">HEXO在本地localhost加载慢的原因之一</a>
+        </li>
+      
+        <li>
+          <a href="/2019/04/28/ssh/">使用Screen创建会话</a>
+        </li>
+      
+        <li>
+          <a href="/2019/03/29/sduwh_latex/">山东大学（威海）本科生毕业论文LaTex模版制作若干问题</a>
+        </li>
+      
+    </ul>
+  </div>
+
+        <hr>
+    
+        <!-- Friends Blog -->
+
+<h5>FRIENDS</h5>
+<ul class="list-inline">
+
+    
+        <li><a href="http://www.wh.sdu.edu.cn/" target="_blank">SDU(WH)</a></li>
+    
+        <li><a href="http://www.wh.sdu.edu.cn/" target="_blank">School of Space Science and Physics of  SDU(WH)</a></li>
+    
+</ul>
+
+        <hr>
+    
+        
+    <h5>ARCHIVES</h5>
+    <div class="widget">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/05/">五月 2019</a><span class="archive-list-count">2</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/04/">四月 2019</a><span class="archive-list-count">2</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/03/">三月 2019</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/01/">一月 2019</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/09/">九月 2018</a><span class="archive-list-count">3</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/06/">六月 2018</a><span class="archive-list-count">2</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/02/">二月 2018</a><span class="archive-list-count">6</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/01/">一月 2018</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/02/">二月 2017</a><span class="archive-list-count">2</span></li></ul>
+    </div>
+
+        <hr>
+    
+        <!-- Categories -->
+
+        <hr>
+    
+</div>
+
+        
+    </div>
+</div>
+
+
+    <!-- Footer -->
+    <!-- Footer -->
+<footer> 
+    <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>	
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <ul class="list-inline text-center">
+                
+                
+                
+
+                
+                    <li>
+                        <a target="_blank" href="http://weibo.com/5359717595">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-weibo fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                
+
+                
+
+                
+                    <li>
+                        <a target="_blank"  href="https://github.com/wangxianyu7">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                
+
+                
+
+                </ul>
+                <p class="copyright text-muted">
+                    Copyright &copy; Alfred 2021 
+                    <br>
+                    Powered by <a href="https://hexo.io/">Hexo</a> 
+                    <span style="display: inline-block; margin: 0 5px;">
+                    </span>
+                        <i class="fa fa-heart"></i>
+                    <span id="busuanzi_container_site_uv"> 
+                       您是这个网站第<span id="busuanzi_value_site_uv"></span>位访客
+                            </span>
+                        <i class="fa fa-heart"></i>
+                    </span> 
+                    
+                </p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- jQuery -->
+<script src="/js/jquery.min.js"></script>
+
+<!-- Bootstrap Core JavaScript -->
+<script src="/js/bootstrap.min.js"></script>
+
+<!-- Custom Theme JavaScript -->
+<script src="/js/hux-blog.min.js"></script>
+
+
+<!-- async load function -->
+<script>
+    function async(u, c) {
+      var d = document, t = 'script',
+          o = d.createElement(t),
+          s = d.getElementsByTagName(t)[0];
+      o.src = u;
+      if (c) { o.addEventListener('load', function (e) { c(null, e); }, false); }
+      s.parentNode.insertBefore(o, s);
+    }
+</script>
+
+<!-- 
+     Because of the native support for backtick-style fenced code blocks 
+     right within the Markdown is landed in Github Pages, 
+     From V1.6, There is no need for Highlight.js, 
+     so Huxblog drops it officially.
+
+     - https://github.com/blog/2100-github-pages-now-faster-and-simpler-with-jekyll-3-0  
+     - https://help.github.com/articles/creating-and-highlighting-code-blocks/    
+-->
+<!--
+    <script>
+        async("http://cdn.bootcss.com/highlight.js/8.6/highlight.min.js", function(){
+            hljs.initHighlightingOnLoad();
+        })
+    </script>
+    <link href="http://cdn.bootcss.com/highlight.js/8.6/styles/github.min.css" rel="stylesheet">
+-->
+
+
+<!-- jquery.tagcloud.js -->
+<script>
+    // only load tagcloud.js in tag.html
+    if($('#tag_cloud').length !== 0){
+        async("http://www.wangxianyu.com/js/jquery.tagcloud.js",function(){
+            $.fn.tagcloud.defaults = {
+                //size: {start: 1, end: 1, unit: 'em'},
+                color: {start: '#bbbbee', end: '#0085a1'},
+            };
+            $('#tag_cloud a').tagcloud();
+        })
+    }
+</script>
+
+<!--fastClick.js -->
+<script>
+    async("https://cdn.bootcss.com/fastclick/1.0.6/fastclick.min.js", function(){
+        var $nav = document.querySelector("nav");
+        if($nav) FastClick.attach($nav);
+    })
+</script>
+
+
+<!-- Google Analytics -->
+
+
+<script>
+    // dynamic User by Hux
+    var _gaId = 'UA-XXXXXXXX-X';
+    var _gaDomain = 'yoursite';
+
+    // Originial
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', _gaId, _gaDomain);
+    ga('send', 'pageview');
+</script>
+
+
+
+
+<!-- Baidu Tongji -->
+
+
+
+
+
+
+	<a id="rocket" href="#top" class=""></a>
+	<script type="text/javascript" src="/js/totop.js?v=1.0.0" async=""></script>
+    <script type="text/javascript" src="/js/toc.js?v=1.0.0" async=""></script>
+<!-- Image to hack wechat -->
+<img src="http://www.wangxianyu.com/img/icon_wechat.png" width="0" height="0" />
+<!-- Migrate from head to bottom, no longer block render and still work -->
+
+<script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"model":{"jsonPath":"/live2dw/assets/miku.model.json"},"display":{"position":"right","width":200,"height":400,"bottom":-50},"mobile":{"show":false},"log":false,"pluginJsPath":"lib/","pluginModelPath":"assets/","pluginRootPath":"live2dw/","tagMode":false});</script></body>
+
+</html>

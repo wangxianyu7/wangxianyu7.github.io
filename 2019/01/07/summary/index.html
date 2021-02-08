@@ -1,0 +1,573 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Head tag -->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="google-site-verification" content="xBT4GhYoi5qRD5tr338pgPM5OWHHIDR6mNg1a3euekI" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="keyword"  content="">
+    <link rel="shortcut icon" href="/img/Alfred.jpg">
+	<link href="https://cdn.bootcss.com/KaTeX/0.7.1/katex.min.css" rel="stylesheet">
+    <!-- Place this tag in your head or just before your close body tag. -->
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
+    <title>
+        
+          At the beginning of 2019 - Alfred
+        
+    </title>
+
+    <link rel="canonical" href="http://www.wangxianyu.com/2019/01/07/summary/">
+
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+
+    <!-- Custom CSS --> 
+    <link rel="stylesheet" href="/css/beantech.min.css">
+    
+    <!-- Pygments Highlight CSS -->
+    <link rel="stylesheet" href="/css/highlight.css">
+
+    <link rel="stylesheet" href="/css/widget.css">
+
+    <link rel="stylesheet" href="/css/rocket.css">
+
+    <link rel="stylesheet" href="/css/signature.css">
+
+    <link rel="stylesheet" href="/css/toc.css">
+
+    <!-- Custom Fonts -->
+    <!-- <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css"> -->
+    <!-- Hux change font-awesome CDN to qiniu -->
+    <link href="https://cdn.staticfile.org/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+
+    <!-- Hux Delete, sad but pending in China
+    <link href='http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/
+    css'>
+    -->
+
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- ga & ba script hoook -->
+    <script></script>
+</head>
+
+
+<!-- hack iOS CSS :active style -->
+<body ontouchstart="">
+	<!-- Modified by Yu-Hsuan Yen -->
+<!-- Post Header -->
+<style type="text/css">
+    header.intro-header{
+        
+            background-image: url('xjcy.jpg')
+            /*post*/
+        
+    }
+    
+</style>
+
+<header class="intro-header" >
+    <!-- Signature -->
+    <div id="signature">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                
+                    <div class="post-heading">
+                        <div class="tags">
+                            
+                              <a class="tag" href="/tags/#生活日常" title="生活日常">生活日常</a>
+                            
+                        </div>
+                        <h1>At the beginning of 2019</h1>
+                        <h2 class="subheading">Forget and Forward</h2>
+                        <span class="meta">
+                            Posted by Alfred on
+                            2019-01-07
+                        </span>
+                    </div>
+                
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+	
+    <!-- Navigation -->
+<nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header page-scroll">
+            <button type="button" class="navbar-toggle">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/">Alfred</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <!-- Known Issue, found by Hux:
+            <nav>'s height woule be hold on by its content.
+            so, when navbar scale out, the <nav> will cover tags.
+            also mask any touch event of tags, unfortunately.
+        -->
+        <div id="huxblog_navbar">
+            <div class="navbar-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="/">Home</a>
+                    </li>
+
+                    
+
+                        
+                    
+
+                        
+                        <li>
+                            <a href="/about/">关于我</a>
+                        </li>
+                        
+                    
+
+                        
+                        <li>
+                            <a href="/archive/">所有文章</a>
+                        </li>
+                        
+                    
+
+                        
+                        <li>
+                            <a href="/tags/">分类</a>
+                        </li>
+                        
+                    
+                    
+                </ul>
+            </div>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container -->
+</nav>
+<script>
+    // Drop Bootstarp low-performance Navbar
+    // Use customize navbar with high-quality material design animation
+    // in high-perf jank-free CSS3 implementation
+    var $body   = document.body;
+    var $toggle = document.querySelector('.navbar-toggle');
+    var $navbar = document.querySelector('#huxblog_navbar');
+    var $collapse = document.querySelector('.navbar-collapse');
+
+    $toggle.addEventListener('click', handleMagic)
+    function handleMagic(e){
+        if ($navbar.className.indexOf('in') > 0) {
+        // CLOSE
+            $navbar.className = " ";
+            // wait until animation end.
+            setTimeout(function(){
+                // prevent frequently toggle
+                if($navbar.className.indexOf('in') < 0) {
+                    $collapse.style.height = "0px"
+                }
+            },400)
+        }else{
+        // OPEN
+            $collapse.style.height = "auto"
+            $navbar.className += " in";
+        }
+    }
+</script>
+
+
+    <!-- Main Content -->
+    <!-- Modify by Yu-Hsuan Yen -->
+
+<!-- Post Content -->
+<article>
+    <div class="container">
+        <div class="row">
+
+            <!-- Post Container -->
+            <div class="
+                col-lg-8 col-lg-offset-2
+                col-md-10 col-md-offset-1
+                post-container">
+
+                <p>图片故事： 过去的每一件事情都终究成为我铠甲上的鳞片</p>
+<p>时间的好处在于它是单向的，我愿意或者不愿意，事情终究会过去，而有一些事情也终将会到来。</p>
+<h2><span id="1向已经过去的2018年致敬">1.向已经过去的2018年致敬</span></h2>
+<p>2018年发生了很多很多事情，我记不得事情发生的具体细节了，我甚至记不得一些事情是不是真实地发生过了，但是每当我回忆起来的时候，兴奋、喜悦和悲伤又那么真实。<br>
+去年的这个时候我应该已经在家里了。当时自己为新的一年设置了好多目标：要把托福考过，要把驾驶证学了，文章要发掉，系外行星部分的动力学部分要搞懂。凡事的开端都是好的，我认识地学习英语，研读代码，去驾校把钱交了。去年的寒假在忙碌中度过，玩是很少玩的，游戏为我带来的快乐不及将代码运行成功。<br>
+紧接着就是复试。我对考研这件事情总是充满了莫名其妙的信心，我知道我是可以的。待到开学，回到学校里，好的和坏的消息是同样多的。每当有一个人考研成功，也许就会有一个人考研失败。宿舍里五个人上岸三人，算不得好成绩，但是也还可以了。我如今已经记不得自己为复试做过什么了，只记得似乎专门去看了英语的口语教程，虽然也没什么用。我的口语考试最后以‘hahahahaha’结尾，虽然我口语一般但是我乐观啊。不容易抑郁的学生我觉得在如今的研究生圈子里还是很受欢迎的。当然，我记得我还打印了厚厚的复试册，各种成绩和文章。见到了武向平和汪璟琇院士。嘿呀！真人院士在线面试！如果我的2018年有高光时刻的话，面试应该可以入选前五。面试之后我就回了家，在家住了几天便回威海学车了。学车的时候没有任何有趣的事情发生，毕业论文也是翻译的我的英文文章，没有什么新意。甚至，我觉得2018年的4月份到9月份没有任何事情发生，我全然不记得了。那段时间仿佛被什么隐藏在黑暗里的巨大怪物吞噬掉了，我看不见，也不记得了。如果说真的留下了什么痕迹，我觉得没有，不如说那段时间抹去了我的一个很重要的朋友，啊，不对，specificly，是曾经的朋友。<br>
+转眼就是九月份，我愿意相信一切都过去了，我也愿意去重新洗牌。扔掉了破破烂烂的旧书包，换掉了卡的要死的旧手机，拿到了新号码，delete掉电脑上和云端的所有资料，把乐观挂在脸上，积极地去结交新的朋友，不停地告诉自己:&quot;hey,你要重新开始了，人生会很精彩，Everything will be better~&quot;<br>
+在国科大的日子里，我想成为一名真正的researcher。每天都去读一些英文的东西，不时地去写一些程序，研读一些代码，看看文章。好好学习，简单地去参加一些社交的活动。下面写一下2018年大事件吧。</p>
+<h3><span id="1一篇一作一篇二作一篇贡献作者">（1）一篇一作，一篇二作，一篇贡献作者</span></h3>
+<p>发文章这件事情，我觉得不是一件特别困难的事情，尤其是当我一个项目做了3年的时候。有料可言，有话可讲，有结论可述。我觉得这个时候就可以发文章了。当然，这也只是我浅薄的认识。讲道理，人们为什么发文章来着？最初的原因肯定不是因为为了评职称。最初的原因当然是为了纯粹的学术交流了。讲真的，我对于科研的兴趣还是蛮高的。虽然我经常心里想着：哦，妈呀，我再发一篇文章就好了。但是其实我也很清楚，对于研究者而言，好奇心比科研本身有意义，发文章其实不是最重要的部分，最重要的部分其实是对当前的研究领域有着详尽的了解以及能够通过已有的信息提出有意义的问题。最为研究人员，我们应该关注这些。灌水只是为了要“恰饭”。如果有一天我拿到了某学校的终生教职，我也潜心好好搞一搞大问题。</p>
+<h3><span id="2见到了院士通过了复试">（2）见到了院士，通过了复试</span></h3>
+<p>我觉得这已经不是大事件了，因为完全没有惊喜的地方。值得惊喜的地方其实是看到了院士。</p>
+<h3><span id="3通过了科目二和科目三">（3）通过了科目二和科目三</span></h3>
+<p>这也算不得大事件，但是这为我今年开车打下坚实的基础（存疑）。</p>
+<h3><span id="4开展起来了动力学的研究">（4）开展起来了动力学的研究</span></h3>
+<p>系外行星动力这一部分我觉得可以搞一搞了，毕竟利刃在手，文章我有。</p>
+<h3><span id="5认识了新的朋友">（5）认识了新的朋友</span></h3>
+<p>认识朋友这件事我觉得远比其他事情重要的多，有的时候我觉得我存在的意义可能就是需要被人理解和支持。NOT ALONE IS GOOD。</p>
+<h2><span id="2对未来有所期待">2.对未来有所期待</span></h2>
+<p>很有趣的一个事情就是人们为什么要定义“年”呢？周期使然。也就是说，凡事都有一个完整的开始和结束。我的2018年完美地结束了嘛？我想是的。我的2018年真的已经过去了，虽然有很多地方做的不好，但是我也相信我已经尽了最大的努力使得事情都有一个相对好的结束。<br>
+显得一年里我有很多想做的事情。</p>
+<h3><span id="1去旅行吧">（1）去旅行吧</span></h3>
+<p>我很久就想去旅行了。去旅行吧，一个人或者两个人（希望是两个人）。从前我觉得自己是个很宅的人，但是后来逐渐发现自己内心还是希望看到更大的世界。尤其是慢慢地意识到宇宙是那么地无垠，而我这人生又是如此地短暂。去其他地地方，每次去不同的地方，认识不同的人，看见新鲜的事物。尽管在无穷尽的时空里，我是如此的渺小，但是又何妨一游呢~</p>
+<h3><span id="2说好的要把英语学好">（2）说好的要把英语学好</span></h3>
+<p>讲真的，我今年一定要把英语过掉。托福没有什么难的，要加油啊！科研工作者不能够说一口流利的英语，我觉得还是一件很尴尬的事情。每每想到英语，我都会想起之前考研复试的时候窘迫处境。好吧，如果可以，羞耻心使我学习233333</p>
+<h3><span id="3学点真的东西吧">（3）学点真的东西吧</span></h3>
+<p>虽然我暂时有些东西在手上，但是总是感觉自己不能deserve这些。虽然说不上是什么大的荣誉，但是感觉自己是个“假”的研究生。没有真才实学，像一个“民科”。希望自己成为一个厉害的人，推得公式，码得代码，下能埋头写文章，上能登台讲故事。KEEP REALL~想要什么，就去做吧~</p>
+<h3><span id="4身体是革命的本钱">（4）身体是革命的本钱</span></h3>
+<p>当我写下这句话的时候，其实我已经发现我有段日子没有好好运动了。讲道理，有一个好的身体是最为重要的。活得时间比其人长，等到其他人都死翘翘了，我就是专家233333。而且，诺贝奖只颁发给活着的人。</p>
+<h2><span id="写在最后我走得很慢但我从不后退">写在最后：我走得很慢，但我从不后退</span></h2>
+<p>我走得很慢，但是我从不后退，林肯如是说。我见过很多才华出众的人，或是技艺超群，或是对物理的图像理解得很快。是的，我是相信天赋的。作为一个最为普通的人，我觉得我没有获得很实用的天赋（比如说那种过目不忘什么的）。但是我还自认为是一个努力的人，知道自己想要什么，知道自己该眼下该如何做，尽管不知最后会走向何方。2019，要加油啊！</p>
+
+                
+
+                <hr>
+                <!-- Pager -->
+                <ul class="pager">
+                    
+                        <li class="previous">
+                            <a href="/2019/03/29/sduwh_latex/" data-toggle="tooltip" data-placement="top" title="山东大学（威海）本科生毕业论文LaTex模版制作若干问题">&larr; Previous Post</a>
+                        </li>
+                    
+                    
+                        <li class="next">
+                            <a href="/2018/09/29/mesa/" data-toggle="tooltip" data-placement="top" title=" Mesa的安装（For Ubuntu 16.04）">Next Post &rarr;</a>
+                        </li>
+                    
+                </ul>
+
+                <!-- duoshuo Share start -->
+                
+                <!-- 多说 Share end-->
+
+                <!-- 多说评论框 start -->
+                
+                <!-- 多说评论框 end -->
+
+                <!-- disqus comment start -->
+                
+                    <div class="comment">
+                        <div id="disqus_thread" class="disqus-thread"></div>
+                    </div>
+                
+                <!-- disqus comment end -->
+            </div>
+            
+            <!-- Tabe of Content -->
+            <!-- Table of Contents -->
+
+    
+      <aside id="sidebar">
+        <div id="toc" class="toc-article">
+        <strong class="toc-title">Contents</strong>
+        
+          <ol class="toc-nav"><li class="toc-nav-item toc-nav-level-2"><a class="toc-nav-link" href="#undefined"><span class="toc-nav-number">1.</span> <span class="toc-nav-text">1.向已经过去的2018年致敬</span></a><ol class="toc-nav-child"><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#undefined"><span class="toc-nav-number">1.1.</span> <span class="toc-nav-text">（1）一篇一作，一篇二作，一篇贡献作者</span></a></li><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#undefined"><span class="toc-nav-number">1.2.</span> <span class="toc-nav-text">（2）见到了院士，通过了复试</span></a></li><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#undefined"><span class="toc-nav-number">1.3.</span> <span class="toc-nav-text">（3）通过了科目二和科目三</span></a></li><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#undefined"><span class="toc-nav-number">1.4.</span> <span class="toc-nav-text">（4）开展起来了动力学的研究</span></a></li><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#undefined"><span class="toc-nav-number">1.5.</span> <span class="toc-nav-text">（5）认识了新的朋友</span></a></li></ol></li><li class="toc-nav-item toc-nav-level-2"><a class="toc-nav-link" href="#undefined"><span class="toc-nav-number">2.</span> <span class="toc-nav-text">2.对未来有所期待</span></a><ol class="toc-nav-child"><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#undefined"><span class="toc-nav-number">2.1.</span> <span class="toc-nav-text">（1）去旅行吧</span></a></li><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#undefined"><span class="toc-nav-number">2.2.</span> <span class="toc-nav-text">（2）说好的要把英语学好</span></a></li><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#undefined"><span class="toc-nav-number">2.3.</span> <span class="toc-nav-text">（3）学点真的东西吧</span></a></li><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#undefined"><span class="toc-nav-number">2.4.</span> <span class="toc-nav-text">（4）身体是革命的本钱</span></a></li></ol></li><li class="toc-nav-item toc-nav-level-2"><a class="toc-nav-link" href="#undefined"><span class="toc-nav-number">3.</span> <span class="toc-nav-text">写在最后：我走得很慢，但我从不后退</span></a></li></ol>
+        
+        </div>
+      </aside>
+    
+
+                
+            <!-- Sidebar Container -->
+            <div class="
+                col-lg-8 col-lg-offset-2
+                col-md-10 col-md-offset-1
+                sidebar-container">
+
+                <!-- Featured Tags -->
+                
+                <section>
+                    <!-- no hr -->
+                    <h5><a href="/tags/">FEATURED TAGS</a></h5>
+                    <div class="tags">
+                       
+                          <a class="tag" href="/tags/#生活日常" title="生活日常">生活日常</a>
+                        
+                    </div>
+                </section>
+                
+
+                <!-- Friends Blog -->
+                
+                <hr>
+                <h5>FRIENDS</h5>
+                <ul class="list-inline">
+
+                    
+                        <li><a href="http://www.wh.sdu.edu.cn/" target="_blank">SDU(WH)</a></li>
+                    
+                        <li><a href="http://www.wh.sdu.edu.cn/" target="_blank">School of Space Science and Physics of  SDU(WH)</a></li>
+                    
+                </ul>
+                
+				
+                <!-- ������City�氲װ���� -->
+<div id="lv-container" data-id="city" data-uid="MTAyMC8zOTk0My8xNjQ3MA==">
+<script type="text/javascript">
+   (function(d, s) {
+       var j, e = d.getElementsByTagName(s)[0];
+
+       if (typeof LivereTower === 'function') { return; }
+
+       j = d.createElement(s);
+       j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
+       j.async = true;
+
+       e.parentNode.insertBefore(j, e);
+   })(document, 'script');
+</script>
+<noscript>Ϊ����ʹ�����������۹����뼤��JavaScript</noscript>
+</div>
+<!-- City�氲װ��������� -->
+            </div>
+        </div>
+    </div>
+</article>
+
+
+
+
+
+
+
+
+
+
+<!-- disqus embedded js code start (one page only need to embed once) -->
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES * * */
+    var disqus_shortname = "your-disqus-ID";
+    var disqus_identifier = "http://www.wangxianyu.com/2019/01/07/summary/";
+    var disqus_url = "http://www.wangxianyu.com/2019/01/07/summary/";
+
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<!-- disqus embedded js code start end -->
+
+
+
+
+<!-- async load function -->
+<script>
+    function async(u, c) {
+      var d = document, t = 'script',
+          o = d.createElement(t),
+          s = d.getElementsByTagName(t)[0];
+      o.src = u;
+      if (c) { o.addEventListener('load', function (e) { c(null, e); }, false); }
+      s.parentNode.insertBefore(o, s);
+    }
+</script>
+<!-- anchor-js, Doc:http://bryanbraun.github.io/anchorjs/ -->
+<script>
+    async("https://cdn.bootcss.com/anchor-js/1.1.1/anchor.min.js",function(){
+        anchors.options = {
+          visible: 'hover',
+          placement: 'left',
+          icon: 'ℬ'
+        };
+        anchors.add().remove('.intro-header h1').remove('.subheading').remove('.sidebar-container h5');
+    })
+</script>
+<style>
+    /* place left on bigger screen */
+    @media all and (min-width: 800px) {
+        .anchorjs-link{
+            position: absolute;
+            left: -0.75em;
+            font-size: 1.1em;
+            margin-top : -0.1em;
+        }
+    }
+</style>
+
+
+
+    <!-- Footer -->
+    <!-- Footer -->
+<footer> 
+    <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>	
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <ul class="list-inline text-center">
+                
+                
+                
+
+                
+                    <li>
+                        <a target="_blank" href="http://weibo.com/5359717595">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-weibo fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                
+
+                
+
+                
+                    <li>
+                        <a target="_blank"  href="https://github.com/wangxianyu7">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                
+
+                
+
+                </ul>
+                <p class="copyright text-muted">
+                    Copyright &copy; Alfred 2021 
+                    <br>
+                    Powered by <a href="https://hexo.io/">Hexo</a> 
+                    <span style="display: inline-block; margin: 0 5px;">
+                    </span>
+                        <i class="fa fa-heart"></i>
+                    <span id="busuanzi_container_site_uv"> 
+                       您是这个网站第<span id="busuanzi_value_site_uv"></span>位访客
+                            </span>
+                        <i class="fa fa-heart"></i>
+                    </span> 
+                    
+                </p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- jQuery -->
+<script src="/js/jquery.min.js"></script>
+
+<!-- Bootstrap Core JavaScript -->
+<script src="/js/bootstrap.min.js"></script>
+
+<!-- Custom Theme JavaScript -->
+<script src="/js/hux-blog.min.js"></script>
+
+
+<!-- async load function -->
+<script>
+    function async(u, c) {
+      var d = document, t = 'script',
+          o = d.createElement(t),
+          s = d.getElementsByTagName(t)[0];
+      o.src = u;
+      if (c) { o.addEventListener('load', function (e) { c(null, e); }, false); }
+      s.parentNode.insertBefore(o, s);
+    }
+</script>
+
+<!-- 
+     Because of the native support for backtick-style fenced code blocks 
+     right within the Markdown is landed in Github Pages, 
+     From V1.6, There is no need for Highlight.js, 
+     so Huxblog drops it officially.
+
+     - https://github.com/blog/2100-github-pages-now-faster-and-simpler-with-jekyll-3-0  
+     - https://help.github.com/articles/creating-and-highlighting-code-blocks/    
+-->
+<!--
+    <script>
+        async("http://cdn.bootcss.com/highlight.js/8.6/highlight.min.js", function(){
+            hljs.initHighlightingOnLoad();
+        })
+    </script>
+    <link href="http://cdn.bootcss.com/highlight.js/8.6/styles/github.min.css" rel="stylesheet">
+-->
+
+
+<!-- jquery.tagcloud.js -->
+<script>
+    // only load tagcloud.js in tag.html
+    if($('#tag_cloud').length !== 0){
+        async("http://www.wangxianyu.com/js/jquery.tagcloud.js",function(){
+            $.fn.tagcloud.defaults = {
+                //size: {start: 1, end: 1, unit: 'em'},
+                color: {start: '#bbbbee', end: '#0085a1'},
+            };
+            $('#tag_cloud a').tagcloud();
+        })
+    }
+</script>
+
+<!--fastClick.js -->
+<script>
+    async("https://cdn.bootcss.com/fastclick/1.0.6/fastclick.min.js", function(){
+        var $nav = document.querySelector("nav");
+        if($nav) FastClick.attach($nav);
+    })
+</script>
+
+
+<!-- Google Analytics -->
+
+
+<script>
+    // dynamic User by Hux
+    var _gaId = 'UA-XXXXXXXX-X';
+    var _gaDomain = 'yoursite';
+
+    // Originial
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', _gaId, _gaDomain);
+    ga('send', 'pageview');
+</script>
+
+
+
+
+<!-- Baidu Tongji -->
+
+
+
+
+
+
+	<a id="rocket" href="#top" class=""></a>
+	<script type="text/javascript" src="/js/totop.js?v=1.0.0" async=""></script>
+    <script type="text/javascript" src="/js/toc.js?v=1.0.0" async=""></script>
+<!-- Image to hack wechat -->
+<img src="http://www.wangxianyu.com/img/icon_wechat.png" width="0" height="0" />
+<!-- Migrate from head to bottom, no longer block render and still work -->
+
+<script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"model":{"jsonPath":"/live2dw/assets/miku.model.json"},"display":{"position":"right","width":200,"height":400,"bottom":-50},"mobile":{"show":false},"log":false,"pluginJsPath":"lib/","pluginModelPath":"assets/","pluginRootPath":"live2dw/","tagMode":false});</script></body>
+
+</html>

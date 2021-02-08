@@ -1,0 +1,517 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Alfred</title>
+  <icon>https://www.gravatar.com/avatar/1fedf96e8204b7c9b324398f93582527</icon>
+  <subtitle>Suffering is a ladder.</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://www.wangxianyu.com/"/>
+  <updated>2019-05-12T16:10:08.328Z</updated>
+  <id>http://www.wangxianyu.com/</id>
+  
+  <author>
+    <name>Alfred</name>
+    <email>Xianyu_Wang@126.com</email>
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>夜谈‘竞争’</title>
+    <link href="http://www.wangxianyu.com/2019/05/12/wasp12/"/>
+    <id>http://www.wangxianyu.com/2019/05/12/wasp12/</id>
+    <published>2019-05-12T15:06:01.000Z</published>
+    <updated>2019-05-12T16:10:08.328Z</updated>
+    
+    <content type="html"><![CDATA[<h3><span id="从wasp-12开始讲起">从WASP 12开始讲起</span></h3><p>嗯，虽然是要从WASP 12讲起，但是也不知道到底是什么地方讲起。WASP 12是一个恒星，或者可以说是恒星系统。它具有一个行星，根据一般的命名习惯，我们都会把它的第一个行星叫做WASP 12b。是的，这个故事其实是一个关于科研的故事。</p><p>从18年底的时候，王老师就发给我了Patra 2017的文章，说是让我好好读下这篇文章，回头会有工作交代给我。当时我是挺高兴的，毕竟是有工作做了。</p><p>WASP 12行星系统是一个非常特殊的系统。为什么说它特殊呢？这是因为它的掩时时刻较之固定周期所预测的要偏离很多，而且这种偏离显然是具有某种Trend的，是十分明显的。<br>那么，这么奇特的观测现象有没有大牛给出理论解释呢？有的，而且还很多。最为知名的假设就是。</p><ul><li>轨道是衰变的，WASP 12b是一颗即将坠入母星的晚期行星（在浩瀚的宇宙中，能观测到一颗行星生命的0.2是多么的幸运）</li><li>轨道会变是因为有拱点进动，就像水星那样（Patra 2017更perfer轨道衰变，但是没有排除是拱点进动的可能→后来被啪啪打脸）</li><li>其他容易被rule out的原因</li></ul><p>本来王老师认为我们手头的数据可以帮助我们做下WASP 12以及其他具有相似特征的源，但是很不巧的是，被Maciejewski捷足先登，虽然在我看来吗，其实Maciejewski做的工作并没有多么有意思。其实就是将几个具有相似特征的源用MCMC做了下拟合，然后通过统计特征值告诉我们WASP 12是真的特殊啊！因为其他的辣鸡源都不具备这种特性。<br>所以我就失去了一次比较好的论文写作的机会。</p><h3><span id="无形的竞争">无形的竞争</span></h3><p>写到这里，我突然想到一句话：大国的竞争说到底其实就是经济的竞争，经济的竞争其实就是科技的竞争。虽然科研工作面对的大多数都是客观的自然物体（对于我们这些自然科学的研究者来说是这样的），但是竞争丝毫没有减少。同行既是伙伴又是冤家。</p><h3><span id="人要敏感">人要敏感</span></h3><p>所以，我觉得作为一个准科研工作者，比较重要的其实是了解问题，知道问题的重点，知道这个问题的解决会带来什么利益。以上的敏感我觉得都是十分重要的。深感自己功力尚欠，还是要加油则是~</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h3&gt;&lt;span id=&quot;从wasp-12开始讲起&quot;&gt;从WASP 12开始讲起&lt;/span&gt;&lt;/h3&gt;
+&lt;p&gt;嗯，虽然是要从WASP 12讲起，但是也不知道到底是什么地方讲起。WASP 12是一个恒星，或者可以说是恒星系统。它具有一个行星，根据一般的命名习惯，我们都会把它的第一
+      
+    
+    </summary>
+    
+    
+      <category term="科研日常" scheme="http://www.wangxianyu.com/tags/%E7%A7%91%E7%A0%94%E6%97%A5%E5%B8%B8/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>在平遥</title>
+    <link href="http://www.wangxianyu.com/2019/05/05/atpingyao/"/>
+    <id>http://www.wangxianyu.com/2019/05/05/atpingyao/</id>
+    <published>2019-05-05T14:58:00.000Z</published>
+    <updated>2019-08-14T02:02:42.620Z</updated>
+    
+    <content type="html"><![CDATA[<p>图片故事：</p><h1><span id=""></span></h1>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;图片故事：&lt;/p&gt;
+&lt;h1&gt;&lt;span id=&quot;&quot;&gt;&lt;/span&gt;&lt;/h1&gt;
+
+      
+    
+    </summary>
+    
+    
+      <category term="旅行日记" scheme="http://www.wangxianyu.com/tags/%E6%97%85%E8%A1%8C%E6%97%A5%E8%AE%B0/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>HEXO在本地localhost加载慢的原因之一</title>
+    <link href="http://www.wangxianyu.com/2019/04/28/loadslow/"/>
+    <id>http://www.wangxianyu.com/2019/04/28/loadslow/</id>
+    <published>2019-04-28T01:50:00.000Z</published>
+    <updated>2019-04-28T01:59:50.886Z</updated>
+    
+    <content type="html"><![CDATA[<p>竟然还有这个bug！</p><h2><span id="问题描述">问题描述</span></h2><p>在写文章的时候，我配了张图，图片的名字里含有“-”，就像这样“backgrounds-blank-blue-953214.png”, 然后我在localhost：5000就无法预览网站了。<br>非常神奇，我曾一度怀疑是什么软件占用了我的5000端口，换了几个端口，发现都是一样的加载不出来。</p><h2><span id="解决">解决</span></h2><p>就是不要让文件的名字里有“-”，这样就没有问题了。</p><h2><span id="have-fun">have fun！</span></h2>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;竟然还有这个bug！&lt;/p&gt;
+&lt;h2&gt;&lt;span id=&quot;问题描述&quot;&gt;问题描述&lt;/span&gt;&lt;/h2&gt;
+&lt;p&gt;在写文章的时候，我配了张图，图片的名字里含有“-”，就像这样“backgrounds-blank-blue-953214.png”, 然后我在localhost：5
+      
+    
+    </summary>
+    
+    
+      <category term="Hexo" scheme="http://www.wangxianyu.com/tags/Hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>使用Screen创建会话</title>
+    <link href="http://www.wangxianyu.com/2019/04/28/ssh/"/>
+    <id>http://www.wangxianyu.com/2019/04/28/ssh/</id>
+    <published>2019-04-28T01:06:01.000Z</published>
+    <updated>2019-04-28T01:11:49.674Z</updated>
+    
+    <content type="html"><![CDATA[<h3><span id="问题">问题</span></h3><p>当我们使用云服务器的时候，我们关闭SSH后，之前所运行的程序会自动关闭。但是，我们不希望这样。那么有没有一种方式可以使得我们退出SSH或者远程桌面以后程序在后台运行呢？</p><p>是有的，我们可以使用Screen</p><h3><span id="安装及其基本指令">安装及其基本指令</span></h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line">Apt-get install screen</span><br><span class="line">screen -S test</span><br><span class="line"># 创建screen会话，自定义screen虚拟终端的名称，</span><br><span class="line"># test可以改为你想要的名称,执行你的代码退出，再登录，然后</span><br><span class="line">screen –r test # 查看之前的会话虚拟终端</span><br><span class="line">screen其他命令：</span><br><span class="line"></span><br><span class="line">screen -ls #查看所有screen会话 </span><br><span class="line"># 按键盘上面的Ctrl+a，然后再按d #保存当前的screen会话 </span><br><span class="line">exit #退出screen </span><br><span class="line">screen -wipe test #删除会话 </span><br><span class="line">screen -X -S 17708 quit 杀死会话</span><br><span class="line"></span><br><span class="line">locate + filename 定位文件</span><br></pre></td></tr></table></figure>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h3&gt;&lt;span id=&quot;问题&quot;&gt;问题&lt;/span&gt;&lt;/h3&gt;
+&lt;p&gt;当我们使用云服务器的时候，我们关闭SSH后，之前所运行的程序会自动关闭。但是，我们不希望这样。那么有没有一种方式可以使得我们退出SSH或者远程桌面以后程序在后台运行呢？&lt;/p&gt;
+&lt;p&gt;是有的，我们可以使用Sc
+      
+    
+    </summary>
+    
+    
+      <category term="科研日常" scheme="http://www.wangxianyu.com/tags/%E7%A7%91%E7%A0%94%E6%97%A5%E5%B8%B8/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>山东大学（威海）本科生毕业论文LaTex模版制作若干问题</title>
+    <link href="http://www.wangxianyu.com/2019/03/29/sduwh_latex/"/>
+    <id>http://www.wangxianyu.com/2019/03/29/sduwh_latex/</id>
+    <published>2019-03-29T03:18:01.000Z</published>
+    <updated>2019-04-29T01:49:04.696Z</updated>
+    
+    <content type="html"><![CDATA[<p>在修改山东大学(威海)本科生毕业论文LaTex模版的时候，遇到了很多问题，在此一一记录。<br>模版地址：<a href="https://github.com/wangxianyu7/sdu_wh_latex" target="_blank" rel="noopener">https://github.com/wangxianyu7/sdu_wh_latex</a></p><h3><span id="字体载入">字体载入</span></h3><p>将PdfLaTex改为xelatex并引入更多的字体。<br>缺少某个字体 如何安装字体：<a href="https://zhidao.baidu.com/question/39166963.html" target="_blank" rel="noopener">https://zhidao.baidu.com/question/39166963.html</a><br>在xelatex中调用本地字体：<a href="https://blog.csdn.net/MALI0914/article/details/52658382" target="_blank" rel="noopener">https://blog.csdn.net/MALI0914/article/details/52658382</a><br>字体下载网址： <a href="http://www.3673.com/font/2168.html" target="_blank" rel="noopener">http://www.3673.com/font/2168.html</a><br>用到的额外字体：华文新魏（STXinwei）、西文字体Times New Roman、方正粗宋（FZCuSong-B09S）、方正大黑（FZDaHei-B02S）<br>字体载入格式</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">\RequirePackage&#123;xeCJK&#125;  %%中文字体</span><br><span class="line">\setCJKfamilyfont&#123;song&#125;&#123;SimSun&#125;       %宋体 song</span><br><span class="line">\newcommand&#123;\song&#125;&#123;\CJKfamily&#123;song&#125;&#125;</span><br></pre></td></tr></table></figure><h4><span id="为什么要载入这些字体">为什么要载入这些字体</span></h4><p>当然是为了符合校方对毕业论文格式的要求啦~</p><ol><li>华文新魏和西文字体Times New Roman是原先没有的</li><li>黑体和宋体其实windows系统自带，但是在xelatex中。加黑命令\bfseries 是不起作用的，而且一般使用的加黑方案是伪加黑(Tpye=AutoFakebold)。伪加粗一来是不能达到真正加粗的效果，而来是在复制文字的时候，再拷贝到文本中的时候会出现乱码，所以我们直接使用加黑字体来实现字体的加黑。<br><strong>注意：</strong>  因为在PDF中出现了额外的字体，因为PDF脱离本地环境后可能会出现字体退化的情况，比如说<em>方正粗宋</em>退化为<em>宋体</em>。如果出现上述情况，建议打印时打印为图像格式。</li></ol><h3><span id="删去多余的声明部分">删去多余的声明部分</span></h3><p>\input{***.def}表示载入并拆入另一个格式，相当于import。<br>在.cls文件中删去既可以。</p><h3><span id="章节开始页的问题">章节开始页的问题</span></h3><p>Liam Huang所制作的模版使用的是LaTex中的Book类。Book类会自带一些默认的选项，比如说章节会在奇数页开始。<br>参考解决方案：<a href="http://blog.sina.com.cn/s/blog_5e16f1770100gde9.html" target="_blank" rel="noopener">http://blog.sina.com.cn/s/blog_5e16f1770100gde9.html</a><br>我采用了上述解决方案。但是一开始并没有起作用，原因是Liam Huang在一开始就没有载入openany这个选项。</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">\LoadClass[a4paper, cs4size, UTF8, hyperref, fancyhdr, openany]&#123;ctexbook&#125;</span><br></pre></td></tr></table></figure><h3><span id="修改封面页">修改封面页</span></h3><p>山东大学（威海）本科生毕业论文封面页比较特殊，尤其是目录树的构建是非常个性化的，因而我花了不少时间去自定义目录格式。</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br></pre></td><td class="code"><pre><span class="line">\RequirePackage&#123;titletoc&#125; </span><br><span class="line">\RequirePackage&#123;titlesec&#125; # titlesec titletoc可以帮助我们重新定义目录格式</span><br><span class="line"># ----------separate line-----------------</span><br><span class="line"></span><br><span class="line"># 使用tikz重新定义圈内数字②$</span><br><span class="line">\newcommand&#123;\circled&#125;[2][]&#123;\tikz[baseline=(char.base)]</span><br><span class="line">    &#123;\node[shape = circle, draw, inner sep = 1pt]</span><br><span class="line">    (char) &#123;\phantom&#123;\ifblank&#123;#1&#125;&#123;#2&#125;&#123;#1&#125;&#125;&#125;;%</span><br><span class="line">    \node at (char.center) &#123;\makebox[0pt][c]&#123;#2&#125;&#125;;&#125;&#125;</span><br><span class="line">\robustify&#123;\circled&#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"># ------------separate line---------------</span><br><span class="line">\renewcommand&#123;\contentsname&#125;&#123;\bfseries\zihao&#123;3&#125;目&#123;\qquad&#125;  录&#125; # 重新定义“目录”二字的名字以及格式</span><br><span class="line"># 下面是重新定义 章节、节、子节、子子节、段落的目录格式</span><br><span class="line">\titlecontents&#123;chapter&#125;[2em]&#123; \zihao&#123;4&#125;&#125;&#123;\contentslabel&#123;2em&#125;&#125;&#123;\hspace*&#123;-2em&#125;&#125;&#123;~\titlerule*[0.6pc]&#123;$.$&#125;~\contentspage&#125;</span><br><span class="line">\titlecontents&#123;section&#125;[4em]&#123; \zihao&#123;4&#125;&#125;&#123;\contentslabel&#123;3em&#125;&#125;&#123;\hspace*&#123;-2em&#125;&#125;&#123;~\titlerule*[0.6pc]&#123;$.$&#125;~\contentspage&#125;</span><br><span class="line">\titlecontents&#123;subsection&#125;[5em]&#123;\zihao&#123;4&#125;&#125;&#123;\contentslabel&#123;1.2em&#125;&#125;&#123;\hspace*&#123;-2em&#125;&#125;&#123;~\titlerule*[0.6pc]&#123;$.$&#125;~\contentspage&#125;</span><br><span class="line">\titlecontents&#123;subsubsection&#125;[7em]&#123;\zihao&#123;4&#125;&#125;&#123;\contentslabel&#123;2em&#125;&#125;&#123;\hspace*&#123;-2em&#125;&#125;&#123;~\titlerule*[0.6pc]&#123;$.$&#125;~\contentspage&#125;</span><br><span class="line">\titlecontents&#123;paragraph&#125;[8em]&#123;\zihao&#123;4&#125;&#125;&#123;\contentslabel&#123;1.2em&#125;&#125;&#123;\hspace*&#123;-2em&#125;&#125;&#123;~\titlerule*[0.6pc]&#123;$.$&#125;~\contentspage&#125;</span><br><span class="line"># 控制命令解释 </span><br><span class="line"># \contentslabel&#123;2em&#125; 目录的名字和前面的章节数字的距离  例如一、2em大纲</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"># -------------separate line---------------</span><br><span class="line"># 定义各个部分的目录格式</span><br><span class="line"></span><br><span class="line">\ifSDU@opt@chsstyle</span><br><span class="line">  %%chapter setting</span><br><span class="line">  \CTEXsetup[name=&#123;,、&#125;]&#123;chapter&#125;</span><br><span class="line">  \CTEXsetup[number=&#123;\chinese&#123;chapter&#125;&#125;]&#123;chapter&#125;</span><br><span class="line">  \CTEXsetup[format=&#123;\centering&#125;]&#123;chapter&#125;</span><br><span class="line">  \CTEXsetup[nameformat=&#123;\bfseries\zihao&#123;4&#125;&#125;]&#123;chapter&#125;</span><br><span class="line">  \CTEXsetup[titleformat=&#123;\bfseries\zihao&#123;4&#125;&#125;]&#123;chapter&#125;</span><br><span class="line">  \CTEXsetup[aftername=&#123;&#125;]&#123;chapter&#125;</span><br><span class="line">  %%\CTEXsetup[beforeskip=&#123;0pt&#125;]&#123;chapter&#125;</span><br><span class="line">  \CTEXsetup[afterskip=&#123;0pt&#125;]&#123;chapter&#125;</span><br><span class="line">  %%section setting</span><br><span class="line">  \CTEXsetup[name=&#123;（,）&#125;]&#123;section&#125; </span><br><span class="line">  \CTEXsetup[number=&#123;\chinese&#123;section&#125;&#125;]&#123;section&#125;</span><br><span class="line">  \CTEXsetup[aftername=&#123;&#125;]&#123;section&#125;</span><br><span class="line">  \CTEXsetup[format=&#123;\flushleft\zihao&#123;4&#125;&#125;]&#123;section&#125;</span><br><span class="line">  %%subsection setting</span><br><span class="line">  \CTEXsetup[name=&#123;,.&#125;]&#123;subsection&#125;</span><br><span class="line">  \CTEXsetup[aftername=&#123;&#125;]&#123;subsection&#125;</span><br><span class="line">  \CTEXsetup[format=&#123;\flushleft\zihao&#123;-4&#125;&#125;]&#123;subsection&#125;</span><br><span class="line">  \CTEXsetup[number=&#123;\arabic&#123;subsection&#125;&#125;]&#123;subsection&#125;</span><br><span class="line">  %%subsubsection setting</span><br><span class="line">  \CTEXsetup[name=&#123;（,）&#125;]&#123;subsubsection&#125;</span><br><span class="line">  \CTEXsetup[aftername=&#123;&#125;]&#123;subsubsection&#125;</span><br><span class="line">  \CTEXsetup[format=&#123;\flushleft\zihao&#123;-4&#125;&#125;]&#123;subsubsection&#125;</span><br><span class="line">  \CTEXsetup[number=&#123;\arabic&#123;subsubsection&#125;&#125;]&#123;subsubsection&#125;</span><br><span class="line">   %%paragraph setting</span><br><span class="line">  \CTEXsetup[name=&#123;,&#125;]&#123;paragraph&#125;</span><br><span class="line">  \CTEXsetup[aftername=&#123;\quad&#125;]&#123;paragraph&#125;</span><br><span class="line">  %%\CTEXsetup[afterskip=&#123;0pt&#125;]&#123;paragraph&#125;</span><br><span class="line">  \CTEXsetup[format=&#123;\flushleft\zihao&#123;-4&#125;&#125;]&#123;paragraph&#125;</span><br><span class="line">  \CTEXsetup[number=&#123;\circled&#123;\arabic&#123;paragraph&#125;&#125;&#125;]&#123;paragraph&#125;</span><br><span class="line">  %%appendix setting</span><br><span class="line">  \CTEXsetup[name=&#123;附录~&#125;]&#123;appendix&#125;</span><br><span class="line">  \CTEXsetup[number=&#123;&#123;&#125;&#125;]&#123;appendix&#125;</span><br><span class="line">\else</span><br><span class="line">  \PassOptionsToClass&#123;nocap, noindent&#125;&#123;ctexbook&#125;</span><br><span class="line">\fi</span><br></pre></td></tr></table></figure><h3><span id="借鉴项目">借鉴项目</span></h3><p>上海交通大学LaTeX ：<a href="https://github.com/wangxianyu7/SJTUThesis" target="_blank" rel="noopener">https://github.com/wangxianyu7/SJTUThesis</a><br>厦门大学本科毕业论文 <a href="https://github.com/CamuseCao/XMU-Undergraduate-thesis-template" target="_blank" rel="noopener">https://github.com/CamuseCao/XMU-Undergraduate-thesis-template</a></p><h3><span id="学无止境气有浩然">学无止境，气有浩然</span></h3>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;在修改山东大学(威海)本科生毕业论文LaTex模版的时候，遇到了很多问题，在此一一记录。&lt;br&gt;
+模版地址：&lt;a href=&quot;https://github.com/wangxianyu7/sdu_wh_latex&quot; target=&quot;_blank&quot; rel=&quot;noopener
+      
+    
+    </summary>
+    
+    
+      <category term="LaTeX" scheme="http://www.wangxianyu.com/tags/LaTeX/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>At the beginning of 2019</title>
+    <link href="http://www.wangxianyu.com/2019/01/07/summary/"/>
+    <id>http://www.wangxianyu.com/2019/01/07/summary/</id>
+    <published>2019-01-07T07:40:00.000Z</published>
+    <updated>2019-01-07T12:28:09.660Z</updated>
+    
+    <content type="html"><![CDATA[<p>图片故事： 过去的每一件事情都终究成为我铠甲上的鳞片</p><p>时间的好处在于它是单向的，我愿意或者不愿意，事情终究会过去，而有一些事情也终将会到来。</p><h2><span id="1向已经过去的2018年致敬">1.向已经过去的2018年致敬</span></h2><p>2018年发生了很多很多事情，我记不得事情发生的具体细节了，我甚至记不得一些事情是不是真实地发生过了，但是每当我回忆起来的时候，兴奋、喜悦和悲伤又那么真实。<br>去年的这个时候我应该已经在家里了。当时自己为新的一年设置了好多目标：要把托福考过，要把驾驶证学了，文章要发掉，系外行星部分的动力学部分要搞懂。凡事的开端都是好的，我认识地学习英语，研读代码，去驾校把钱交了。去年的寒假在忙碌中度过，玩是很少玩的，游戏为我带来的快乐不及将代码运行成功。<br>紧接着就是复试。我对考研这件事情总是充满了莫名其妙的信心，我知道我是可以的。待到开学，回到学校里，好的和坏的消息是同样多的。每当有一个人考研成功，也许就会有一个人考研失败。宿舍里五个人上岸三人，算不得好成绩，但是也还可以了。我如今已经记不得自己为复试做过什么了，只记得似乎专门去看了英语的口语教程，虽然也没什么用。我的口语考试最后以‘hahahahaha’结尾，虽然我口语一般但是我乐观啊。不容易抑郁的学生我觉得在如今的研究生圈子里还是很受欢迎的。当然，我记得我还打印了厚厚的复试册，各种成绩和文章。见到了武向平和汪璟琇院士。嘿呀！真人院士在线面试！如果我的2018年有高光时刻的话，面试应该可以入选前五。面试之后我就回了家，在家住了几天便回威海学车了。学车的时候没有任何有趣的事情发生，毕业论文也是翻译的我的英文文章，没有什么新意。甚至，我觉得2018年的4月份到9月份没有任何事情发生，我全然不记得了。那段时间仿佛被什么隐藏在黑暗里的巨大怪物吞噬掉了，我看不见，也不记得了。如果说真的留下了什么痕迹，我觉得没有，不如说那段时间抹去了我的一个很重要的朋友，啊，不对，specificly，是曾经的朋友。<br>转眼就是九月份，我愿意相信一切都过去了，我也愿意去重新洗牌。扔掉了破破烂烂的旧书包，换掉了卡的要死的旧手机，拿到了新号码，delete掉电脑上和云端的所有资料，把乐观挂在脸上，积极地去结交新的朋友，不停地告诉自己:&quot;hey,你要重新开始了，人生会很精彩，Everything will be better~&quot;<br>在国科大的日子里，我想成为一名真正的researcher。每天都去读一些英文的东西，不时地去写一些程序，研读一些代码，看看文章。好好学习，简单地去参加一些社交的活动。下面写一下2018年大事件吧。</p><h3><span id="1一篇一作一篇二作一篇贡献作者">（1）一篇一作，一篇二作，一篇贡献作者</span></h3><p>发文章这件事情，我觉得不是一件特别困难的事情，尤其是当我一个项目做了3年的时候。有料可言，有话可讲，有结论可述。我觉得这个时候就可以发文章了。当然，这也只是我浅薄的认识。讲道理，人们为什么发文章来着？最初的原因肯定不是因为为了评职称。最初的原因当然是为了纯粹的学术交流了。讲真的，我对于科研的兴趣还是蛮高的。虽然我经常心里想着：哦，妈呀，我再发一篇文章就好了。但是其实我也很清楚，对于研究者而言，好奇心比科研本身有意义，发文章其实不是最重要的部分，最重要的部分其实是对当前的研究领域有着详尽的了解以及能够通过已有的信息提出有意义的问题。最为研究人员，我们应该关注这些。灌水只是为了要“恰饭”。如果有一天我拿到了某学校的终生教职，我也潜心好好搞一搞大问题。</p><h3><span id="2见到了院士通过了复试">（2）见到了院士，通过了复试</span></h3><p>我觉得这已经不是大事件了，因为完全没有惊喜的地方。值得惊喜的地方其实是看到了院士。</p><h3><span id="3通过了科目二和科目三">（3）通过了科目二和科目三</span></h3><p>这也算不得大事件，但是这为我今年开车打下坚实的基础（存疑）。</p><h3><span id="4开展起来了动力学的研究">（4）开展起来了动力学的研究</span></h3><p>系外行星动力这一部分我觉得可以搞一搞了，毕竟利刃在手，文章我有。</p><h3><span id="5认识了新的朋友">（5）认识了新的朋友</span></h3><p>认识朋友这件事我觉得远比其他事情重要的多，有的时候我觉得我存在的意义可能就是需要被人理解和支持。NOT ALONE IS GOOD。</p><h2><span id="2对未来有所期待">2.对未来有所期待</span></h2><p>很有趣的一个事情就是人们为什么要定义“年”呢？周期使然。也就是说，凡事都有一个完整的开始和结束。我的2018年完美地结束了嘛？我想是的。我的2018年真的已经过去了，虽然有很多地方做的不好，但是我也相信我已经尽了最大的努力使得事情都有一个相对好的结束。<br>显得一年里我有很多想做的事情。</p><h3><span id="1去旅行吧">（1）去旅行吧</span></h3><p>我很久就想去旅行了。去旅行吧，一个人或者两个人（希望是两个人）。从前我觉得自己是个很宅的人，但是后来逐渐发现自己内心还是希望看到更大的世界。尤其是慢慢地意识到宇宙是那么地无垠，而我这人生又是如此地短暂。去其他地地方，每次去不同的地方，认识不同的人，看见新鲜的事物。尽管在无穷尽的时空里，我是如此的渺小，但是又何妨一游呢~</p><h3><span id="2说好的要把英语学好">（2）说好的要把英语学好</span></h3><p>讲真的，我今年一定要把英语过掉。托福没有什么难的，要加油啊！科研工作者不能够说一口流利的英语，我觉得还是一件很尴尬的事情。每每想到英语，我都会想起之前考研复试的时候窘迫处境。好吧，如果可以，羞耻心使我学习233333</p><h3><span id="3学点真的东西吧">（3）学点真的东西吧</span></h3><p>虽然我暂时有些东西在手上，但是总是感觉自己不能deserve这些。虽然说不上是什么大的荣誉，但是感觉自己是个“假”的研究生。没有真才实学，像一个“民科”。希望自己成为一个厉害的人，推得公式，码得代码，下能埋头写文章，上能登台讲故事。KEEP REALL~想要什么，就去做吧~</p><h3><span id="4身体是革命的本钱">（4）身体是革命的本钱</span></h3><p>当我写下这句话的时候，其实我已经发现我有段日子没有好好运动了。讲道理，有一个好的身体是最为重要的。活得时间比其人长，等到其他人都死翘翘了，我就是专家233333。而且，诺贝奖只颁发给活着的人。</p><h2><span id="写在最后我走得很慢但我从不后退">写在最后：我走得很慢，但我从不后退</span></h2><p>我走得很慢，但是我从不后退，林肯如是说。我见过很多才华出众的人，或是技艺超群，或是对物理的图像理解得很快。是的，我是相信天赋的。作为一个最为普通的人，我觉得我没有获得很实用的天赋（比如说那种过目不忘什么的）。但是我还自认为是一个努力的人，知道自己想要什么，知道自己该眼下该如何做，尽管不知最后会走向何方。2019，要加油啊！</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;图片故事： 过去的每一件事情都终究成为我铠甲上的鳞片&lt;/p&gt;
+&lt;p&gt;时间的好处在于它是单向的，我愿意或者不愿意，事情终究会过去，而有一些事情也终将会到来。&lt;/p&gt;
+&lt;h2&gt;&lt;span id=&quot;1向已经过去的2018年致敬&quot;&gt;1.向已经过去的2018年致敬&lt;/span&gt;&lt;/h
+      
+    
+    </summary>
+    
+    
+      <category term="生活日常" scheme="http://www.wangxianyu.com/tags/%E7%94%9F%E6%B4%BB%E6%97%A5%E5%B8%B8/"/>
+    
+  </entry>
+  
+  <entry>
+    <title> Mesa的安装（For Ubuntu 16.04）</title>
+    <link href="http://www.wangxianyu.com/2018/09/29/mesa/"/>
+    <id>http://www.wangxianyu.com/2018/09/29/mesa/</id>
+    <published>2018-09-29T15:35:00.000Z</published>
+    <updated>2018-10-24T14:32:28.980Z</updated>
+    
+    <content type="html"><![CDATA[<p>图片故事： 如果有幸，请让我看见更大的世界</p><p><a href="http://mesa.sourceforge.net/" target="_blank" rel="noopener">Mesa</a>安装的中文教程，可能是世界上最简单的。</p><h2><span id="预备工作">预备工作</span></h2><p>运行Mesa所需的最低系统要求</p><figure class="highlight routeros"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">Mac <span class="keyword">or</span> Linux operating<span class="built_in"> system </span>(Windows<span class="built_in"> users </span>may want <span class="keyword">to</span> try MESA-Docker)  </span><br><span class="line">64-bit processor  </span><br><span class="line">4 GB RAM  </span><br><span class="line">10 GB free disk space</span><br></pre></td></tr></table></figure><p><strong>注意:</strong> 如果你安装系统的时候只给Ubuntu或者其他的Linux的发行版分配10G的空间是完全不够的!!! 我为别人安装的时候，50G的根分区使用了一半，当然，其中包括各种压缩包和解压后的垃圾文件。但是，这个安装情况是有相当大的参考价值的。</p><h2><span id="开始安装">开始安装</span></h2><p><strong>注意：</strong> 所有的解压和移动文件命令都需要权限，请在终端里输入如下指令和你的密码以确保开启了用户权限。如果你做了这一步，后面的代码中可以不写 <strong>‘sudo’</strong> 。<br>以及，现在是2018年9月，命令中的文件都是最新的Mesa文件，请根据实际情况更改代码。</p><figure class="highlight ebnf"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="attribute">sudo su</span></span><br></pre></td></tr></table></figure><h3><span id="安装运行环境">安装运行环境</span></h3><p>1.Libraries</p><figure class="highlight mipsasm"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo apt-get <span class="keyword">install </span><span class="keyword">binutils </span>make perl libx11-6 libx11-dev zlib1g zlib1g-dev tcsh  <span class="comment">#必要的packages</span></span><br></pre></td></tr></table></figure><p>2.<a href="http://www.astro.wisc.edu/~townsend/static.php?ref=mesasdk" target="_blank" rel="noopener">SDK</a></p><p>下载好SDK备用，然后解压：</p><figure class="highlight armasm"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="symbol">sudo</span> tar -zxvf mesasdk-x86_64-linux-<span class="number">20180822</span>.tar.gz</span><br><span class="line"><span class="symbol">sudo</span> chmod -R <span class="number">777</span> mesasdk  #获得解压后的文件的所有操作权限</span><br><span class="line"><span class="symbol">sudo</span> <span class="meta">cp</span> mesasdk /<span class="meta">opt</span> #复制解压后的文件至根目录 /<span class="meta">opt</span></span><br></pre></td></tr></table></figure><p>将环境变量写入文件中</p><figure class="highlight jboss-cli"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo gedit ~<span class="string">/.bashrc</span> <span class="comment">#使用gedit打开 .bashrc文件</span></span><br></pre></td></tr></table></figure><p>将下列路径复制到.bashrc文件尾端（请根据实际情况更改代码）</p><figure class="highlight routeros"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="builtin-name">export</span> <span class="attribute">MESA_DIR</span>=/opt/mesa #mesa路径</span><br><span class="line"><span class="builtin-name">export</span> <span class="attribute">OMP_NUM_THREADS</span>=4  #线程数，一般是4，配置比较好的会多一些</span><br><span class="line"><span class="builtin-name">export</span> <span class="attribute">MESASDK_ROOT</span>=/opt/mesasdk #SDK的路径</span><br><span class="line">source <span class="variable">$MESASDK_ROOT</span>/bin/mesasdk_init.sh  #初始化SDK的文件的路径</span><br></pre></td></tr></table></figure><p>然后Ctrl+s保存.bashrc文件，在终端中</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">source</span> ~/.bashrc <span class="comment">#使修改后的文件立马生效，即将SDK和MESA等路径加入环境变量中</span></span><br></pre></td></tr></table></figure><p>初始化SDK文件</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">cd</span> <span class="variable">$MESASDK_ROOT</span>/bin   <span class="comment">#进入路径  </span></span><br><span class="line">sh mesasdk_init.sh     <span class="comment">#执行脚本</span></span><br></pre></td></tr></table></figure><h3><span id="安装mesa">安装</span></h3><p>下载好最新的版本后，备用，解压 （请根据实际情况更改代码）</p><figure class="highlight avrasm"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">sudo unzip mesa-r10398.zip  <span class="meta">#解压文件  </span></span><br><span class="line">sudo chmod -R <span class="number">777</span> mesa-r10398 <span class="meta">#获得解压后的文件的所有操作权限  </span></span><br><span class="line">sudo mv  mesa-r10398 mesa <span class="meta">#将解压后的文件重命名为mesa  </span></span><br><span class="line">sudo <span class="keyword">cp</span> mesa /opt <span class="meta">#复制解压后的文件至根目录 /opt</span></span><br></pre></td></tr></table></figure><p>开始安装</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">cd</span> <span class="variable">$MESA_DIR</span></span><br><span class="line">./install</span><br></pre></td></tr></table></figure><p>当执行完安装之后，会运行相当长的时间，也许你可以去喝一杯咖啡。</p><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="strong">*****</span><span class="strong">*****</span><span class="strong">*****</span><span class="strong">*****</span><span class="strong">*****</span><span class="strong">*****</span><span class="strong">*****</span><span class="strong">*****</span><span class="strong">*****</span><span class="emphasis">***</span></span><br><span class="line"><span class="strong">*****</span><span class="strong">*****</span><span class="strong">*****</span><span class="strong">*****</span><span class="strong">*****</span><span class="strong">*****</span><span class="strong">*****</span><span class="strong">*****</span><span class="strong">*****</span><span class="emphasis">***</span></span><br><span class="line"><span class="strong">*****</span><span class="strong">*****</span><span class="strong">*****</span><span class="strong">*****</span><span class="strong">*****</span><span class="strong">*****</span><span class="strong">*****</span><span class="strong">*****</span><span class="strong">*****</span><span class="emphasis">***</span></span><br><span class="line">mesa installation was successful.</span><br><span class="line"><span class="strong">*****</span><span class="strong">*****</span><span class="strong">*****</span><span class="strong">*****</span><span class="strong">*****</span><span class="strong">*****</span><span class="strong">*****</span><span class="strong">*****</span><span class="strong">*****</span><span class="emphasis">***</span></span><br><span class="line"><span class="strong">*****</span><span class="strong">*****</span><span class="strong">*****</span><span class="strong">*****</span><span class="strong">*****</span><span class="strong">*****</span><span class="strong">*****</span><span class="strong">*****</span><span class="strong">*****</span><span class="emphasis">***</span></span><br><span class="line"><span class="strong">*****</span><span class="strong">*****</span><span class="strong">*****</span><span class="strong">*****</span><span class="strong">*****</span><span class="strong">*****</span><span class="strong">*****</span><span class="strong">*****</span><span class="strong">*****</span><span class="emphasis">***</span></span><br></pre></td></tr></table></figure><p>当出现如上标志的时候安装就成功啦~如果没有成功，多半是因为在安装的过程中磁盘空间不足了。当然，如果你成功了，我们可以简单地测试一下程序。</p><figure class="highlight jboss-cli"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">cp -r $MESA_DIR/star/work tutorial <span class="comment">#复制一份工作空间至tutorial</span></span><br><span class="line"><span class="keyword">cd</span> tutorial  <span class="comment">#进入该文件夹</span></span><br><span class="line"><span class="string">./mk</span>  <span class="comment">#编译</span></span><br><span class="line"><span class="string">./rn</span>  <span class="comment">#运行</span></span><br></pre></td></tr></table></figure><p>当你发现出现恒星演化的动图的时候，我们就大功告成了~</p><h2><span id="have-fun~_">Have fun~^_^</span></h2>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;图片故事： 如果有幸，请让我看见更大的世界&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://mesa.sourceforge.net/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Mesa&lt;/a&gt;安装的中文教程，可能是世界上最简单的。&lt;/p&gt;
+&lt;h2&gt;&lt;s
+      
+    
+    </summary>
+    
+    
+      <category term="科研日常" scheme="http://www.wangxianyu.com/tags/%E7%A7%91%E7%A0%94%E6%97%A5%E5%B8%B8/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Troubleshooting for Ubuntu 16.04 installation</title>
+    <link href="http://www.wangxianyu.com/2018/09/29/troubleshooting/"/>
+    <id>http://www.wangxianyu.com/2018/09/29/troubleshooting/</id>
+    <published>2018-09-29T14:40:00.000Z</published>
+    <updated>2019-01-07T07:15:47.751Z</updated>
+    
+    <content type="html"><![CDATA[<p>图片故事： 秋天悄然而至，冬天也不会太远了。希望一切安好~</p><p>最近在折腾电脑的时候出现了一些问题，现在将问题记录下来。</p><h2><span id="ubuntu-1604-安装完成后无线网卡无法正常启用">Ubuntu 16.04 安装完成后无线网卡无法正常启用</span></h2><figure class="highlight routeros"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">sudo apt-<span class="builtin-name">get</span> update # update source</span><br><span class="line">sudo apt-<span class="builtin-name">get</span> install bcmwl-kernel-source # update<span class="built_in"> wireless network </span>adapter <span class="keyword">and</span> active it</span><br></pre></td></tr></table></figure><p>特别地，对于联想拯救者R720，这个方法可能不太适用。首先我们看下Ubuntu系统内部的无线传输系统的状态：</p><figure class="highlight lasso"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">rfkill <span class="built_in">list</span> <span class="literal">all</span></span><br></pre></td></tr></table></figure><p>我们会发现：</p><figure class="highlight routeros"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line">0:ideapad_wlan:<span class="built_in"> Wireless LAN </span></span><br><span class="line">Soft blocked: <span class="literal">no</span> </span><br><span class="line">Hard blocked:yes </span><br><span class="line">1:ideapad_bluetooth: Bluetooth </span><br><span class="line">Soft blocked: <span class="literal">no</span> </span><br><span class="line">Hard blocked: <span class="literal">yes</span> </span><br><span class="line">2:phy0:<span class="built_in"> Wireless LAN </span></span><br><span class="line">Soft blocked: <span class="literal">no</span> </span><br><span class="line">Hard blocked:no </span><br><span class="line">3:hci0: Bluetooth </span><br><span class="line">Soft blocked: <span class="literal">yes</span> </span><br><span class="line">Hard blocked: <span class="literal">no</span></span><br></pre></td></tr></table></figure><p>可以看到，联想的蓝牙和wlan模块的硬件部分已经被屏蔽，但是好在我们可以将联想本身的无线模块移除来提高系统本身的优先级。</p><figure class="highlight nginx"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="attribute">sudo</span> modprobe -r ideapad_laptop</span><br></pre></td></tr></table></figure><p>为了免去总是手动移除模块的麻烦，我们可以将这个操作写在开机的脚本文件（/etc/rc.local）里：</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#</span><span class="bash"></span></span><br><span class="line"><span class="meta">#</span><span class="bash"> rc.local</span></span><br><span class="line"><span class="meta">#</span><span class="bash"></span></span><br><span class="line"><span class="meta">#</span><span class="bash"> This script is executed at the end of each multiuser runlevel.</span></span><br><span class="line"><span class="meta">#</span><span class="bash"> Make sure that the script will <span class="string">"exit 0"</span> on success or any other</span></span><br><span class="line"><span class="meta">#</span><span class="bash"> value on error.</span></span><br><span class="line"><span class="meta">#</span><span class="bash"></span></span><br><span class="line"><span class="meta">#</span><span class="bash"> In order to <span class="built_in">enable</span> or <span class="built_in">disable</span> this script just change the execution</span></span><br><span class="line"><span class="meta">#</span><span class="bash"> bits.</span></span><br><span class="line"><span class="meta">#</span><span class="bash"></span></span><br><span class="line"><span class="meta">#</span><span class="bash"> By default this script does nothing.</span></span><br><span class="line"><span class="meta">#</span><span class="bash">因为使用的是非管理员登录，故在执行sudo命令时要输入密码，方可自动化执行，</span></span><br><span class="line"><span class="meta">#</span><span class="bash">此处假设用户密码为123，命令一定要在<span class="built_in">exit</span> 0之前运行，该文件如果没有修改权限</span></span><br><span class="line"><span class="meta">#</span><span class="bash">修改前使用 chmod 命令修改权限即可！</span></span><br><span class="line">echo "123" |sudo modprobe -r ideapad_laptop</span><br><span class="line">exit 0</span><br></pre></td></tr></table></figure><h2><span id="ubuntu-1604-安装完成后无法引导windows">Ubuntu 16.04 安装完成后无法引导Windows</span></h2><p>当你安装好Ubuntu之后发现，引导器中没有之前的Windows系统，不要担心，你只是需要让Ubuntu的引导器读取一下分区中的系统。</p><figure class="highlight n1ql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">sudo <span class="keyword">update</span>-grub  #<span class="keyword">or</span>  </span><br><span class="line">sudo <span class="keyword">update</span>-grub2</span><br></pre></td></tr></table></figure><h2><span id="ubuntu-1604-双系统-安装完成后两个系统的时间混乱">Ubuntu 16.04 (双系统) 安装完成后两个系统的时间混乱</span></h2><p>原因不再赘述，你只需要知道两个系统读取硬件的时间出现了问题，我们设置下就好。</p><figure class="highlight stylus"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">sudo apt-get install ntpdate  </span><br><span class="line">sudo ntpdate <span class="selector-tag">time</span><span class="selector-class">.windows</span><span class="selector-class">.com</span>   </span><br><span class="line">sudo hwclock --localtime --systohc</span><br></pre></td></tr></table></figure><p>这样时间就好了~</p><h2><span id="祝好~-_">祝好~ ^_^</span></h2>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;图片故事： 秋天悄然而至，冬天也不会太远了。希望一切安好~&lt;/p&gt;
+&lt;p&gt;最近在折腾电脑的时候出现了一些问题，现在将问题记录下来。&lt;/p&gt;
+&lt;h2&gt;&lt;span id=&quot;ubuntu-1604-安装完成后无线网卡无法正常启用&quot;&gt;Ubuntu 16.04 安装完成后无线网卡无法
+      
+    
+    </summary>
+    
+    
+      <category term="科研日常" scheme="http://www.wangxianyu.com/tags/%E7%A7%91%E7%A0%94%E6%97%A5%E5%B8%B8/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>写在中秋</title>
+    <link href="http://www.wangxianyu.com/2018/09/24/zhongqiu/"/>
+    <id>http://www.wangxianyu.com/2018/09/24/zhongqiu/</id>
+    <published>2018-09-24T15:40:00.000Z</published>
+    <updated>2018-09-24T16:28:19.649Z</updated>
+    
+    <content type="html"><![CDATA[<p>图片故事： 但凡可以称之为结束的，都可以称之为开始，而新的开始就是希望。</p><h2><span id="可笑和荒诞">可笑和荒诞</span></h2><p>现在是九月底，时间向前推三个月，不，应该是五个月。我做了我不齿的事情，罪恶的开始。时至今日，一切都已经结束，以一种我想要的方式结束，以一种无声、隐秘而又暴力的方式结束。不再联系是一种逃避，对我来说，是这样的，也是一种尊重。<br>尊重过去的一切美好和丑陋，远离自己内心深重的罪恶感。当然，我深知那负罪感将伴随我很长的时间。既然你不能让一蝴蝶免除痛苦地从茧的飞出，那就不要试图帮助它，起码让自己知道蝴蝶不会依赖自己。<br>甚至有的时候，我觉得这是一场闹剧，一场出现在我的不长的青春里的闹剧。它一定要以这种方式出现，为我平淡无奇的生活落下这一浓墨重彩的一笔。美好但是又异常丑陋，如果非要做个比喻，它就像那白日焰火，美好但是不合时宜。我觉得我应该要负全部的责任。<br>就这样吧，我要重新开始了，就像我不曾出现过一样，就像我如今也记不起你的样子一样。<br>但凡可以称之为结束的，都可以称之为开始，而决定开始的意义就在于，我满怀希望。</p><h2><span id="研究生生活">研究生生活</span></h2><p>在很多时候我都是这样认为的–我的生活需要纯粹，纯粹的学习和科研生活，这听起来非常nerd，但是我也的确是这样想的。当然，我也希望生活会有更多的奇迹或者说其他的内容，但是当我逐渐发现除了自己的事情以外，自己无法在其他人那里获得信赖和理解的时候，我对那种需要投入大量精力和感情的活动敬而远之。<br>请让我继续纯粹下去吧，还有更多有意思的事情等着我去做，还有更大的成就等着我去完成。逐渐地，我意识到自己是多么得渺小，自己只是这虚幻世界的一员，扮演着一个无足轻重的小角色，但是即便是如此，也要认真对待。<br>感谢我身边的人赋予我的一切，生命以及灵魂，我带着关于你们的记忆继续前行，成为自己，成为自己的Hero。</p><h2><span id="中秋节快乐">中秋节快乐</span></h2><p>无法感同身受是原罪，请让我继续负重前行~I love this world， real world！</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;图片故事： 但凡可以称之为结束的，都可以称之为开始，而新的开始就是希望。&lt;/p&gt;
+&lt;h2&gt;&lt;span id=&quot;可笑和荒诞&quot;&gt;可笑和荒诞&lt;/span&gt;&lt;/h2&gt;
+&lt;p&gt;现在是九月底，时间向前推三个月，不，应该是五个月。我做了我不齿的事情，罪恶的开始。时至今日，一切都已经结束，
+      
+    
+    </summary>
+    
+    
+      <category term="生活日常" scheme="http://www.wangxianyu.com/tags/%E7%94%9F%E6%B4%BB%E6%97%A5%E5%B8%B8/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>写在日落前</title>
+    <link href="http://www.wangxianyu.com/2018/06/21/leave/"/>
+    <id>http://www.wangxianyu.com/2018/06/21/leave/</id>
+    <published>2018-06-21T08:40:00.000Z</published>
+    <updated>2021-02-08T15:59:54.357Z</updated>
+    
+    <content type="html"><![CDATA[<p>图片故事： 《少年派的奇幻漂流》 「人生就是不断地放下，然而痛心的是，我还没来得及与你们好好告别。」</p><h1><span id="写在日落前">写在日落前</span></h1><p>学生证上的毕业日期是2018年6月30日。是的，我还有9天就要告别我的本科生涯了。我尽量不去想这件事情，也就不会难过，那一天它会如期而至，那一天它会悄然而至。你说，我都没有感情的，你一点都不觉得难过。是的，我不想难过。我尽量让自己忙起来，写写程序，背背单词，看看公开课。不想闲，闲会让我觉得不知所措，那种百无聊赖的感觉会让“毕业的难过”有机可乘。比如，这个下午，离别带来的难过乘虚而入。</p><h2><span id="人去教室空">人去教室空</span></h2><p>前天，隔壁的门口挂上了“公共自修室请右转”的指示语。那时我和超哥正要去下山吃饭，我看到隔壁15级的自习室的门口窗户上贴上了什么，好奇使我停下来看了一眼—“2015级空间与应用物理自修室，公共自修室请右转”。我还记得当时的感觉，脑子里突然轰得一下就响了起来。我觉得生气，我觉得难过，我觉得愤怒。“2014级空间菁英班自习室还有人，我们还没走！”我内心这样咆哮。我告诉超哥，这好过分，这太过分了。我向15级的学弟学妹询问这是怎么回事，他们不知道，我在班群里问这是怎么回事，老袁说，是的，已经是公共自修室了。<br>我笑着对超哥讲：“其实可能只有我在意这个事情了，其实大家已经不会再来这边自习了，对吧~”超哥随声应和。<br>对的，其实我知道，我早就知道，尽管明天毕业典礼，其实大家已经毕业了，从提交上毕业论文的那一刻开始，从聚餐结束的那一刻开始，从你们笑着说再见那一刻开始。是啊，如今只有我在意这间“2014级空间菁英班自习室”里坐着的是不是班级里的人了。这间自习室，15级的学弟学妹不会进来，他们还记得我们，16的学弟学妹却不然，他们不知道，也不会记得我们，他们到这边来，合情也合理，我却觉得难过。<br>我还能记起每个位置上坐的人，但是他们已经好久没来。</p><h2><span id="别离的意义">别离的意义</span></h2><p>我告诉自己，别离是人生常态，难过也是正常的，每个人只能陪你走过一段路。我会这么想，但是还是止不住难过。作为纯理科班级，我觉得我们班级仍然是松散的，大家的感情不会格外的好，联系也不会格外的紧密。我始终认为这是学科带来的班级特质。科研是孤独的，科研工作者最终的生活常态就是孤独地去推进人们对于位置领域的了解，一点一点，一步又一步。但是，大家还没有离开，我却开始思念。我们一起上课，一起复习，一起做菜吃饭。我们彼此构建的联系在过去的四年里越发地强大紧密，而，如今，离别使我们彼此分离。<br>你们都走了，我还坐在这里。别离没有特殊的意义，只会让我突然想起，我原来如此热爱这个班级。</p><h2><span id="放心不下的">放心不下的</span></h2><p>我还没有离开，但是我已经开始在想你</p><h1><span id="we-still-have-to-move-on">We still have to move on.</span></h1>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;图片故事： 《少年派的奇幻漂流》 「人生就是不断地放下，然而痛心的是，我还没来得及与你们好好告别。」&lt;/p&gt;
+&lt;h1&gt;&lt;span id=&quot;写在日落前&quot;&gt;写在日落前&lt;/span&gt;&lt;/h1&gt;
+&lt;p&gt;学生证上的毕业日期是2018年6月30日。是的，我还有9天就要告别我的本科生涯了
+      
+    
+    </summary>
+    
+    
+      <category term="生活日常" scheme="http://www.wangxianyu.com/tags/%E7%94%9F%E6%B4%BB%E6%97%A5%E5%B8%B8/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>考研经验交流会</title>
+    <link href="http://www.wangxianyu.com/2018/06/18/kaoyanjiaoliu/"/>
+    <id>http://www.wangxianyu.com/2018/06/18/kaoyanjiaoliu/</id>
+    <published>2018-06-18T03:30:00.000Z</published>
+    <updated>2018-06-18T03:43:53.035Z</updated>
+    
+    <content type="html"><![CDATA[<p>图片故事：守望者2009「Never,never surrender.」</p><h1><span id="考研经验交流">考研经验交流</span></h1><p>录取学校与专业：中国科学院国家天文台 天体物理学</p><h2><span id="考研经历">考研经历：</span></h2><h3><span id="怀着最好的期望做最坏的打算">怀着最好的期望，做最坏的打算</span></h3><p>现在是五月初，想必我院大三的同学已经开始考虑自己毕业之后的去向，保研、考研、工作亦或是出国。如往届学长所言，保研、考研、出国和工作本无高低贵贱之分。如果早就做好了打算，每一个选择都是上上策。可最怕什么呢，最怕没得选择。当你失去的选择的权利和机会的时候，人生似乎就变得狭窄起来。原本不错的考研就变得狰狞起来，过程也就变得异常艰辛。我想说什么呢？我想对大家说，每个人都希望自己的未来是美好的，有的时候难免会有一些不切实际的想法，甚至心存侥幸，逃避现实。现实总是要面对的，万全的计划才是不陷于被动的最佳选择。</p><h3><span id="笃定方向量力而行">笃定方向，量力而行</span></h3><p>相对于物理学而言，可供大家攻读天文学研究生的院所着实不多。我校的天体物理学拥有高质量的观测资源和优秀的师资力量，如果有同学对于这边的某些研究方向极其感兴趣，继续在我校攻读天体物理学研究生会是相当不错的选择。<br>国内高校天文最大的两个牌子是北大和南大。北大天文系近几年只招收推免直博生，南大虽然招收统招研究生，但其实名额甚少，难度极大。相比之下，隶属于中科院下的国家天文台、上海天文台、云南天文台、新疆天文台对于打算考研的同学会更加友好。尤其是考虑到我院与国台有着密切的合作，国台也非常欢迎我们的同学报考国家天文台。所以说，无论大家是想继续从事物理学还是天文学研究，在选择院校的时候，一定一定要根据报考难度和自己可以做出努力程度综合分析，得到一个最适合自己的方案。</p><h3><span id="积极备考逃避可耻也没用">积极备考，逃避可耻也没用</span></h3><p>考研是一件非常个人的事情，最为重要的一个原则就是：适合自己的方法才是最好的方法。请不要逃避，也不要害怕与怠惰，在准备的过程中不断去修正自己的复习计划是必要的。<br>效率至上。在考研期间，一些同学喜欢拖延，逃避困难，这会导致有效学习时间不足，会产生“我每天都朝八晚十，但是怎么还是觉得时间不够用”的感觉。切记，只有有效时间才是真正的学习时间，发呆、玩手机的时间可不能算做学习时间。</p><h4><span id="务必专注">务必专注。</span></h4><p>学习最为重要的是拥有一种沉浸感，全身心地投入到分析、解决问题当中去。这个过程中，我们面临的大敌便是“手机”。当然，这个问题因人而异。但是我还是建议不带手机。回顾过去，我觉得手机消耗了我们太多的时间，甚至捆绑了我们的好多想法。如果有一段时间，远离手机，减少和他人的接触，多看几本好书，尽管略显孤独，但是逐渐尝试着和自己对话，你会对好多事情产生新的看法，明白自己内心真正的想法，发现自己真正想要的东西。</p><h4><span id="有仪式感">有仪式感。</span></h4><p>有的人讲仪式感可有可无，我不这么认为。对于我而言，仪式感是必要的。每天按时到达自习室，打开窗户，接一杯水，这些动作告诉我自己，一天的学习正式开始了。假使我无规律地起床，随意复习，我想怠惰和焦虑很快便会吞噬我。</p><h1><span id="迎战复试踏实自信">迎战复试，踏实自信</span></h1><h2><span id="笔试">笔试</span></h2><p>无论初试还是复试的笔试，最为关键的是搜集信息。每年都有很nice的学长学姐将考题总结发布到网络上以飨后人。拿到这些考题是基础，系统全面的准备是关键。</p><h2><span id="面试">面试</span></h2><p>初次见面，第一印象十分关键。乐观、积极、自信和幽默是面试官希望在你身上看到的个人特质。即使其他的很难做到，但是请务必自信，不羞怯。拿出本科那些值得称道的成绩或者科研经历会让面试官眼前一亮。即使被问住，也不要害怕，大大方方地讲自己知识浅薄，尚不知晓就好。如果你能做到和面试官谈笑风生那自然是极好的。</p><h2><span id="人生没有一劳永逸">人生没有一劳永逸</span></h2><p>保研、考研也好，工作、出国也罢，但是诸位，请你们明白，人生没有一劳永逸。保送者在录取后继续学习各种知识，准备托福雅思，准备向更高的平台进发；找工作者在签约之后便进入公司实习，接触新的事物，磨炼自己的技能；出国者收到offer后也继续阅读英文专业书籍，为自己在国外的生活打下基础；考研者被录取后也开始了新的人生计划。<br>考研的确很关键，对于大多数人而言，它可能是自己在人生规划的道路上做出的第一个重大的选择。你的选择会影响你今后的人生道路。但是它不是全部，这将会是你经受的人生磨难的一小部分，渡过这个难关，你会迎接更大的挑战，获得更宽广的人生和未来。<br>最后将周国平《直面苦难》中的一段话送给大家：<br>“我无意颂扬苦难。如果允许选择，我宁要平安的生活，得以自由自在地创造和享受。但是，我相信苦难的确是人生的必含内容，一旦遭遇，它也的确提供了一种机会。人性的某些特质，惟有藉此机会才能得到考验和提高。一个人通过承受苦难而获得的精神价值是一笔特殊的财富，由于它来之不易，就决不会轻易丧失。而且我相信，当他带着这笔财富继续生活时，他的创造和体验都会有一种更加深刻的底蕴。”</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;图片故事：守望者2009「Never,never surrender.」&lt;/p&gt;
+&lt;h1&gt;&lt;span id=&quot;考研经验交流&quot;&gt;考研经验交流&lt;/span&gt;&lt;/h1&gt;
+&lt;p&gt;录取学校与专业：中国科学院国家天文台 天体物理学&lt;/p&gt;
+&lt;h2&gt;&lt;span id=&quot;考研经历&quot;&gt;考研经
+      
+    
+    </summary>
+    
+    
+      <category term="学习日常" scheme="http://www.wangxianyu.com/tags/%E5%AD%A6%E4%B9%A0%E6%97%A5%E5%B8%B8/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>考研杂谈</title>
+    <link href="http://www.wangxianyu.com/2018/02/28/kaoyan/"/>
+    <id>http://www.wangxianyu.com/2018/02/28/kaoyan/</id>
+    <published>2018-02-28T11:13:00.000Z</published>
+    <updated>2018-02-28T11:20:54.040Z</updated>
+    
+    <content type="html"><![CDATA[<p>图片故事： 《超能查派》 关于机器人身份的问题会随着AI的迅速发展而逐渐变得激烈，仿生人也不止会梦见羊…</p><h1><span id="考研杂谈">考研杂谈</span></h1><p>逐渐明白人生没有一劳永逸</p><h2><span id="没有选择的选择">没有选择的选择</span></h2><p>曾有学长讲，保研、考研、找工作和出国没有高低贵贱之分，他还特意强调了很多次。但是，在我看来其中是有很大的差别的，至于高低，也是有的。要我讲，相比考研，保研更好。如果早就做好了工作以及出国的打算，这两个选择也是上上策。可最怕什么呢，最怕没得选择。当你失去的选择的权力和机会的时候，人生似乎就变的狭窄起来。看起来也还不错的考研就变得狰狞起来，过程也就变得异常艰辛。</p><h2><span id="人生紧要处也不过几步">人生紧要处也不过几步</span></h2><p>如果说有什么时候可以改变一个人的一生，对于在中国的朋友，尤其是上世纪八十年代以来出生的人而言，高考那几天可以算得上最为紧要的关头之一。其次便是研究生入学考试。自考研结束以后，我便一直在思考，倘若我的分数没有预期的那样安全通过国家线，倘若即使我过了国家线但是没有通过复试，我接下来的人生该做如何打算。我想到了这样的问题，但是没有继续想下去，我知道那样的概率是很小的，或者说，我也极力回避着那样的问题。<br>没有通过研究生入学考试的人生在我看来是不可想象的(起码目前是这样的)。我已然完成了一篇还不错的论文，也初窥科学研究的乐趣。倘若我因为考试失利而中断了我的研究工作甚至彻底告别研究领域，于我，于诸位指导我的老师都是极大的遗憾，我也必定会愧疚一生。</p><h2><span id="人生没有一劳永逸">人生没有一劳永逸</span></h2><p>保研也好，考研也好，终归一句话：人生没有一劳永逸。没有痛苦的人生自然也就不会有快乐。<br>上岁数的人总是有些消极，他们有的人就会讲，你们这是年轻气盛，没什么意思的。何以至此呢？我想多半是他们的人生在逐渐固化，可能性在变得狭小。年轻，意味着无限的可能性。<br>&quot;奋斗&quot;可能是一个最为庸俗的字眼了，以至于人们都不怎么讲这个词了。甚至，人们还会不试地调侃、嘲讽那些所谓&quot;奋斗&quot;的人，当然，在我看来，他们只是想让自己的成功看起来容易一些。</p><h1><span id="suffering-is-a-ladder">Suffering is a ladder.</span></h1>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;图片故事： 《超能查派》 关于机器人身份的问题会随着AI的迅速发展而逐渐变得激烈，仿生人也不止会梦见羊…&lt;/p&gt;
+&lt;h1&gt;&lt;span id=&quot;考研杂谈&quot;&gt;考研杂谈&lt;/span&gt;&lt;/h1&gt;
+&lt;p&gt;逐渐明白人生没有一劳永逸&lt;/p&gt;
+&lt;h2&gt;&lt;span id=&quot;没有选择的选择&quot;&gt;
+      
+    
+    </summary>
+    
+    
+      <category term="生活日常" scheme="http://www.wangxianyu.com/tags/%E7%94%9F%E6%B4%BB%E6%97%A5%E5%B8%B8/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Ubuntu16.04中texmaker缺少revtex4.cls的解决方法</title>
+    <link href="http://www.wangxianyu.com/2018/02/19/revtex4/"/>
+    <id>http://www.wangxianyu.com/2018/02/19/revtex4/</id>
+    <published>2018-02-19T13:55:00.000Z</published>
+    <updated>2018-02-19T14:17:23.808Z</updated>
+    
+    <content type="html"><![CDATA[<p>图片故事：《生化危机：来生》 MY NAME IS ALICE, I WORKED FOR UMBRELLA CORPORATION.</p><h1><span id="ubuntu1604中texmaker缺少revtex4cls的解决方法">Ubuntu16.04中texmaker缺少revtex4.cls的解决方法</span></h1><p>找到相关的包   <code>sudo apt-cache search revtex</code><br>出现<code>texlive-publishers - TeX Live: Publisher styles, theses, etc.</code><br>安装  <code>sudo apt-get install texlive-publishers</code></p><h2><span id="即可修复">即可修复</span></h2><h1><span id="this-is-very-helpful">This is very helpful!</span></h1>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;图片故事：《生化危机：来生》 MY NAME IS ALICE, I WORKED FOR UMBRELLA CORPORATION.&lt;/p&gt;
+&lt;h1&gt;&lt;span id=&quot;ubuntu1604中texmaker缺少revtex4cls的解决方法&quot;&gt;Ubuntu16.04中t
+      
+    
+    </summary>
+    
+    
+      <category term="科研日常" scheme="http://www.wangxianyu.com/tags/%E7%A7%91%E7%A0%94%E6%97%A5%E5%B8%B8/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Ubuntu16.04下安装IDL8.2的要点</title>
+    <link href="http://www.wangxianyu.com/2018/02/19/idl82/"/>
+    <id>http://www.wangxianyu.com/2018/02/19/idl82/</id>
+    <published>2018-02-19T12:57:00.000Z</published>
+    <updated>2018-02-19T14:15:32.045Z</updated>
+    
+    <content type="html"><![CDATA[<p>图片故事：《君の名は。》 只要记住你的名字 不管你在世界的哪个地方 我一定会,去见你。</p><h1><span id="ubuntu下安装idl82的要点">Ubuntu下安装IDL8.2的要点</span></h1><h2><span id="建议修改网卡名称为eth0">建议修改网卡名称为eth0</span></h2><p>执行<code>sudo gedit /etc/default/grub</code><br>找到<code>GRUB_CMDLINE_LINUX=&quot;&quot;</code><br>改为<code>GRUB_CMDLINE_LINUX=&quot;net.ifnames=0 biosdevname=0&quot;</code><br>然后  <code>sudo grub-mkconfig -o /boot/grub/grub.cfg</code><br>重启后 网卡可恢复为<code>eth0</code></p><h2><span id="添加license文件以启动lmgrdlicense-manager-tools服务">添加license文件以启动lmgrd(license manager tools)服务</span></h2><p>建立文件夹<code>/usr/local/flexlm/licenses</code>，将<code>license.dat</code>文件复制到当前文件夹</p><h2><span id="修改mac地址以及开机自启动lmgrd服务">修改MAC地址以及开机自启动lmgrd服务</span></h2><figure class="highlight dts"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">sudo gedit <span class="meta-keyword">/etc/</span>rc.local<span class="meta">#修改开机启动项</span></span><br><span class="line">ifconfig eth0 down</span><br><span class="line">ifconfig eth0 hw ether bc:<span class="number">30</span>:<span class="number">5</span>b:d9:<span class="number">42</span>:<span class="number">86</span><span class="meta">#修改MAC地址</span></span><br><span class="line">ifconfig eth0 up</span><br><span class="line"><span class="meta-keyword">/usr/</span>local<span class="meta-keyword">/itt/</span>idl82<span class="meta-keyword">/bin/</span>bin.linux.x86_64/lmgrd<span class="meta">#开机启动lmgrd服务</span></span><br></pre></td></tr></table></figure><p><code>注意：</code>如果你的机器是32位的话，那么，你的lmgrd应该在<code>bin.linux.x86</code>下，而如果你的机器是64位的话，你的lmgrd应该在<code>bin.linux.x86_64</code>下，如果你不确定的话，可以进入该文件夹使用<code>./lmgrd</code>启动<code>lmgrd</code>，以确定是哪一个文件夹。</p><h1><span id="have-fun-my-friend~">Have fun！ My friend~</span></h1>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;图片故事：《君の名は。》 只要记住你的名字 不管你在世界的哪个地方 我一定会,去见你。&lt;/p&gt;
+&lt;h1&gt;&lt;span id=&quot;ubuntu下安装idl82的要点&quot;&gt;Ubuntu下安装IDL8.2的要点&lt;/span&gt;&lt;/h1&gt;
+&lt;h2&gt;&lt;span id=&quot;建议修改网卡名称为et
+      
+    
+    </summary>
+    
+    
+      <category term="科研日常" scheme="http://www.wangxianyu.com/tags/%E7%A7%91%E7%A0%94%E6%97%A5%E5%B8%B8/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>节后杂谈</title>
+    <link href="http://www.wangxianyu.com/2018/02/18/jieqianjiehou/"/>
+    <id>http://www.wangxianyu.com/2018/02/18/jieqianjiehou/</id>
+    <published>2018-02-18T14:09:00.000Z</published>
+    <updated>2018-02-18T14:11:13.840Z</updated>
+    
+    <content type="html"><![CDATA[<p>图片故事：《降临》  从女主角的视角看去，朦胧的外星飞船被神秘所笼罩</p><h1><span id="节后杂谈">节后杂谈</span></h1><hr><h2><span id="计划赶不上变化">计划赶不上变化</span></h2><p>很久没有写点什么了，之前潦潦草草地写过一些如本网站所展示的小教程和小技巧。写点什么的意思就是，去记录生活，去记录当下的状态或者对于某些事情的思考。<br>当然，我不是一开始就是这样不愿说些什么的。我最初是很健谈的，健谈到自己想到什么就说什么。自然，这是非常不好的，于自己，于他人都是不好的。近些日子来，又没什么比较清静的时间，自然而然地就浮躁得很，也不能静下心来写点什么。<br>写到这里忽然意识到，这一段话和这一段的小题目并不相符。没有关系，写到哪里就是哪里，也懒得删减。那么这里有了一个有趣的问题：我这个网站是为了展示还是为了记录，或者说两者都有。那么，我就要回答，都有，但是记录的意义要大于展示。因为这里的所有文章是无法被百度爬虫抓取到的，所以也就不会有太多人“偶尔”到此一游。我想大多数人获得这网站的途径不外乎我告诉他们以及我留在微博里的蛛丝马迹。</p><h2><span id="关于修改文章">关于修改文章</span></h2><p>修改文章这事情更像是“计划赶不上变化”。预计十天就差不多可以完成的修改工作不知道会拖多久，现在还有很多修改工作需要做。multifast倒是跑通了，但是意外地发现IDL无法分配更多的内存给我的输出程序，以至于我的结果无法正确输出。还有comment4那个奇幻的所谓的提供更多的观测的文章，想破脑袋也不知道那篇文章在哪里。<br>在家里的效率，等等，在家里是不会有效率这个概念的，简直浑身难受。就好像，我知道我得工作了，否则回学校后时间会异常紧张。但是尽管我认识到了这一点，我的惰性还是使我留在原地。我的进取和懒惰不断地争吵，说实话，我脑仁疼。</p><h2><span id="关于考研">关于考研</span></h2><p>好多极其困难的事情，当你度过了最困难的时候再去回头看，其实些事情也不过如此，也没有很难，对不对。<br>每天早上6:30起床，中午11:30吃饭，午睡到1:30，2:00一定要到自习室，5:30去吃饭，6:30回来后学习到10:30再离开。<br>有很难吗，其实也没有很难。就是那种欲望很低的感觉，没有什么欲望。就是简单的学习，再者就是搞搞自己的论文。那种近似于高中那种纯粹的学习时光是真的非常难得了。</p><h2><span id="关于新的一年">关于新的一年</span></h2><p>啊，新的一年还是有很多期待的。按人生的节点来看，我也的确该有个稳定的女朋友了，毕竟如果不主动些，下个五年我估计还是单身。<br>文章一定要修改好呀~<br>要通过复试；把驾驶证考下来；争取把托福也搞下来</p><h2><span id="最后">最后</span></h2><p>总觉得要写点什么，写完了很久后我会觉得幼稚而无知，之后就删掉。反正，写就写了，幼稚也幼稚了，无知倒是一直无知。</p><h1><span id="we-shall-never-serreder">WE SHALL NEVER SERREDER！</span></h1>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;图片故事：《降临》  从女主角的视角看去，朦胧的外星飞船被神秘所笼罩&lt;/p&gt;
+&lt;h1&gt;&lt;span id=&quot;节后杂谈&quot;&gt;节后杂谈&lt;/span&gt;&lt;/h1&gt;
+&lt;hr&gt;
+&lt;h2&gt;&lt;span id=&quot;计划赶不上变化&quot;&gt;计划赶不上变化&lt;/span&gt;&lt;/h2&gt;
+&lt;p&gt;很久没有写点什么了，
+      
+    
+    </summary>
+    
+    
+      <category term="生活日常" scheme="http://www.wangxianyu.com/tags/%E7%94%9F%E6%B4%BB%E6%97%A5%E5%B8%B8/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Create and Modify your CV on Sharelatex</title>
+    <link href="http://www.wangxianyu.com/2018/02/07/cv/"/>
+    <id>http://www.wangxianyu.com/2018/02/07/cv/</id>
+    <published>2018-02-07T02:30:00.000Z</published>
+    <updated>2018-02-07T02:49:45.103Z</updated>
+    
+    <content type="html"><![CDATA[<p>图片故事：「You know nothing, Jon Snow」</p><h1><span id="create-and-modify-your-cv-on-sharelatex">Create and Modify your CV on Sharelatex</span></h1><p>无论在寻找工作还是考研复试，一份精美的简历都会为个人表现增色不少。现以在线Latex编译平台<a href="www.sharelatex.com">Sharelatex</a>上的moderncv模板为例，创建并修改cv，已达到预期的cv效果。</p><h2><span id="注册sharelatex">注册Sharelatex</span></h2><p>目前，Sharelatex无法注册，具体原因未知，建议大家前往<a href="www.overleaf.com">Overleaf</a>平台进行注册。Overleaf平台的功能和Sharelatex无异。</p><h2><span id="创建project">创建Project</span></h2><p>登入(Sign in)之后，选择NEW PROJECT，在下拉选项里找到CV or Resume。 显然，在Overleaf的库里并没有经典的moderncv，不过大家可以到<a href="https://www.ctan.org/tex-archive/macros/latex/contrib/moderncv" target="_blank" rel="noopener">这个网址</a>进行文件的下载，并全部释放到PROJECT中。而在Sharelatex平台上，我们很容易获得moderncv的模板。本文也以Sharelatex中的moderncv模板为例，进行说明。</p><h2><span id="修改与部分说明">修改与部分说明</span></h2><p><code>注意</code>，如果你想使用中文、日文或者韩文，请把<code>\usepackage[utf8]{inputenc}</code>用<code>%</code>注释掉，并加上<code>\usepackage{CJKutf8}</code><br><code>\moderncvstyle{}</code>给出了可选的cv风格：casual、classic、oldstyle以及banking<br><code>\moderncvcolor{}</code>给出了可选的cv颜色：蓝色、橙色、绿色、红色、紫色、灰色以及黑色</p><h1><span id="have-fun-_">Have fun ^_^</span></h1>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;图片故事：「You know nothing, Jon Snow」&lt;/p&gt;
+&lt;h1&gt;&lt;span id=&quot;create-and-modify-your-cv-on-sharelatex&quot;&gt;Create and Modify your CV on Sharelatex&lt;/spa
+      
+    
+    </summary>
+    
+    
+      <category term="学习日常" scheme="http://www.wangxianyu.com/tags/%E5%AD%A6%E4%B9%A0%E6%97%A5%E5%B8%B8/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>关于基于WSL(Windows Subsystem for Linux)安装IDL71</title>
+    <link href="http://www.wangxianyu.com/2018/02/02/wsl_idl71/"/>
+    <id>http://www.wangxianyu.com/2018/02/02/wsl_idl71/</id>
+    <published>2018-02-02T09:23:00.000Z</published>
+    <updated>2019-01-09T02:03:52.976Z</updated>
+    
+    <content type="html"><![CDATA[<p>图片故事：《海边的曼彻斯特》 没有戏剧性的转折，没有令人振奋的结束，无法面对的痛苦与救赎，这场争吵诠释了这部电影的核心–真实。</p><h1><span id="关于基于wslwindows-subsystem-for-linux安装idl71">关于基于WSL(Windows Subsystem for Linux)安装IDL71</span></h1><h2><span id="关于wsl的安装">关于WSL的安装</span></h2><p>网上教程已经很多了，出于不愿重复造轮子的懒劲和秉着对<s>广大</s>读者负责任的心情，我找到了一篇比较不错的教程→<a href="http://www.linuxidc.com/Linux/2016-12/138269.htm" target="_blank" rel="noopener">这篇文章</a>。<br>但是有几个地方需要注意：<br>1.由于现在Windows给出了3种不同的Linux发行版本，你最好从应用商店下载，选择Ubuntu就好。<br><img src="https://i.imgur.com/LSsgeGC.png" alt=""><br>2.查看Ubuntu版本的命令是<code>lsb_release -a</code><br>3.如果你觉得国外的更新源比较慢的话，可以换成国内阿里的更新源，详细做法请看→<a href="https://www.cnblogs.com/yujohn/p/7692022.html" target="_blank" rel="noopener">这篇文章</a>。<br>4.在最新的win10上，Ubuntu的路径是在这里的：</p><figure class="highlight crystal"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="symbol">C:</span>\Users\Administrator\AppData\Local\Packages\CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc\LocalState\rootfs\usr\<span class="class"><span class="keyword">lib</span>\<span class="title">x86_64</span>-<span class="title">linux</span>-<span class="title">gnu</span></span></span><br></pre></td></tr></table></figure><h2><span id="关于idl的安装">关于IDL的安装</span></h2><h3><span id="一些有用的tips">一些有用的tips</span></h3><p>电脑的其他盘一般是挂载到了/mnt下，所以你可以像在真正的Ubuntu上一样访问其他盘的文件。</p><figure class="highlight jboss-cli"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">cd</span> <span class="string">/mnt/d</span>            <span class="comment">#进入D盘</span></span><br><span class="line"><span class="keyword">cd</span> <span class="string">/usr</span>              <span class="comment">#进入Ubuntu下usr文件夹</span></span><br><span class="line">cp **<span class="string">.file</span> <span class="string">/mnt/d</span>    <span class="comment">#复制文件到D盘 </span></span><br><span class="line">apt-get -f install   <span class="comment">#修复依赖关系</span></span><br><span class="line">find . <span class="string">"*ld*"</span>        <span class="comment">#在当前目录下寻找含ld字符文件名的文件</span></span><br><span class="line">Ctrl+c               <span class="comment">#停止当前进程</span></span><br></pre></td></tr></table></figure><h3><span id="下载与安装">下载与安装</span></h3><p>在这里，我提供了Linux下IDL71的<a href="https://pan.baidu.com/s/1bqZFIkJ" target="_blank" rel="noopener">安装包</a>(密码：863z)以及许可证文件。</p><p>安装过程如下：<br>1.目录创建  sudo mkdir /usr/local/itt<br>3.复制压缩包进入安装目录，解压 ​sudo tar xopf idl71linux.x86_64.tar.gz<br>4.执行安装脚本 ./install , 一路yes就可以安装成功(显示IDL installation success， 如果出现permission deny， 不用管这个警告)<br>5.将证书复制到 license文件夹下IDL就可以运行了， 例如 cp license.dat /usr/local/itt/idl71/license<br>注意：请把后面的路径改为你自己的license文件夹路径<br>6.验证安装是否成功。 打开终端，获得持续的root权限(sudo su，并输入密码), 输入idl。 如果安装成功的话，会有如下的显示, 否则你可能安装错了，当然一般的问题是忘记将license文件复制到license文件夹下或者缺少依赖，修复方法请看下文</p><figure class="highlight stata"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">IDL <span class="keyword">Version</span> 7.1.1, (linux x86 m32). (c) 2009, ITT Visual Information Solutions</span><br><span class="line">Installation number: 20111111.</span><br><span class="line">Licensed <span class="keyword">for</span> <span class="keyword">use</span> <span class="keyword">by</span>: TEAM TBE</span><br><span class="line">IDL&gt;</span><br></pre></td></tr></table></figure><h3><span id="报错与修复">报错与修复</span></h3><p>Ubuntu on Windows赋予了Windows一个Ubuntu的内核，但是有很多依赖没有安装，这也是在终端输入<code>idl</code>后会报出缺少或找不到文件的错的原因。我的第一个报错是缺少<code>libXp6.so</code>文件，也是最难解决的一个依赖。</p><h4><span id="两个package网站">两个package网站</span></h4><p><a href="https://pkgs.org/" target="_blank" rel="noopener">https://pkgs.org/</a><br><a href="https://launchpad.net/ubuntu" target="_blank" rel="noopener">https://launchpad.net/ubuntu</a></p><h4><span id="缺少libxpso6文件">缺少<code>libXp.so.6</code>文件</span></h4><p>这个文件的缺少使得好多依赖都不能安装，而且在amd64的版本中，似乎这个文件不再available了。这个论断出自于关于这个bug的<a href="https://bugs.launchpad.net/ubuntu/+source/libxp/+bug/1517884" target="_blank" rel="noopener">讨论</a>,好在用户zeehio给出了解决方案</p><blockquote><p>If you don’t want to change your repositories (even temporarily), I have created a PPA just for that package here:</p></blockquote><blockquote><p><a href="https://launchpad.net/~zeehio/+archive/ubuntu/libxp" target="_blank" rel="noopener">https://launchpad.net/~zeehio/+archive/ubuntu/libxp</a></p></blockquote><blockquote><p>I have published the package for xenial:</p></blockquote><figure class="highlight smali"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">sudo<span class="built_in"> add-apt-repository </span>ppa:zeehio/libxp  </span><br><span class="line">sudo apt-get update</span><br><span class="line">sudo apt-get install libxp6</span><br></pre></td></tr></table></figure><blockquote><p>It contains the latest version from Debian before it was removed.</p></blockquote><p>如果出现报错的话，你或许可以通过<code>apt-get -f install</code>修复依赖关系,当安装完成后再如下的第一个目录里就会出现libXp.so.6以及libXp.so.6.2.0，请把它们复制到第二个目录下。如果运行IDL，会报出其他的文件缺失的错，那么对于这个包，我们的修复工作就完成了。</p><p><code>2019年1月9日更新</code><br><code>注意</code>：在某些情况下，上述方法不再适用。请前往<a href="http://rpmfind.net/linux/rpm2html/search.php?query=libXp.so.6%28%29%2864bit%29&amp;submit=Search+...&amp;system=&amp;arch=" target="_blank" rel="noopener">Rpmfind</a>寻找libXp-1.0.2-10.fc28.x86_64.rpm进行下载并解压（linux操作：rpm2cpio xxx.rpm | cpio -div）。定位到其中的.so文件（linux操作： locate filename），进行复制粘贴。</p><figure class="highlight taggerscript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">C:<span class="symbol">\U</span>sers<span class="symbol">\A</span>dministrator<span class="symbol">\A</span>ppData<span class="symbol">\L</span>ocal<span class="symbol">\P</span>ackages<span class="symbol">\C</span>anonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc<span class="symbol">\L</span>ocalState<span class="symbol">\r</span>ootfs<span class="symbol">\u</span>sr<span class="symbol">\l</span>ib<span class="symbol">\x</span>86_64-linux-gnu</span><br><span class="line">C:<span class="symbol">\U</span>sers<span class="symbol">\A</span>dministrator<span class="symbol">\A</span>ppData<span class="symbol">\L</span>ocal<span class="symbol">\P</span>ackages<span class="symbol">\C</span>anonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc<span class="symbol">\L</span>ocalState<span class="symbol">\r</span>ootfs<span class="symbol">\u</span>sr<span class="symbol">\l</span>ocal<span class="symbol">\i</span>tt<span class="symbol">\i</span>dl71<span class="symbol">\b</span>in<span class="symbol">\b</span>in.linux.x86_64</span><br></pre></td></tr></table></figure><h4><span id="缺少libxpm4so以及其他package的缺失">缺少<code>libXpm4.so</code>以及其他package的缺失</span></h4><p>通过前文的两个package网站下载<code>libxpm4</code>包，我下载的是deb格式的，复制到Ubuntu的系统中，并在当前目录执行</p><figure class="highlight stylus"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">dpkg -<span class="selector-tag">i</span> **<span class="selector-class">.deb</span>  #安装该package</span><br></pre></td></tr></table></figure><p>，之后再重复上文中的复制工作和验证工作即可。其他的package可从之前的网站选择正确的版本进行下载并安装，逐一修复报错，指导在终端输入idl，出现如下情况即可。</p><figure class="highlight stata"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">IDL <span class="keyword">Version</span> 7.1.1, (linux x86 m32). (c) 2009, ITT Visual Information Solutions</span><br><span class="line">Installation number: 20111111.</span><br><span class="line">Licensed <span class="keyword">for</span> <span class="keyword">use</span> <span class="keyword">by</span>: TEAM TBE</span><br><span class="line">IDL&gt;</span><br></pre></td></tr></table></figure><h1><span id="have-fun-_">Have fun ^_^</span></h1>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;图片故事：《海边的曼彻斯特》 没有戏剧性的转折，没有令人振奋的结束，无法面对的痛苦与救赎，这场争吵诠释了这部电影的核心–真实。&lt;/p&gt;
+&lt;h1&gt;&lt;span id=&quot;关于基于wslwindows-subsystem-for-linux安装idl71&quot;&gt;关于基于WSL(Wind
+      
+    
+    </summary>
+    
+    
+      <category term="科研日常" scheme="http://www.wangxianyu.com/tags/%E7%A7%91%E7%A0%94%E6%97%A5%E5%B8%B8/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>关于重装系统Ubuntu16.04</title>
+    <link href="http://www.wangxianyu.com/2018/01/31/rebuildsys/"/>
+    <id>http://www.wangxianyu.com/2018/01/31/rebuildsys/</id>
+    <published>2018-01-31T14:00:00.000Z</published>
+    <updated>2018-02-19T12:48:11.897Z</updated>
+    
+    <content type="html"><![CDATA[<p>图片故事：《银翼杀手2049》 虚拟美女挑逗高司令——无论从创意、构图、色彩、摄影还是表演，这是《银翼杀手2049》最标志性的画面之一。</p><h1><span id="关于重装系统">关于重装系统</span></h1><h2><span id="为什么要重装系统">为什么要重装系统</span></h2><p>我试图在Ubuntu下将Python的link从Python2.7转接为Python3.5，而比较智障的一点就是，在没有修改成功之后，我一气之下把Python3.4的文件夹删掉了，这导致了我的terminal无法正常启动，许多系统功能失常，至于为什么我已经不想知道了。╮(╯_╰)╭<br>此外，之前装的软件比较杂，也比较多，导致磁盘空间不够。<br>还有，Ubuntu kylin 15.10 不是很好用，我打算投入Ubuntu 16.04的怀抱，至于为什么不是17，我只能说，最新往往不怎么稳定。</p><h2><span id="我是怎么装系统的">我是怎么装系统的</span></h2><p>我打算装Ubuntu 16.04 LTS，算是比较折中的做法。 百度了几个教程，看上去也没有很难，但是在那以后的24小时里，我过得异常痛苦。</p><h3><span id="关于下载镜像">关于下载镜像</span></h3><p>Ubuntu有很多镜像网站，一个稳定而快速的镜像网站是我们的首选。Ubuntu官网给出的几个链接比较智障，直接下载的话都是AMD64的，或者就是种子文件，会比较慢。在此，我推荐一个<a href="https://launchpad.net/ubuntu/+cdmirrors" target="_blank" rel="noopener">镜像网站</a>,如果你在国内的话，请CTRL+F搜寻China后就可以找到上海大学等几个国内大学持续维护的镜像网站，速度和稳定性都比较好。下载的时候请<code>注意</code>,Ubuntu同一个版本中有适配AMD64的也有i386的，既有适配桌面的(desktop)，也有适配服务器的(sever)。请务必选择适合的类型。AMD64适用于64系统，i386适配32位系统。当然，你可以在64位的机器上安装32位的操作系统，这样有一个缺点是在运行某些程序的时候，内存分配可能会不够，一般的用户，或者90%的用户安装i386的系统就好了，这样是为了某些在32位系统上顺利运行的软件在64位的机器上也可以顺利运行。<br>这里，我推荐大家使用64位的AMD64架构的系统，因为在IDL程序运行中会出现内存不够的情况。</p><h3><span id="关于制作ubuntu1604启动盘">关于制作Ubuntu16.04启动盘</span></h3><p>这篇<a href="https://www.jianshu.com/p/16b36b912b02" target="_blank" rel="noopener">文章</a>写得已经很好,我在制作的过程中遇到了一些问题，现陈述如下：</p><h4><span id="找不到配置文件or没有配置信息在启动盘里isolinux文件下isolinuxcfg为0kb空">找不到配置文件or没有配置信息：在启动盘里isolinux文件下isolinux.cfg为0kb(空)</span></h4><p>在制作启动盘的时候，some files are broken。可能原因，下载的iso镜像有问题，或者iso镜像所在目录太深或者其中包含汉字。建议把镜像文件直接下载到D盘等非系统盘，减少出错。</p><h4><span id="无法载入idlinuxc32文件fail-to-load-idlinuxc32">无法载入idlinux.c32文件：fail to load idlinux.c32</span></h4><p>使用Universal USB installer 可以解决，这篇<a href="http://blog.csdn.net/u011068702/article/details/52096344" target="_blank" rel="noopener">文章</a>写了具体步骤。</p><h4><span id="用u盘安装ubuntu时出现quot尝试配置-apt-从光盘安装额外的软件包失败quot的错误">用U盘安装ubuntu时出现&quot;尝试配置 apt 从光盘安装额外的软件包失败&quot;的错误.</span></h4><p>iso镜像存在问题</p><h3><span id="关于安装ubuntu-1604">关于安装Ubuntu 16.04</span></h3><p>在<a href="https://www.jianshu.com/p/16b36b912b02" target="_blank" rel="noopener">文章</a>里已经写得比较清楚了。但是有个需要注意的一点就是在安装的时候你选择的是什么引导方式。</p><h4><span id="legacy与uefi">Legacy与UEFI</span></h4><p>UEFI是新式的BIOS，而Legacy是传统的BIOS。在安装系统的时候如果你选择的Boot mode是UEFI的话，那么以后是无法通过Legacy的方式开启系统的，反之亦然。笔者在安装Ubuntu的时候，愚昧地选择了Legacy的方式，导致现在开机略麻烦。重点是，UEFI开机非常快，所以强烈推荐。</p><h3><span id="其他问题">其他问题</span></h3><p>1.<a href="https://jingyan.baidu.com/article/495ba841d5330738b20ede44.html?qq-pf-to=pcqq.c2c" target="_blank" rel="noopener">linux 开机进入initramfs无法开机</a><br>2.<a href="https://www.cnblogs.com/re1n/p/6009831.html" target="_blank" rel="noopener">grub启动</a><br>3.<a href="http://blog.csdn.net/sloan6/article/details/43699393" target="_blank" rel="noopener">关于U盘安装Fedora Server 21时Failed to load ldlinux.c32的解决方案</a></p><h1><span id="have-fun-_">Have fun ^_^</span></h1>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;图片故事：《银翼杀手2049》 虚拟美女挑逗高司令——无论从创意、构图、色彩、摄影还是表演，这是《银翼杀手2049》最标志性的画面之一。&lt;/p&gt;
+&lt;h1&gt;&lt;span id=&quot;关于重装系统&quot;&gt;关于重装系统&lt;/span&gt;&lt;/h1&gt;
+&lt;h2&gt;&lt;span id=&quot;为什么要重装系统&quot;
+      
+    
+    </summary>
+    
+    
+      <category term="科研日常" scheme="http://www.wangxianyu.com/tags/%E7%A7%91%E7%A0%94%E6%97%A5%E5%B8%B8/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>JKTEBOP在Windows下的运行</title>
+    <link href="http://www.wangxianyu.com/2017/02/22/JKTEBOP/"/>
+    <id>http://www.wangxianyu.com/2017/02/22/JKTEBOP/</id>
+    <published>2017-02-22T03:18:01.000Z</published>
+    <updated>2018-09-24T15:07:44.083Z</updated>
+    
+    <content type="html"><![CDATA[<p>JKTEBOP code (<a href="http://www.astro.keele.ac.uk/jkt/codes/jktebop.html" target="_blank" rel="noopener">http://www.astro.keele.ac.uk/jkt/codes/jktebop.html</a>) 是用来做双星以及系外行星的光变曲线的拟合的程序，该程序托生于EOP program，用Fortran写成，可读性好，运行结果可信度高，现在被诸多学者使用，有较为丰厚的科学产出。<br>但是该程序基于Fortran，大多数人对于Fortran程序的运行不是很熟悉，假如你正在使用LINUX系统，事情就变得简单了很多，在terminal下敲入</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">gfortran -o jktebop jktebop.f  </span><br><span class="line">./jktebop **.<span class="keyword">in</span></span><br></pre></td></tr></table></figure><p>运行完上述代码之后，我们可以看到.out .fit .par 为后缀的文件，即输出文件。<br>可当你正在使用Windows的时候，事情就稍微有一点复杂。</p><h1><span id="一-安装codeblocks">一、安装codeblocks</span></h1><hr><p>首先你需要安装codeblocks来编译运行Fortran源文件，一般的codeblocks的默认你写的是c/c++语言，所以当你安装好codeblocks之后需要修改一些环境变量。</p><h2><span id="1-修改setting">1. 修改setting</span></h2><hr><blockquote><p>setting-&gt;environment-&gt;manage-&gt;勾选fortran source files （f77 f90 f95 ）<br>setting-&gt;compiler-&gt;select compiler-&gt;GNU FORTRAN compiler（set as default）</p></blockquote><p>其他设置如下图<br><img src="global.png" alt="Global settings"></p><h2><span id="2加入path">2.加入path</span></h2><p>右键单击我的电脑-&gt;属性-&gt;高级系统设置-&gt;环境变量-&gt;系统变量下有PATH，双击PATH<br><img src="va1.png" alt="path"><br>出现<br><img src="va3.png" alt="path1"><br>或者<br><img src="va.png" alt="path2"></p><blockquote><p>这里要在变量值后添加路径，并与之前的路径分开</p></blockquote><p>在上述的框里更新codeblocks的dll文件路径，如果没有就新建，如果是错的就编辑，注意路径一定是codeblocks\mingw\bin，这里要换成你自己的bin的路径。</p><hr><p>以上，就是codeblocks的运行环境的配置了。<br>#二、运行JKTEBOP<br>##1.在codeblocks下运行编译f文件<br>会出现jktebop的应用程序文件以及o文件<br>##2.摁住shift键的同时在当前f文件所在的文件夹的空白处单击右键-&gt;在此处打开命令窗口<br>出现命令窗口后，键入</p><figure class="highlight nginx"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="attribute">jktebop</span> *<span class="regexp">*.in</span></span><br></pre></td></tr></table></figure><p>即可出现运行结果！</p><h1><span id="have-fun-_">Have fun ^_^</span></h1>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;JKTEBOP code (&lt;a href=&quot;http://www.astro.keele.ac.uk/jkt/codes/jktebop.html&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;http://www.astro.keele.ac.uk/j
+      
+    
+    </summary>
+    
+    
+      <category term="科研日常" scheme="http://www.wangxianyu.com/tags/%E7%A7%91%E7%A0%94%E6%97%A5%E5%B8%B8/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>科研常用的一些网站</title>
+    <link href="http://www.wangxianyu.com/2017/02/11/webs/"/>
+    <id>http://www.wangxianyu.com/2017/02/11/webs/</id>
+    <published>2017-02-11T03:44:25.000Z</published>
+    <updated>2018-02-03T07:28:49.910Z</updated>
+    
+    <content type="html"><![CDATA[<p>图片故事：美国《综艺》杂志2017年度十佳电影镜头 《神奇女侠》 NO.1</p><h1><span id="常用网站">常用网站</span></h1><hr><h2><span id="如何在网站上找到合适的天文sci文章以及专业书籍">如何在网站上找到合适的天文sci文章以及专业书籍</span></h2><p>（1）百度学术：不错的sci搜索引擎，尤其是在无法Google的情况下，输入文章的名字基本就可以得到文章，有些还能下载pdf。<a href="http://xueshu.baidu.com/" target="_blank" rel="noopener">百度学术</a><br>（2）谷粉搜搜：有些同学不想翻墙还想使用Google。呐，这里就有福利了，当我们被墙了的时候，我们可以使用谷粉搜搜，这个网站转接谷歌的搜索结果。<a href="http://www.gycc.com/http://" target="_blank" rel="noopener">GYCC</a><br>（3）ADS:一个相当全的天文科技论文库，会提供最新的天文sci论文，支持pdf等格式的下载，以及bib文件的下载，这对于写论文时插入参考文献十分有用。<a href="http://adsabs.harvard.edu/" target="_blank" rel="noopener">ADS</a><br>（4）Library Genesis：一个电子书的搜索引擎，同样也可以下载pdf格式的书籍，支持天文类专著的下载，其他行业暂时不清楚。<a href="http://gen.lib.rus.ec/" target="_blank" rel="noopener">Library Genesis</a>   ；同类型的网站还有<a href="http://b-ok.org/" target="_blank" rel="noopener">b-ok</a>,也就是原来的bookzz。<br>（5）SCI-HUB：一个战斗民族的黑科技，支持下载部分需要付费的文章（需要付费的文章一般都很贵的说）。<a href="http://www.sci-hub.cc/" target="_blank" rel="noopener">SCI-HUB</a></p><h2><span id="latex学习">LATEX学习</span></h2><p>科技论文的排版离不开tex，我最近使用的是LATEX，初步接触，主要是以学习为主，离熟练使用还很远，在这里分享一些学习资料。<br>（1）CTEX社区：学习latex的社区，可以解决大部分问题。<a href="http://bbs.ctex.org/forum.php" target="_blank" rel="noopener">CTEX社区</a><br>（2）LatexFly用户文档：拥有系统的教程，从HELLO LATEX开始，手把手教授Latex排版，是不可多得的Latex教程。<a href="http://latexfly.com/docs/guides/index.html" target="_blank" rel="noopener">LatexFly用户文档</a></p><h2><span id="python学习">Python学习</span></h2><p>人生苦短，我用Python。<br>（1）Python菜鸟教程：一个在线的Python教程，较为系统，也有范例，是自学Python的好教程。<a href="http://www.runoob.com/python/python-intro.html" target="_blank" rel="noopener">Python菜鸟教程</a><br>（2）crossin的编程教室：一个在线的Python自学系统，支持在线练习写代码，下载学习资源，记录学习进度。<a href="http://crossincode.com/home/" target="_blank" rel="noopener">crossin的编程教室</a></p><h2><span id="idl学习">IDL学习</span></h2><p>IDL即交互式数据语言，这种语言多用于科研，遥感、天文、医学等行业都有涉及。<br>（1）Lee Ping的IDL学习日志：一位前辈的个人学习日志，很有参考和借鉴意义。<a href="http://www.cnblogs.com/alex-bn-lee/category/725300.html" target="_blank" rel="noopener">Lee Ping的IDL学习日志</a><br>（2）ENVI-IDL技术殿堂的博客：这里的IDL教学或者说文章偏遥感方向，但是仍不失借鉴意义。<a href="http://blog.sina.com.cn/s/articlelist_1984634525_0_1.html" target="_blank" rel="noopener">技术殿堂</a><br>（3）2010IDL培训视频：应该是公司的IDL培训视频，在优酷上可以找到，我在这里贴上链接。<a href="http://v.youku.com/v_show/id_XMTkyOTA1MDk2.html?from=s1.8-1-1.2&amp;spm=a2h0k.8191407.0.0" target="_blank" rel="noopener">IDL培训</a></p><p>还有很多学习网站，日后我会慢慢上传，希望和大家分享自己的科研经历以及经验，祝好！<br>以上~</p><h1><span id="have-fun-_">Have fun ^_^</span></h1>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;图片故事：美国《综艺》杂志2017年度十佳电影镜头 《神奇女侠》 NO.1&lt;/p&gt;
+&lt;h1&gt;&lt;span id=&quot;常用网站&quot;&gt;常用网站&lt;/span&gt;&lt;/h1&gt;
+&lt;hr&gt;
+&lt;h2&gt;&lt;span id=&quot;如何在网站上找到合适的天文sci文章以及专业书籍&quot;&gt;如何在网站上找到合适的天文
+      
+    
+    </summary>
+    
+    
+      <category term="科研日常" scheme="http://www.wangxianyu.com/tags/%E7%A7%91%E7%A0%94%E6%97%A5%E5%B8%B8/"/>
+    
+  </entry>
+  
+</feed>
