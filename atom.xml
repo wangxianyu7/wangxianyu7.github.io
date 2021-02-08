@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://www.wangxianyu.com/"/>
-  <updated>2019-05-12T16:10:08.328Z</updated>
+  <updated>2019-08-14T02:02:42.620Z</updated>
   <id>http://www.wangxianyu.com/</id>
   
   <author>
@@ -15,30 +15,6 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title>夜谈‘竞争’</title>
-    <link href="http://www.wangxianyu.com/2019/05/12/wasp12/wasp12/"/>
-    <id>http://www.wangxianyu.com/2019/05/12/wasp12/wasp12/</id>
-    <published>2019-05-12T15:06:01.000Z</published>
-    <updated>2019-05-12T16:10:08.328Z</updated>
-    
-    <content type="html"><![CDATA[<h3><span id="从wasp-12开始讲起"> 从WASP 12开始讲起</span></h3><p>嗯，虽然是要从WASP 12讲起，但是也不知道到底是什么地方讲起。WASP 12是一个恒星，或者可以说是恒星系统。它具有一个行星，根据一般的命名习惯，我们都会把它的第一个行星叫做WASP 12b。是的，这个故事其实是一个关于科研的故事。</p><p>从18年底的时候，王老师就发给我了Patra 2017的文章，说是让我好好读下这篇文章，回头会有工作交代给我。当时我是挺高兴的，毕竟是有工作做了。</p><p>WASP 12行星系统是一个非常特殊的系统。为什么说它特殊呢？这是因为它的掩时时刻较之固定周期所预测的要偏离很多，而且这种偏离显然是具有某种Trend的，是十分明显的。<br>那么，这么奇特的观测现象有没有大牛给出理论解释呢？有的，而且还很多。最为知名的假设就是。</p><ul><li>轨道是衰变的，WASP 12b是一颗即将坠入母星的晚期行星（在浩瀚的宇宙中，能观测到一颗行星生命的0.2是多么的幸运）</li><li>轨道会变是因为有拱点进动，就像水星那样（Patra 2017更perfer轨道衰变，但是没有排除是拱点进动的可能→后来被啪啪打脸）</li><li>其他容易被rule out的原因</li></ul><p>本来王老师认为我们手头的数据可以帮助我们做下WASP 12以及其他具有相似特征的源，但是很不巧的是，被Maciejewski捷足先登，虽然在我看来吗，其实Maciejewski做的工作并没有多么有意思。其实就是将几个具有相似特征的源用MCMC做了下拟合，然后通过统计特征值告诉我们WASP 12是真的特殊啊！因为其他的辣鸡源都不具备这种特性。<br>所以我就失去了一次比较好的论文写作的机会。</p><h3><span id="无形的竞争"> 无形的竞争</span></h3><p>写到这里，我突然想到一句话：大国的竞争说到底其实就是经济的竞争，经济的竞争其实就是科技的竞争。虽然科研工作面对的大多数都是客观的自然物体（对于我们这些自然科学的研究者来说是这样的），但是竞争丝毫没有减少。同行既是伙伴又是冤家。</p><h3><span id="人要敏感"> 人要敏感</span></h3><p>所以，我觉得作为一个准科研工作者，比较重要的其实是了解问题，知道问题的重点，知道这个问题的解决会带来什么利益。以上的敏感我觉得都是十分重要的。深感自己功力尚欠，还是要加油则是~</p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;h3&gt;&lt;span id=&quot;从wasp-12开始讲起&quot;&gt; 从WASP 12开始讲起&lt;/span&gt;&lt;/h3&gt;
-&lt;p&gt;嗯，虽然是要从WASP 12讲起，但是也不知道到底是什么地方讲起。WASP 12是一个恒星，或者可以说是恒星系统。它具有一个行星，根据一般的命名习惯，我们都会把它的第
-      
-    
-    </summary>
-    
-    
-      <category term="科研日常" scheme="http://www.wangxianyu.com/tags/%E7%A7%91%E7%A0%94%E6%97%A5%E5%B8%B8/"/>
-    
-  </entry>
   
   <entry>
     <title>在平遥</title>
