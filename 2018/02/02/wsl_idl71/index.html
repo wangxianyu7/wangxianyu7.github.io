@@ -141,14 +141,14 @@
 
                         
                         <li>
-                            <a href="/about/">关于我</a>
+                            <a href="/archive/">所有文章</a>
                         </li>
                         
                     
 
                         
                         <li>
-                            <a href="/archive/">所有文章</a>
+                            <a href="/about/">关于我</a>
                         </li>
                         
                     
@@ -212,8 +212,8 @@
                 post-container">
 
                 <p>图片故事：《海边的曼彻斯特》 没有戏剧性的转折，没有令人振奋的结束，无法面对的痛苦与救赎，这场争吵诠释了这部电影的核心–真实。</p>
-<h1><span id="关于基于wslwindows-subsystem-for-linux安装idl71">关于基于WSL(Windows Subsystem for Linux)安装IDL71</span></h1>
-<h2><span id="关于wsl的安装">关于WSL的安装</span></h2>
+<h1><span id="关于基于wslwindows-subsystem-for-linux安装idl71"> 关于基于WSL(Windows Subsystem for Linux)安装IDL71</span></h1>
+<h2><span id="关于wsl的安装"> 关于WSL的安装</span></h2>
 <p>网上教程已经很多了，出于不愿重复造轮子的懒劲和秉着对<s>广大</s>读者负责任的心情，我找到了一篇比较不错的教程→<a href="http://www.linuxidc.com/Linux/2016-12/138269.htm" target="_blank" rel="noopener">这篇文章</a>。<br>
 但是有几个地方需要注意：<br>
 1.由于现在Windows给出了3种不同的Linux发行版本，你最好从应用商店下载，选择Ubuntu就好。<br>
@@ -222,11 +222,11 @@
 3.如果你觉得国外的更新源比较慢的话，可以换成国内阿里的更新源，详细做法请看→<a href="https://www.cnblogs.com/yujohn/p/7692022.html" target="_blank" rel="noopener">这篇文章</a>。<br>
 4.在最新的win10上，Ubuntu的路径是在这里的：</p>
 <figure class="highlight crystal"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="symbol">C:</span>\Users\Administrator\AppData\Local\Packages\CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc\LocalState\rootfs\usr\<span class="class"><span class="keyword">lib</span>\<span class="title">x86_64</span>-<span class="title">linux</span>-<span class="title">gnu</span></span></span><br></pre></td></tr></table></figure>
-<h2><span id="关于idl的安装">关于IDL的安装</span></h2>
-<h3><span id="一些有用的tips">一些有用的tips</span></h3>
+<h2><span id="关于idl的安装"> 关于IDL的安装</span></h2>
+<h3><span id="一些有用的tips"> 一些有用的tips</span></h3>
 <p>电脑的其他盘一般是挂载到了/mnt下，所以你可以像在真正的Ubuntu上一样访问其他盘的文件。</p>
 <figure class="highlight jboss-cli"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">cd</span> <span class="string">/mnt/d</span>            <span class="comment">#进入D盘</span></span><br><span class="line"><span class="keyword">cd</span> <span class="string">/usr</span>              <span class="comment">#进入Ubuntu下usr文件夹</span></span><br><span class="line">cp **<span class="string">.file</span> <span class="string">/mnt/d</span>    <span class="comment">#复制文件到D盘 </span></span><br><span class="line">apt-get -f install   <span class="comment">#修复依赖关系</span></span><br><span class="line">find . <span class="string">"*ld*"</span>        <span class="comment">#在当前目录下寻找含ld字符文件名的文件</span></span><br><span class="line">Ctrl+c               <span class="comment">#停止当前进程</span></span><br></pre></td></tr></table></figure>
-<h3><span id="下载与安装">下载与安装</span></h3>
+<h3><span id="下载与安装"> 下载与安装</span></h3>
 <p>在这里，我提供了Linux下IDL71的<a href="https://pan.baidu.com/s/1bqZFIkJ" target="_blank" rel="noopener">安装包</a>(密码：863z)以及许可证文件。</p>
 <p>安装过程如下：<br>
 1.目录创建  sudo mkdir /usr/local/itt<br>
@@ -236,12 +236,12 @@
 注意：请把后面的路径改为你自己的license文件夹路径<br>
 6.验证安装是否成功。 打开终端，获得持续的root权限(sudo su，并输入密码), 输入idl。 如果安装成功的话，会有如下的显示, 否则你可能安装错了，当然一般的问题是忘记将license文件复制到license文件夹下或者缺少依赖，修复方法请看下文</p>
 <figure class="highlight stata"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">IDL <span class="keyword">Version</span> 7.1.1, (linux x86 m32). (c) 2009, ITT Visual Information Solutions</span><br><span class="line">Installation number: 20111111.</span><br><span class="line">Licensed <span class="keyword">for</span> <span class="keyword">use</span> <span class="keyword">by</span>: TEAM TBE</span><br><span class="line">IDL&gt;</span><br></pre></td></tr></table></figure>
-<h3><span id="报错与修复">报错与修复</span></h3>
+<h3><span id="报错与修复"> 报错与修复</span></h3>
 <p>Ubuntu on Windows赋予了Windows一个Ubuntu的内核，但是有很多依赖没有安装，这也是在终端输入<code>idl</code>后会报出缺少或找不到文件的错的原因。我的第一个报错是缺少<code>libXp6.so</code>文件，也是最难解决的一个依赖。</p>
-<h4><span id="两个package网站">两个package网站</span></h4>
+<h4><span id="两个package网站"> 两个package网站</span></h4>
 <p><a href="https://pkgs.org/" target="_blank" rel="noopener">https://pkgs.org/</a><br>
 <a href="https://launchpad.net/ubuntu" target="_blank" rel="noopener">https://launchpad.net/ubuntu</a></p>
-<h4><span id="缺少libxpso6文件">缺少<code>libXp.so.6</code>文件</span></h4>
+<h4><span id="缺少libxpso6文件"> 缺少<code>libXp.so.6</code>文件</span></h4>
 <p>这个文件的缺少使得好多依赖都不能安装，而且在amd64的版本中，似乎这个文件不再available了。这个论断出自于关于这个bug的<a href="https://bugs.launchpad.net/ubuntu/+source/libxp/+bug/1517884" target="_blank" rel="noopener">讨论</a>,好在用户zeehio给出了解决方案</p>
 <blockquote>
 <p>If you don’t want to change your repositories (even temporarily), I have created a PPA just for that package here:</p>
@@ -260,12 +260,12 @@
 <p><code>2019年1月9日更新</code><br>
 <code>注意</code>：在某些情况下，上述方法不再适用。请前往<a href="http://rpmfind.net/linux/rpm2html/search.php?query=libXp.so.6%28%29%2864bit%29&amp;submit=Search+...&amp;system=&amp;arch=" target="_blank" rel="noopener">Rpmfind</a>寻找	libXp-1.0.2-10.fc28.x86_64.rpm进行下载并解压（linux操作：rpm2cpio xxx.rpm | cpio -div）。定位到其中的.so文件（linux操作： locate filename），进行复制粘贴。</p>
 <figure class="highlight taggerscript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">C:<span class="symbol">\U</span>sers<span class="symbol">\A</span>dministrator<span class="symbol">\A</span>ppData<span class="symbol">\L</span>ocal<span class="symbol">\P</span>ackages<span class="symbol">\C</span>anonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc<span class="symbol">\L</span>ocalState<span class="symbol">\r</span>ootfs<span class="symbol">\u</span>sr<span class="symbol">\l</span>ib<span class="symbol">\x</span>86_64-linux-gnu</span><br><span class="line">C:<span class="symbol">\U</span>sers<span class="symbol">\A</span>dministrator<span class="symbol">\A</span>ppData<span class="symbol">\L</span>ocal<span class="symbol">\P</span>ackages<span class="symbol">\C</span>anonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc<span class="symbol">\L</span>ocalState<span class="symbol">\r</span>ootfs<span class="symbol">\u</span>sr<span class="symbol">\l</span>ocal<span class="symbol">\i</span>tt<span class="symbol">\i</span>dl71<span class="symbol">\b</span>in<span class="symbol">\b</span>in.linux.x86_64</span><br></pre></td></tr></table></figure>
-<h4><span id="缺少libxpm4so以及其他package的缺失">缺少<code>libXpm4.so</code>以及其他package的缺失</span></h4>
+<h4><span id="缺少libxpm4so以及其他package的缺失"> 缺少<code>libXpm4.so</code>以及其他package的缺失</span></h4>
 <p>通过前文的两个package网站下载<code>libxpm4</code>包，我下载的是deb格式的，复制到Ubuntu的系统中，并在当前目录执行</p>
 <figure class="highlight stylus"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">dpkg -<span class="selector-tag">i</span> **<span class="selector-class">.deb</span>  #安装该package</span><br></pre></td></tr></table></figure>
 <p>，之后再重复上文中的复制工作和验证工作即可。其他的package可从之前的网站选择正确的版本进行下载并安装，逐一修复报错，指导在终端输入idl，出现如下情况即可。</p>
 <figure class="highlight stata"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">IDL <span class="keyword">Version</span> 7.1.1, (linux x86 m32). (c) 2009, ITT Visual Information Solutions</span><br><span class="line">Installation number: 20111111.</span><br><span class="line">Licensed <span class="keyword">for</span> <span class="keyword">use</span> <span class="keyword">by</span>: TEAM TBE</span><br><span class="line">IDL&gt;</span><br></pre></td></tr></table></figure>
-<h1><span id="have-fun-_">Have fun ^_^</span></h1>
+<h1><span id="have-fun-_"> Have fun <sup>_</sup></span></h1>
 
                 
 
@@ -309,7 +309,7 @@
         <div id="toc" class="toc-article">
         <strong class="toc-title">Contents</strong>
         
-          <ol class="toc-nav"><li class="toc-nav-item toc-nav-level-1"><a class="toc-nav-link" href="#undefined"><span class="toc-nav-number">1.</span> <span class="toc-nav-text">关于基于WSL(Windows Subsystem for Linux)安装IDL71</span></a><ol class="toc-nav-child"><li class="toc-nav-item toc-nav-level-2"><a class="toc-nav-link" href="#undefined"><span class="toc-nav-number">1.1.</span> <span class="toc-nav-text">关于WSL的安装</span></a></li><li class="toc-nav-item toc-nav-level-2"><a class="toc-nav-link" href="#undefined"><span class="toc-nav-number">1.2.</span> <span class="toc-nav-text">关于IDL的安装</span></a><ol class="toc-nav-child"><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#undefined"><span class="toc-nav-number">1.2.1.</span> <span class="toc-nav-text">一些有用的tips</span></a></li><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#undefined"><span class="toc-nav-number">1.2.2.</span> <span class="toc-nav-text">下载与安装</span></a></li><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#undefined"><span class="toc-nav-number">1.2.3.</span> <span class="toc-nav-text">报错与修复</span></a><ol class="toc-nav-child"><li class="toc-nav-item toc-nav-level-4"><a class="toc-nav-link" href="#undefined"><span class="toc-nav-number">1.2.3.1.</span> <span class="toc-nav-text">两个package网站</span></a></li><li class="toc-nav-item toc-nav-level-4"><a class="toc-nav-link" href="#undefined"><span class="toc-nav-number">1.2.3.2.</span> <span class="toc-nav-text">缺少libXp.so.6文件</span></a></li><li class="toc-nav-item toc-nav-level-4"><a class="toc-nav-link" href="#undefined"><span class="toc-nav-number">1.2.3.3.</span> <span class="toc-nav-text">缺少libXpm4.so以及其他package的缺失</span></a></li></ol></li></ol></li></ol></li><li class="toc-nav-item toc-nav-level-1"><a class="toc-nav-link" href="#undefined"><span class="toc-nav-number">2.</span> <span class="toc-nav-text">Have fun ^_^</span></a></li></ol>
+          <ol class="toc-nav"><li class="toc-nav-item toc-nav-level-1"><a class="toc-nav-link" href="#undefined"><span class="toc-nav-number">1.</span> <span class="toc-nav-text"> 关于基于WSL(Windows Subsystem for Linux)安装IDL71</span></a><ol class="toc-nav-child"><li class="toc-nav-item toc-nav-level-2"><a class="toc-nav-link" href="#undefined"><span class="toc-nav-number">1.1.</span> <span class="toc-nav-text"> 关于WSL的安装</span></a></li><li class="toc-nav-item toc-nav-level-2"><a class="toc-nav-link" href="#undefined"><span class="toc-nav-number">1.2.</span> <span class="toc-nav-text"> 关于IDL的安装</span></a><ol class="toc-nav-child"><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#undefined"><span class="toc-nav-number">1.2.1.</span> <span class="toc-nav-text"> 一些有用的tips</span></a></li><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#undefined"><span class="toc-nav-number">1.2.2.</span> <span class="toc-nav-text"> 下载与安装</span></a></li><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#undefined"><span class="toc-nav-number">1.2.3.</span> <span class="toc-nav-text"> 报错与修复</span></a><ol class="toc-nav-child"><li class="toc-nav-item toc-nav-level-4"><a class="toc-nav-link" href="#undefined"><span class="toc-nav-number">1.2.3.1.</span> <span class="toc-nav-text"> 两个package网站</span></a></li><li class="toc-nav-item toc-nav-level-4"><a class="toc-nav-link" href="#undefined"><span class="toc-nav-number">1.2.3.2.</span> <span class="toc-nav-text"> 缺少libXp.so.6文件</span></a></li><li class="toc-nav-item toc-nav-level-4"><a class="toc-nav-link" href="#undefined"><span class="toc-nav-number">1.2.3.3.</span> <span class="toc-nav-text"> 缺少libXpm4.so以及其他package的缺失</span></a></li></ol></li></ol></li></ol></li><li class="toc-nav-item toc-nav-level-1"><a class="toc-nav-link" href="#undefined"><span class="toc-nav-number">2.</span> <span class="toc-nav-text"> Have fun _</span></a></li></ol>
         
         </div>
       </aside>

@@ -141,14 +141,14 @@
 
                         
                         <li>
-                            <a href="/about/">关于我</a>
+                            <a href="/archive/">所有文章</a>
                         </li>
                         
                     
 
                         
                         <li>
-                            <a href="/archive/">所有文章</a>
+                            <a href="/about/">关于我</a>
                         </li>
                         
                     
@@ -212,19 +212,19 @@
                 post-container">
 
                 <p>图片故事：《君の名は。》 只要记住你的名字 不管你在世界的哪个地方 我一定会,去见你。</p>
-<h1><span id="ubuntu下安装idl82的要点">Ubuntu下安装IDL8.2的要点</span></h1>
-<h2><span id="建议修改网卡名称为eth0">建议修改网卡名称为eth0</span></h2>
+<h1><span id="ubuntu下安装idl82的要点"> Ubuntu下安装IDL8.2的要点</span></h1>
+<h2><span id="建议修改网卡名称为eth0"> 建议修改网卡名称为eth0</span></h2>
 <p>执行<code>sudo gedit /etc/default/grub</code><br>
 找到<code>GRUB_CMDLINE_LINUX=&quot;&quot;</code><br>
 改为<code>GRUB_CMDLINE_LINUX=&quot;net.ifnames=0 biosdevname=0&quot;</code><br>
 然后  <code>sudo grub-mkconfig -o /boot/grub/grub.cfg</code><br>
 重启后 网卡可恢复为<code>eth0</code></p>
-<h2><span id="添加license文件以启动lmgrdlicense-manager-tools服务">添加license文件以启动lmgrd(license manager tools)服务</span></h2>
+<h2><span id="添加license文件以启动lmgrdlicense-manager-tools服务"> 添加license文件以启动lmgrd(license manager tools)服务</span></h2>
 <p>建立文件夹<code>/usr/local/flexlm/licenses</code>，将<code>license.dat</code>文件复制到当前文件夹</p>
-<h2><span id="修改mac地址以及开机自启动lmgrd服务">修改MAC地址以及开机自启动lmgrd服务</span></h2>
+<h2><span id="修改mac地址以及开机自启动lmgrd服务"> 修改MAC地址以及开机自启动lmgrd服务</span></h2>
 <figure class="highlight dts"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">sudo gedit <span class="meta-keyword">/etc/</span>rc.local<span class="meta">#修改开机启动项</span></span><br><span class="line">ifconfig eth0 down</span><br><span class="line">ifconfig eth0 hw ether bc:<span class="number">30</span>:<span class="number">5</span>b:d9:<span class="number">42</span>:<span class="number">86</span><span class="meta">#修改MAC地址</span></span><br><span class="line">ifconfig eth0 up</span><br><span class="line"><span class="meta-keyword">/usr/</span>local<span class="meta-keyword">/itt/</span>idl82<span class="meta-keyword">/bin/</span>bin.linux.x86_64/lmgrd<span class="meta">#开机启动lmgrd服务</span></span><br></pre></td></tr></table></figure>
 <p><code>注意：</code>如果你的机器是32位的话，那么，你的lmgrd应该在<code>bin.linux.x86</code>下，而如果你的机器是64位的话，你的lmgrd应该在<code>bin.linux.x86_64</code>下，如果你不确定的话，可以进入该文件夹使用<code>./lmgrd</code>启动<code>lmgrd</code>，以确定是哪一个文件夹。</p>
-<h1><span id="have-fun-my-friend~">Have fun！ My friend~</span></h1>
+<h1><span id="have-fun-my-friend~"> Have fun！ My friend~</span></h1>
 
                 
 
@@ -268,7 +268,7 @@
         <div id="toc" class="toc-article">
         <strong class="toc-title">Contents</strong>
         
-          <ol class="toc-nav"><li class="toc-nav-item toc-nav-level-1"><a class="toc-nav-link" href="#undefined"><span class="toc-nav-number">1.</span> <span class="toc-nav-text">Ubuntu下安装IDL8.2的要点</span></a><ol class="toc-nav-child"><li class="toc-nav-item toc-nav-level-2"><a class="toc-nav-link" href="#undefined"><span class="toc-nav-number">1.1.</span> <span class="toc-nav-text">建议修改网卡名称为eth0</span></a></li><li class="toc-nav-item toc-nav-level-2"><a class="toc-nav-link" href="#undefined"><span class="toc-nav-number">1.2.</span> <span class="toc-nav-text">添加license文件以启动lmgrd(license manager tools)服务</span></a></li><li class="toc-nav-item toc-nav-level-2"><a class="toc-nav-link" href="#undefined"><span class="toc-nav-number">1.3.</span> <span class="toc-nav-text">修改MAC地址以及开机自启动lmgrd服务</span></a></li></ol></li><li class="toc-nav-item toc-nav-level-1"><a class="toc-nav-link" href="#undefined"><span class="toc-nav-number">2.</span> <span class="toc-nav-text">Have fun！ My friend~</span></a></li></ol>
+          <ol class="toc-nav"><li class="toc-nav-item toc-nav-level-1"><a class="toc-nav-link" href="#undefined"><span class="toc-nav-number">1.</span> <span class="toc-nav-text"> Ubuntu下安装IDL8.2的要点</span></a><ol class="toc-nav-child"><li class="toc-nav-item toc-nav-level-2"><a class="toc-nav-link" href="#undefined"><span class="toc-nav-number">1.1.</span> <span class="toc-nav-text"> 建议修改网卡名称为eth0</span></a></li><li class="toc-nav-item toc-nav-level-2"><a class="toc-nav-link" href="#undefined"><span class="toc-nav-number">1.2.</span> <span class="toc-nav-text"> 添加license文件以启动lmgrd(license manager tools)服务</span></a></li><li class="toc-nav-item toc-nav-level-2"><a class="toc-nav-link" href="#undefined"><span class="toc-nav-number">1.3.</span> <span class="toc-nav-text"> 修改MAC地址以及开机自启动lmgrd服务</span></a></li></ol></li><li class="toc-nav-item toc-nav-level-1"><a class="toc-nav-link" href="#undefined"><span class="toc-nav-number">2.</span> <span class="toc-nav-text"> Have fun！ My friend~</span></a></li></ol>
         
         </div>
       </aside>

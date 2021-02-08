@@ -141,14 +141,14 @@
 
                         
                         <li>
-                            <a href="/about/">关于我</a>
+                            <a href="/archive/">所有文章</a>
                         </li>
                         
                     
 
                         
                         <li>
-                            <a href="/archive/">所有文章</a>
+                            <a href="/about/">关于我</a>
                         </li>
                         
                     
@@ -213,15 +213,15 @@
 
                 <p>图片故事： 如果有幸，请让我看见更大的世界</p>
 <p><a href="http://mesa.sourceforge.net/" target="_blank" rel="noopener">Mesa</a>安装的中文教程，可能是世界上最简单的。</p>
-<h2><span id="预备工作">预备工作</span></h2>
+<h2><span id="预备工作"> 预备工作</span></h2>
 <p>运行Mesa所需的最低系统要求</p>
 <figure class="highlight routeros"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">Mac <span class="keyword">or</span> Linux operating<span class="built_in"> system </span>(Windows<span class="built_in"> users </span>may want <span class="keyword">to</span> try MESA-Docker)  </span><br><span class="line">64-bit processor  </span><br><span class="line">4 GB RAM  </span><br><span class="line">10 GB free disk space</span><br></pre></td></tr></table></figure>
 <p><strong>注意:</strong> 如果你安装系统的时候只给Ubuntu或者其他的Linux的发行版分配10G的空间是完全不够的!!! 我为别人安装的时候，50G的根分区使用了一半，当然，其中包括各种压缩包和解压后的垃圾文件。但是，这个安装情况是有相当大的参考价值的。</p>
-<h2><span id="开始安装">开始安装</span></h2>
+<h2><span id="开始安装"> 开始安装</span></h2>
 <p><strong>注意：</strong> 所有的解压和移动文件命令都需要权限，请在终端里输入如下指令和你的密码以确保开启了用户权限。如果你做了这一步，后面的代码中可以不写 <strong>‘sudo’</strong> 。<br>
 以及，现在是2018年9月，命令中的文件都是最新的Mesa文件，请根据实际情况更改代码。</p>
 <figure class="highlight ebnf"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="attribute">sudo su</span></span><br></pre></td></tr></table></figure>
-<h3><span id="安装运行环境">安装运行环境</span></h3>
+<h3><span id="安装运行环境"> 安装运行环境</span></h3>
 <p>1.Libraries</p>
 <figure class="highlight mipsasm"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo apt-get <span class="keyword">install </span><span class="keyword">binutils </span>make perl libx11-6 libx11-dev zlib1g zlib1g-dev tcsh  <span class="comment">#必要的packages</span></span><br></pre></td></tr></table></figure>
 <p>2.<a href="http://www.astro.wisc.edu/~townsend/static.php?ref=mesasdk" target="_blank" rel="noopener">SDK</a></p>
@@ -235,7 +235,7 @@
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">source</span> ~/.bashrc <span class="comment">#使修改后的文件立马生效，即将SDK和MESA等路径加入环境变量中</span></span><br></pre></td></tr></table></figure>
 <p>初始化SDK文件</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">cd</span> <span class="variable">$MESASDK_ROOT</span>/bin   <span class="comment">#进入路径  </span></span><br><span class="line">sh mesasdk_init.sh     <span class="comment">#执行脚本</span></span><br></pre></td></tr></table></figure>
-<h3><span id="安装mesa">安装</span></h3>
+<h3><span id="安装mesa"> 安装</span></h3>
 <p>下载好最新的版本后，备用，解压 （请根据实际情况更改代码）</p>
 <figure class="highlight avrasm"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">sudo unzip mesa-r10398.zip  <span class="meta">#解压文件  </span></span><br><span class="line">sudo chmod -R <span class="number">777</span> mesa-r10398 <span class="meta">#获得解压后的文件的所有操作权限  </span></span><br><span class="line">sudo mv  mesa-r10398 mesa <span class="meta">#将解压后的文件重命名为mesa  </span></span><br><span class="line">sudo <span class="keyword">cp</span> mesa /opt <span class="meta">#复制解压后的文件至根目录 /opt</span></span><br></pre></td></tr></table></figure>
 <p>开始安装</p>
@@ -245,7 +245,7 @@
 <p>当出现如上标志的时候安装就成功啦~如果没有成功，多半是因为在安装的过程中磁盘空间不足了。当然，如果你成功了，我们可以简单地测试一下程序。</p>
 <figure class="highlight jboss-cli"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">cp -r $MESA_DIR/star/work tutorial <span class="comment">#复制一份工作空间至tutorial</span></span><br><span class="line"><span class="keyword">cd</span> tutorial  <span class="comment">#进入该文件夹</span></span><br><span class="line"><span class="string">./mk</span>  <span class="comment">#编译</span></span><br><span class="line"><span class="string">./rn</span>  <span class="comment">#运行</span></span><br></pre></td></tr></table></figure>
 <p>当你发现出现恒星演化的动图的时候，我们就大功告成了~</p>
-<h2><span id="have-fun~_">Have fun~^_^</span></h2>
+<h2><span id="have-fun~_"> Have fun~<sup>_</sup></span></h2>
 
                 
 
@@ -289,7 +289,7 @@
         <div id="toc" class="toc-article">
         <strong class="toc-title">Contents</strong>
         
-          <ol class="toc-nav"><li class="toc-nav-item toc-nav-level-2"><a class="toc-nav-link" href="#undefined"><span class="toc-nav-number">1.</span> <span class="toc-nav-text">预备工作</span></a></li><li class="toc-nav-item toc-nav-level-2"><a class="toc-nav-link" href="#undefined"><span class="toc-nav-number">2.</span> <span class="toc-nav-text">开始安装</span></a><ol class="toc-nav-child"><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#undefined"><span class="toc-nav-number">2.1.</span> <span class="toc-nav-text">安装运行环境</span></a></li><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#undefined"><span class="toc-nav-number">2.2.</span> <span class="toc-nav-text">安装</span></a></li></ol></li><li class="toc-nav-item toc-nav-level-2"><a class="toc-nav-link" href="#undefined"><span class="toc-nav-number">3.</span> <span class="toc-nav-text">Have fun~^_^</span></a></li></ol>
+          <ol class="toc-nav"><li class="toc-nav-item toc-nav-level-2"><a class="toc-nav-link" href="#undefined"><span class="toc-nav-number">1.</span> <span class="toc-nav-text"> 预备工作</span></a></li><li class="toc-nav-item toc-nav-level-2"><a class="toc-nav-link" href="#undefined"><span class="toc-nav-number">2.</span> <span class="toc-nav-text"> 开始安装</span></a><ol class="toc-nav-child"><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#undefined"><span class="toc-nav-number">2.1.</span> <span class="toc-nav-text"> 安装运行环境</span></a></li><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#undefined"><span class="toc-nav-number">2.2.</span> <span class="toc-nav-text"> 安装</span></a></li></ol></li><li class="toc-nav-item toc-nav-level-2"><a class="toc-nav-link" href="#undefined"><span class="toc-nav-number">3.</span> <span class="toc-nav-text"> Have fun~_</span></a></li></ol>
         
         </div>
       </aside>

@@ -141,14 +141,14 @@
 
                         
                         <li>
-                            <a href="/about/">关于我</a>
+                            <a href="/archive/">所有文章</a>
                         </li>
                         
                     
 
                         
                         <li>
-                            <a href="/archive/">所有文章</a>
+                            <a href="/about/">关于我</a>
                         </li>
                         
                     
@@ -213,7 +213,7 @@
 
                 <p>图片故事： 秋天悄然而至，冬天也不会太远了。希望一切安好~</p>
 <p>最近在折腾电脑的时候出现了一些问题，现在将问题记录下来。</p>
-<h2><span id="ubuntu-1604-安装完成后无线网卡无法正常启用">Ubuntu 16.04 安装完成后无线网卡无法正常启用</span></h2>
+<h2><span id="ubuntu-1604-安装完成后无线网卡无法正常启用"> Ubuntu 16.04 安装完成后无线网卡无法正常启用</span></h2>
 <figure class="highlight routeros"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">sudo apt-<span class="builtin-name">get</span> update # update source</span><br><span class="line">sudo apt-<span class="builtin-name">get</span> install bcmwl-kernel-source # update<span class="built_in"> wireless network </span>adapter <span class="keyword">and</span> active it</span><br></pre></td></tr></table></figure>
 <p>特别地，对于联想拯救者R720，这个方法可能不太适用。首先我们看下Ubuntu系统内部的无线传输系统的状态：</p>
 <figure class="highlight lasso"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">rfkill <span class="built_in">list</span> <span class="literal">all</span></span><br></pre></td></tr></table></figure>
@@ -223,14 +223,14 @@
 <figure class="highlight nginx"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="attribute">sudo</span> modprobe -r ideapad_laptop</span><br></pre></td></tr></table></figure>
 <p>为了免去总是手动移除模块的麻烦，我们可以将这个操作写在开机的脚本文件（/etc/rc.local）里：</p>
 <figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#</span><span class="bash"></span></span><br><span class="line"><span class="meta">#</span><span class="bash"> rc.local</span></span><br><span class="line"><span class="meta">#</span><span class="bash"></span></span><br><span class="line"><span class="meta">#</span><span class="bash"> This script is executed at the end of each multiuser runlevel.</span></span><br><span class="line"><span class="meta">#</span><span class="bash"> Make sure that the script will <span class="string">"exit 0"</span> on success or any other</span></span><br><span class="line"><span class="meta">#</span><span class="bash"> value on error.</span></span><br><span class="line"><span class="meta">#</span><span class="bash"></span></span><br><span class="line"><span class="meta">#</span><span class="bash"> In order to <span class="built_in">enable</span> or <span class="built_in">disable</span> this script just change the execution</span></span><br><span class="line"><span class="meta">#</span><span class="bash"> bits.</span></span><br><span class="line"><span class="meta">#</span><span class="bash"></span></span><br><span class="line"><span class="meta">#</span><span class="bash"> By default this script does nothing.</span></span><br><span class="line"><span class="meta">#</span><span class="bash">因为使用的是非管理员登录，故在执行sudo命令时要输入密码，方可自动化执行，</span></span><br><span class="line"><span class="meta">#</span><span class="bash">此处假设用户密码为123，命令一定要在<span class="built_in">exit</span> 0之前运行，该文件如果没有修改权限</span></span><br><span class="line"><span class="meta">#</span><span class="bash">修改前使用 chmod 命令修改权限即可！</span></span><br><span class="line">echo "123" |sudo modprobe -r ideapad_laptop</span><br><span class="line">exit 0</span><br></pre></td></tr></table></figure>
-<h2><span id="ubuntu-1604-安装完成后无法引导windows">Ubuntu 16.04 安装完成后无法引导Windows</span></h2>
+<h2><span id="ubuntu-1604-安装完成后无法引导windows"> Ubuntu 16.04 安装完成后无法引导Windows</span></h2>
 <p>当你安装好Ubuntu之后发现，引导器中没有之前的Windows系统，不要担心，你只是需要让Ubuntu的引导器读取一下分区中的系统。</p>
 <figure class="highlight n1ql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">sudo <span class="keyword">update</span>-grub  #<span class="keyword">or</span>  </span><br><span class="line">sudo <span class="keyword">update</span>-grub2</span><br></pre></td></tr></table></figure>
-<h2><span id="ubuntu-1604-双系统-安装完成后两个系统的时间混乱">Ubuntu 16.04 (双系统) 安装完成后两个系统的时间混乱</span></h2>
+<h2><span id="ubuntu-1604-双系统-安装完成后两个系统的时间混乱"> Ubuntu 16.04 (双系统) 安装完成后两个系统的时间混乱</span></h2>
 <p>原因不再赘述，你只需要知道两个系统读取硬件的时间出现了问题，我们设置下就好。</p>
 <figure class="highlight stylus"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">sudo apt-get install ntpdate  </span><br><span class="line">sudo ntpdate <span class="selector-tag">time</span><span class="selector-class">.windows</span><span class="selector-class">.com</span>   </span><br><span class="line">sudo hwclock --localtime --systohc</span><br></pre></td></tr></table></figure>
 <p>这样时间就好了~</p>
-<h2><span id="祝好~-_">祝好~ ^_^</span></h2>
+<h2><span id="祝好~-_"> 祝好~ <sup>_</sup></span></h2>
 
                 
 
@@ -274,7 +274,7 @@
         <div id="toc" class="toc-article">
         <strong class="toc-title">Contents</strong>
         
-          <ol class="toc-nav"><li class="toc-nav-item toc-nav-level-2"><a class="toc-nav-link" href="#undefined"><span class="toc-nav-number">1.</span> <span class="toc-nav-text">Ubuntu 16.04 安装完成后无线网卡无法正常启用</span></a></li><li class="toc-nav-item toc-nav-level-2"><a class="toc-nav-link" href="#undefined"><span class="toc-nav-number">2.</span> <span class="toc-nav-text">Ubuntu 16.04 安装完成后无法引导Windows</span></a></li><li class="toc-nav-item toc-nav-level-2"><a class="toc-nav-link" href="#undefined"><span class="toc-nav-number">3.</span> <span class="toc-nav-text">Ubuntu 16.04 (双系统) 安装完成后两个系统的时间混乱</span></a></li><li class="toc-nav-item toc-nav-level-2"><a class="toc-nav-link" href="#undefined"><span class="toc-nav-number">4.</span> <span class="toc-nav-text">祝好~ ^_^</span></a></li></ol>
+          <ol class="toc-nav"><li class="toc-nav-item toc-nav-level-2"><a class="toc-nav-link" href="#undefined"><span class="toc-nav-number">1.</span> <span class="toc-nav-text"> Ubuntu 16.04 安装完成后无线网卡无法正常启用</span></a></li><li class="toc-nav-item toc-nav-level-2"><a class="toc-nav-link" href="#undefined"><span class="toc-nav-number">2.</span> <span class="toc-nav-text"> Ubuntu 16.04 安装完成后无法引导Windows</span></a></li><li class="toc-nav-item toc-nav-level-2"><a class="toc-nav-link" href="#undefined"><span class="toc-nav-number">3.</span> <span class="toc-nav-text"> Ubuntu 16.04 (双系统) 安装完成后两个系统的时间混乱</span></a></li><li class="toc-nav-item toc-nav-level-2"><a class="toc-nav-link" href="#undefined"><span class="toc-nav-number">4.</span> <span class="toc-nav-text"> 祝好~ _</span></a></li></ol>
         
         </div>
       </aside>
