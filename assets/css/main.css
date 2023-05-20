@@ -2250,6 +2250,11 @@ input, select, textarea {
 		height: 100vh;
 		min-height: 40em;
 	}
+	@media screen and (orientation: portrait) {
+		body {
+			background-color: rgb(0, 0, 0);
+		}
+	}
 
 		body.homepage #header h1 {
 			font-size: 4em;
