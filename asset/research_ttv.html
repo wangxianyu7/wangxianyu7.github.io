@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Xian-Yu</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> <!-- Font Awesome -->
+    <style>
+        .image-float-left {
+            max-width: 300px;
+            display: block;
+            margin: auto;
+        }
+        html {
+            height: 100%; /* Ensure full height */
+        }
+        body { 
+            background-color: #38383b;
+            color: white;
+            font-family: 'normal';
+            min-height: 100%; /* Minimum height for body */
+            display: flex;
+            flex-direction: column; /* Stack elements vertically */
+            margin: 0; /* Reset default margin */
+            padding-top: 56px; /* Adjust for navbar height */
+        }
+        .content {
+            flex: 1; /* Allows content to expand and push footer down */
+        }
+        .custom-navbar {
+            background-color: #343a40; /* Ensuring navbar is visible */
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        .banner {
+            background-image: url('../img/pexels-frank-cone-3214110.jpg');
+            background-size: cover;
+            background-position: center;
+            height: 300px;
+            color: white;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .banner h1 {
+            font-size: 3em;
+        }
+        a, a:visited {
+            color: white; /* Set your desired link color */
+        }
+        .text-center {
+            text-align: center; /* Centers the text */
+        }
+        .footer {
+            <!-- background-color: #343a40; /* Footer background color */ -->
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg custom-navbar fixed-top">
+        <a class="navbar-brand" href="#">Xian-Yu Wang</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a class="nav-item nav-link" href="#section1">HOME</a>
+                <a class="nav-item nav-link" href="#section2">Research</a>
+                <a class="nav-item nav-link" href="#section2">Mentoring</a>
+                <a class="nav-item nav-link" href="#section2">Teaching/Outreach</a>
+                <a class="nav-item nav-link" href="#section2">Online tools</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="banner">
+        <h1>Search for Hot Jupiters' near-by companions</h1>
+    </div>
+
+    <div class="container mt-4 content">
+        As an active participant in the Transiting Exoplanet Monitoring Project, I have contributed significantly to the analysis of over 300 light curves, specifically using the Transit Timing Variation (TTV) method. This in-depth study focused on the search for potential variations within 40 hot Jupiter systems. Unfortunately, despite thorough investigation, no substantial TTV signals have been identified within these systems. This research, however, has proven invaluable in expanding our understanding of these planetary systems and will undoubtedly aid in future exploration and discovery endeavors.
+    </div>
+
+    <footer class="footer text-center">
+        <p>&copy; 2023 Xian-Yu Wang - Department of Astronomy, Indiana University Bloomington</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+</html>
