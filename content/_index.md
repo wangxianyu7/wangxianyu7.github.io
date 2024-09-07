@@ -47,7 +47,7 @@ sections:
     id: news
     content:
       title: News
-      text: **Aug. 2024:** New Paper out! Single-Star Warm-Jupiter Systems Tend to Be Aligned, Even Around Hot Stellar Hosts: No Teff−λ Dependency
+      text: **Aug. 2024:** New Paper out! Single-Star Warm-Jupiter Systems Tend to Be Aligned
   - block: collection
     id: papers
     content:
