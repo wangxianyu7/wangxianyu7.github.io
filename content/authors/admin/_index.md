@@ -1,9 +1,9 @@
 ---
 # Display name
-title: 汪宪钰
+title: Xian-Yu Wang
 
 # Name pronunciation (optional)
-name_pronunciation: Xian-Yu Wang
+name_pronunciation:
 
 # Full name (for SEO)
 first_name: Xian-Yu
