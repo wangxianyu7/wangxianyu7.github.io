@@ -47,7 +47,31 @@ sections:
     id: news
     content:
       title: News
-      text: **Aug. 2024:** New Paper out! Single-Star Warm-Jupiter Systems Tend to Be Aligned
+      subtitle: ''
+      text: ''
+      # Page type to display. E.g. post, talk, publication...
+      # page_type: post
+      # Choose how many pages you would like to display (0 = all pages)
+      count: 1
+      # Filter on criteria
+      # filters:
+      #   author: ""
+      #   category: ""
+      #   tag: ""
+      #   exclude_featured: false
+      #   exclude_future: false
+      #   exclude_past: false
+      #   publication_type: ""
+      # Choose how many pages you would like to offset by
+      offset: 1
+      # Page order: descending (desc) or ascending (asc) date.
+      # order: desc
+    design:
+      # Choose a layout view
+      # view: date-title-summary
+      # Reduce spacing
+      spacing:
+        padding: [0, 0, 0, 0]
   - block: collection
     id: papers
     content:
