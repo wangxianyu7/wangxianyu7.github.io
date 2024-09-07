@@ -71,7 +71,7 @@ sections:
       # view: date-title-summary
       # Reduce spacing
       columns: '1'
-      padding: ['20px', '0', '20px', '0']
+      padding: ['0', '0', '0', '0']
   - block: collection
     id: papers
     content:
