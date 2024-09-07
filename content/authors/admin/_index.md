@@ -46,10 +46,10 @@ profiles:
   - icon: academicons/orcid
     url: https://orcid.org/0000-0002-0376-6365
 
-interests:
-  - Exoplanet formation
-  - Stellar Obliquity
-  - Transit Variation
+# interests:
+#   - Exoplanet formation
+#   - Stellar Obliquity
+#   - Transit Variation
 
 # education:
 #   - area: PhD Artificial Intelligence
