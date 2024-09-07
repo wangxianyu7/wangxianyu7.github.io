@@ -11,7 +11,7 @@ last_name: Wang
 
 # Status emoji
 status:
-  icon: ☕️
+  icon:
 
 # Is this the primary user of the site?
 superuser: true
@@ -34,7 +34,7 @@ profiles:
     url: 'mailto:xwa5@iu.edu'
     label: E-mail Me
   - icon: brands/x
-    url: https://twitter.com/GetResearchDev
+    url: https://twitter.com/XianyuWang3
   # - icon: brands/instagram
   #   url: https://www.instagram.com/
   - icon: brands/github
