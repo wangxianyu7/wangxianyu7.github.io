@@ -70,8 +70,8 @@ sections:
       # Choose a layout view
       # view: date-title-summary
       # Reduce spacing
-      spacing:
-        padding: [0, 0, 0, 0]
+      # spacing:
+      #   padding: [0, 0, 0, 0]
   - block: collection
     id: papers
     content:
