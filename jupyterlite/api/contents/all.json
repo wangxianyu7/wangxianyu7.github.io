@@ -1,0 +1,43 @@
+{
+  "content": [
+    {
+      "content": null,
+      "created": "2026-05-27T16:50:06.603164Z",
+      "format": null,
+      "hash": null,
+      "hash_algorithm": null,
+      "last_modified": "2026-05-27T16:49:53.426967Z",
+      "mimetype": null,
+      "name": "socat_demo.ipynb",
+      "path": "socat_demo.ipynb",
+      "size": 2886,
+      "type": "notebook",
+      "writable": true
+    },
+    {
+      "content": null,
+      "created": "2026-05-27T16:50:06.602461Z",
+      "format": null,
+      "hash": null,
+      "hash_algorithm": null,
+      "last_modified": "2026-05-27T16:49:29.804192Z",
+      "mimetype": "text/csv",
+      "name": "obliquity.csv",
+      "path": "obliquity.csv",
+      "size": 208176,
+      "type": "file",
+      "writable": true
+    }
+  ],
+  "created": "2026-05-27T16:50:06.602880Z",
+  "format": "json",
+  "hash": null,
+  "hash_algorithm": null,
+  "last_modified": "2026-05-27T16:50:06.602880Z",
+  "mimetype": null,
+  "name": "",
+  "path": "",
+  "size": null,
+  "type": "directory",
+  "writable": true
+}
