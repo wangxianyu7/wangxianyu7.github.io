@@ -2,15 +2,15 @@
   "content": [
     {
       "content": null,
-      "created": "2026-05-28T01:55:55.385616Z",
+      "created": "2026-05-28T02:06:37.157810Z",
       "format": null,
       "hash": null,
       "hash_algorithm": null,
-      "last_modified": "2026-05-28T01:51:51.766056Z",
+      "last_modified": "2026-05-28T02:06:30.972238Z",
       "mimetype": null,
       "name": "Introduction.ipynb",
       "path": "Introduction.ipynb",
-      "size": 49014,
+      "size": 49005,
       "type": "notebook",
       "writable": true
     },
@@ -43,11 +43,11 @@
       "writable": true
     }
   ],
-  "created": "2026-05-28T02:04:37.755163Z",
+  "created": "2026-05-28T02:06:37.157446Z",
   "format": "json",
   "hash": null,
   "hash_algorithm": null,
-  "last_modified": "2026-05-28T02:04:37.755163Z",
+  "last_modified": "2026-05-28T02:06:37.157446Z",
   "mimetype": null,
   "name": "",
   "path": "",
