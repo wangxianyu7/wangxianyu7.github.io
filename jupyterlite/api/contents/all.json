@@ -2,7 +2,7 @@
   "content": [
     {
       "content": null,
-      "created": "2026-05-28T02:06:37.157810Z",
+      "created": "2026-05-28T04:43:16.678548Z",
       "format": null,
       "hash": null,
       "hash_algorithm": null,
@@ -16,21 +16,7 @@
     },
     {
       "content": null,
-      "created": "2026-05-28T04:03:48.557341Z",
-      "format": null,
-      "hash": null,
-      "hash_algorithm": null,
-      "last_modified": "2026-05-28T04:03:42.598017Z",
-      "mimetype": null,
-      "name": "socat_demo.ipynb",
-      "path": "socat_demo.ipynb",
-      "size": 1051,
-      "type": "notebook",
-      "writable": true
-    },
-    {
-      "content": null,
-      "created": "2026-05-28T02:09:19.194825Z",
+      "created": "2026-05-28T04:43:16.679147Z",
       "format": null,
       "hash": null,
       "hash_algorithm": null,
@@ -44,7 +30,7 @@
     },
     {
       "content": null,
-      "created": "2026-05-28T01:55:55.386747Z",
+      "created": "2026-05-28T04:43:16.679527Z",
       "format": null,
       "hash": null,
       "hash_algorithm": null,
@@ -57,11 +43,11 @@
       "writable": true
     }
   ],
-  "created": "2026-05-28T04:03:48.557059Z",
+  "created": "2026-05-28T04:43:16.679288Z",
   "format": "json",
   "hash": null,
   "hash_algorithm": null,
-  "last_modified": "2026-05-28T04:03:48.557059Z",
+  "last_modified": "2026-05-28T04:43:16.679288Z",
   "mimetype": null,
   "name": "",
   "path": "",
