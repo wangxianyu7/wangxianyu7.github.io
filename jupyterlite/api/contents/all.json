@@ -16,6 +16,20 @@
     },
     {
       "content": null,
+      "created": "2026-05-28T04:03:48.557341Z",
+      "format": null,
+      "hash": null,
+      "hash_algorithm": null,
+      "last_modified": "2026-05-28T04:03:42.598017Z",
+      "mimetype": null,
+      "name": "socat_demo.ipynb",
+      "path": "socat_demo.ipynb",
+      "size": 1051,
+      "type": "notebook",
+      "writable": true
+    },
+    {
+      "content": null,
       "created": "2026-05-28T02:09:19.194825Z",
       "format": null,
       "hash": null,
@@ -43,11 +57,11 @@
       "writable": true
     }
   ],
-  "created": "2026-05-28T02:09:19.194626Z",
+  "created": "2026-05-28T04:03:48.557059Z",
   "format": "json",
   "hash": null,
   "hash_algorithm": null,
-  "last_modified": "2026-05-28T02:09:19.194626Z",
+  "last_modified": "2026-05-28T04:03:48.557059Z",
   "mimetype": null,
   "name": "",
   "path": "",
