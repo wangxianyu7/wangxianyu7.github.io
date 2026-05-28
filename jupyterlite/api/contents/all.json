@@ -16,15 +16,15 @@
     },
     {
       "content": null,
-      "created": "2026-05-28T02:04:37.755490Z",
+      "created": "2026-05-28T02:09:19.194825Z",
       "format": null,
       "hash": null,
       "hash_algorithm": null,
-      "last_modified": "2026-05-28T02:04:15.154672Z",
+      "last_modified": "2026-05-28T02:09:09.812221Z",
       "mimetype": null,
       "name": "lambda-teff.ipynb",
       "path": "lambda-teff.ipynb",
-      "size": 12294,
+      "size": 12431,
       "type": "notebook",
       "writable": true
     },
@@ -43,11 +43,11 @@
       "writable": true
     }
   ],
-  "created": "2026-05-28T02:06:37.157446Z",
+  "created": "2026-05-28T02:09:19.194626Z",
   "format": "json",
   "hash": null,
   "hash_algorithm": null,
-  "last_modified": "2026-05-28T02:06:37.157446Z",
+  "last_modified": "2026-05-28T02:09:19.194626Z",
   "mimetype": null,
   "name": "",
   "path": "",
