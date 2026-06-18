@@ -74,6 +74,39 @@
         color: #000000; /* Dark text for contrast */
       }
 
+      /* Research areas showcase */
+      .research-grid {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 22px;
+        margin-top: 28px;
+      }
+      .research-card {
+        width: 230px;
+        max-width: 80%;
+        text-decoration: none;
+        color: white;
+        transition: transform 0.2s ease;
+      }
+      .research-card:hover { transform: translateY(-5px); }
+      .research-card:hover .research-card-title { color: #ffd23f; }
+      .research-card img {
+        width: 100%;
+        height: 150px;
+        object-fit: contain;
+        background: #ffffff;
+        border-radius: 8px;
+        padding: 8px;
+        box-shadow: 0 3px 12px rgba(0, 0, 0, 0.45);
+      }
+      .research-card-title {
+        display: block;
+        margin-top: 12px;
+        font-weight: 600;
+        transition: color 0.15s ease;
+      }
+
       /* Clickable name parts — each plays its own pronunciation */
       .say {
         cursor: pointer;
@@ -165,6 +198,29 @@
 
   <br><br>
   <div class="container mt-4 text-center">
+    <!-- <h2 data-i18n="researchTitle">Research</h2> -->
+    <div class="research-grid">
+      <a class="research-card" href="asset/research.html#hot-jupiter-companion">
+        <img src="img/HJcpn.webp" alt="Hot Jupiter companion">
+        <span class="research-card-title" data-i18n="area1">Hot Jupiter Companion</span>
+      </a>
+      <a class="research-card" href="asset/research.html#stellar-obliquity">
+        <img src="img/mutual.jpg" alt="Stellar obliquity">
+        <span class="research-card-title" data-i18n="area2">Stellar Obliquity</span>
+      </a>
+      <a class="research-card" href="asset/research.html#star-planet-interaction">
+        <img src="img/nkb.png" alt="Star-planet interaction">
+        <span class="research-card-title" data-i18n="area3">Stellar Planet Interaction</span>
+      </a>
+      <a class="research-card" href="asset/research.html#population-analysis">
+        <img src="img/elambda.png" alt="Population analysis">
+        <span class="research-card-title" data-i18n="area4">Population Analysis</span>
+      </a>
+    </div>
+  </div>
+
+  <br><br>
+  <div class="container mt-4 text-center">
     <h4 data-i18n="notebookTitle">Xian-Yu's Personal Notebook is online!</h4>
     <span data-i18n="notebookBody">Click <a href="https://notebooklm.google.com/notebook/830eb0e4-405b-4bbd-ada4-9749b0973c52" target="_blank">here</a> to ask questions, share ideas, and learn more about Xian-Yu's research.</span>
 
@@ -216,6 +272,11 @@
         navMentoring: "指导",
         name: '<span class="say" data-say="汪" data-fallback="Wahng" title="点击听发音">汪</span><span class="say" data-say="宪钰" data-fallback="Shyen Yoo" title="点击听发音">宪钰</span> 博士',
         bio: "汪宪钰博士是印第安纳大学（Indiana University）天文系的博士后研究员。他的研究通过高精度测光、视向速度观测、Rossiter–McLaughlin 测量、凌星计时变化以及群体层面的统计分析，来探索系外行星系统的结构、形成与动力学演化。<br><br>他研究的系统类型广泛，包括热木星与暖木星、次土星、褐矮星以及多行星系统，尤其关注自转-轨道排列、轨道偏心率、行星多重性以及恒星伴星所扮演的角色。通过将对单个系统的细致刻画与高一致性样本和统计研究相结合，他的工作旨在揭示行星系统如何形成、迁移与演化。",
+        researchTitle: "研究方向",
+        area1: "热木星伴星",
+        area2: "自转轨道角",
+        area3: "恒星-行星相互作用",
+        area4: "群体统计分析",
         notebookTitle: "宪钰的个人笔记本已上线！",
         notebookBody: '点击 <a href="https://notebooklm.google.com/notebook/830eb0e4-405b-4bbd-ada4-9749b0973c52" target="_blank">这里</a> 提问、分享想法，并进一步了解宪钰的研究。',
         newsTitle: "最新动态",
