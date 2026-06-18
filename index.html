@@ -74,6 +74,42 @@
         color: #000000; /* Dark text for contrast */
       }
 
+      /* Clickable name parts — each plays its own pronunciation */
+      .say {
+        cursor: pointer;
+        border-bottom: 1px dotted rgba(255, 255, 255, 0.55);
+        transition: color 0.15s ease, border-color 0.15s ease;
+      }
+      .say:hover { color: #ffd23f; border-bottom-color: #ffd23f; }
+      .say.speaking { color: #ffd23f; border-bottom-color: #ffd23f; }
+
+      /* Highlight for the latest news entry */
+      .news-new {
+        color: #ffd23f; /* Amber/gold for emphasis */
+        font-weight: 600;
+      }
+      .news-badge {
+        display: inline-block;
+        background-color: #ffd23f;
+        color: #38383b;
+        font-size: 0.7em;
+        font-weight: 700;
+        letter-spacing: 0.5px;
+        padding: 1px 8px;
+        border-radius: 10px;
+        margin-right: 7px;
+        vertical-align: middle;
+        animation: news-glow 1.8s ease-in-out infinite;
+      }
+      @keyframes news-glow {
+        0%, 100% { box-shadow: 0 0 0 0 rgba(255, 210, 63, 0.7); }
+        50%      { box-shadow: 0 0 9px 3px rgba(255, 210, 63, 0); }
+      }
+      /* Respect users who prefer no motion */
+      @media (prefers-reduced-motion: reduce) {
+        .news-badge { animation: none; }
+      }
+
     </style>
 </head>
 
@@ -81,7 +117,7 @@
   <nav class="navbar navbar-expand-lg custom-navbar fixed-top">
       <a class="navbar-brand ms-5" href="index.html" style="color: white;">Xian-Yu Wang</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-        MENU
+        <span data-i18n="menu">MENU</span>
     </button>
       <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
           <div class="navbar-nav">
@@ -89,9 +125,9 @@
             <!-- <a class="nav-item nav-link" href="https://ui.adsabs.harvard.edu/public-libraries/krPxY4SSRi25elahpTuSlg">NASA ADS Record</a>
             <a class="nav-item nav-link" href="https://scholar.google.com.au/citations?user=NtlbVe8AAAAJ&hl=en">Google Scholar</a> -->
             <!-- <a class="nav-item nav-link" href="files/cv.pdf">CV</a> -->
-            <a class="nav-item nav-link" href="asset/research.html">Research</a>
-            <a class="nav-item nav-link" href="asset/mentoring.html">Mentoring</a>
-            <!-- <a class="nav-item nav-link" href="asset/deadlines.html">Deadlines</a> -->
+            <a class="nav-item nav-link" href="asset/research.html" data-i18n="navResearch">Research</a>
+            <a class="nav-item nav-link" href="asset/mentoring.html" data-i18n="navMentoring">Mentoring</a>
+            <a class="nav-item nav-link" href="#" id="langToggle" style="cursor:pointer;">中文</a>
             <!-- <a class="nav-item nav-link" href="#section2">Teaching/Outreach</a> -->
             <!-- <a class="nav-item nav-link" href="#section2">Online tools</a> -->
           </div>
@@ -111,7 +147,7 @@
               <img src="../img/xy.png" alt="Scientist Image" class="image-float-left">
           </div>
           <div class="col-md-6">
-              <h2>Dr. Xian-Yu Wang (汪宪钰)</h2>
+              <h2><span data-i18n="name">Dr. <span class="say" data-say="宪钰" data-fallback="Shyen Yoo" title="Click to hear">Xian-Yu</span> <span class="say" data-say="汪" data-fallback="Wahng" title="Click to hear">Wang</span> (<span class="say" data-say="汪" data-fallback="Wahng" title="Click to hear">汪</span><span class="say" data-say="宪钰" data-fallback="Shyen Yoo" title="Click to hear">宪钰</span>)</span></h2>
 
                 <a href="mailto:xwa5@iu.edu"><i class="fa fa-envelope"></i> xwa5@iu.edu</a> | 
                 <a href="files/cv.pdf" target="_blank"><i class="fa fa-file"></i> CV</a> | 
@@ -121,7 +157,7 @@
                 <a href="https://bsky.app/profile/astroxian-yu.bsky.social" target="_blank"><i class="fa-brands fa-bluesky"></i> astroxian-yu.bsky.social</a>
                 <br><br>
 
-                <p>Dr. Xian-Yu Wang is a postdoctoral researcher in the Astronomy Department at Indiana University. His research specializes in detecting hot Jupiter companions through Transit Timing Variations, using high-precision photometry and radial velocity data to identify potential planetary perturbers and constrain their orbital architectures. He also investigates the orbital dynamics and spin-orbit alignment of exoplanetary systems. His work primarily focuses on warm Jupiters, brown dwarfs, and binary star systems, shedding light on the complex interplay between stellar obliquity, planetary formation, and system evolution. He leverages observational data from TESS, NEID, PFS, HIRES, and APF to refine our understanding of these astrophysical phenomena.</p>
+                <p data-i18n="bio">Dr. Xian-Yu Wang is a postdoctoral researcher in the Department of Astronomy at Indiana University. His research explores the architecture, formation, and dynamical evolution of exoplanetary systems through high-precision photometry, radial-velocity observations, Rossiter-McLaughlin measurements, transit timing variations, and population-level statistical analyses.<br><br>He studies a broad range of systems, including hot and warm Jupiters, sub-Saturns, brown dwarfs, and multi-planet systems, with a particular focus on spin-orbit alignment, orbital eccentricity, planetary multiplicity, and the role of stellar companions. By combining detailed characterization of individual systems with high-consistency samples and statistical studies, his work aims to uncover how planetary systems form, migrate, and evolve.</p>
 
           </div>
       </div>
@@ -129,14 +165,16 @@
 
   <br><br>
   <div class="container mt-4 text-center">
-    <h4>Xian-Yu's Personal Notebook is online!</h4>
-    Click <a href="https://notebooklm.google.com/notebook/830eb0e4-405b-4bbd-ada4-9749b0973c52" target="_blank">here</a> to ask questions, share ideas, and learn more about Xian-Yu's research.
+    <h4 data-i18n="notebookTitle">Xian-Yu's Personal Notebook is online!</h4>
+    <span data-i18n="notebookBody">Click <a href="https://notebooklm.google.com/notebook/830eb0e4-405b-4bbd-ada4-9749b0973c52" target="_blank">here</a> to ask questions, share ideas, and learn more about Xian-Yu's research.</span>
 
 
   </div>
 <br><br><br><br>
   <div class="container mt-4 text-center">
-    <h2>News</h2>
+    <h2 data-i18n="newsTitle">News</h2>
+    <span data-i18n="news"><span class="news-new"><span class="news-badge">New</span>May 2026: New paper out! "A Homogeneous Catalog of Rossiter-McLaughlin Systems: Distinct e&ndash;&lambda; Trends in Three Gas-Giant Mass Regimes" . <a href="https://arxiv.org/abs/2605.28719" target="_blank">Link</a></span> <br>
+
     Jan. 2026: New paper out! "Unified Kraft Break at ~6500 K: A Newly Identified Single-Star Obliquity Transition Matches the Classical Rotation Break" . <a href="https://ui.adsabs.harvard.edu/abs/2026ApJ...996L...7W/abstract" target="_blank">Link</a> <br>
 
     May. 2025: High-Mass-Ratio Systems Alignement Paper has been featured by AAS Nova. See the nice article written by Lexi Gault. <a href="https://aasnova.org/2025/05/02/to-be-or-not-to-be-aligned-exploring-spin-orbit-alignment-trends-for-exoplanetary-systems/" target="_blank">Link</a> <br>
@@ -147,12 +185,12 @@
 
     Oct. 2024: Warm Jupiter Alignement Paper has been featured by AAS Nova. See the wonderful article written by Ben Cassese. <a href="https://aasnova.org/2024/10/02/cool-it-down-warm-jupiters-are-better-aligned-than-hot-jupiters/" target="_blank">Link</a> <br>
     
-    Call for paper for Special Issue on "Formation and Evolution of Exoplanets" in Universe (Special Issue Editor: Xian-Yu ): <a href="https://www.mdpi.com/journal/universe/special_issues/DI49OI4H5I" target="_blank">Link</a> <br>
+    Call for paper for Special Issue on "Formation and Evolution of Exoplanets" in Universe (Special Issue Editor: Xian-Yu ): <a href="https://www.mdpi.com/journal/universe/special_issues/DI49OI4H5I" target="_blank">Link</a> <br></span>
 
   </div>
   
   <br><br><br><br><br><br><br>
-  <div class="container mt-4 text-center">
+  <div class="container mt-4 text-center" data-i18n="address">
     Department of Astronomy, Indiana University Bloomington <br>
     727 E. 3rd St., Swain West 319, <br>
     Bloomington, IN 47405 <br>
@@ -160,11 +198,125 @@
 
   <br><br>
   <footer class="footer text-center">
-    <p>&copy; 2026 Xian-Yu Wang - Department of Astronomy, Indiana University Bloomington</p>
+    <p data-i18n="footer">&copy; 2026 Xian-Yu Wang - Department of Astronomy, Indiana University Bloomington</p>
   </footer>
 
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+  <!-- Simple EN / 中文 language toggle -->
+  <script>
+    (function () {
+      // Chinese translations. English is read from the page itself on load,
+      // so only the Chinese versions need to be maintained here.
+      var zh = {
+        menu: "菜单",
+        navResearch: "研究",
+        navMentoring: "指导",
+        name: '<span class="say" data-say="汪" data-fallback="Wahng" title="点击听发音">汪</span><span class="say" data-say="宪钰" data-fallback="Shyen Yoo" title="点击听发音">宪钰</span> 博士',
+        bio: "汪宪钰博士是印第安纳大学（Indiana University）天文系的博士后研究员。他的研究通过高精度测光、视向速度观测、Rossiter–McLaughlin 测量、凌星计时变化以及群体层面的统计分析，来探索系外行星系统的结构、形成与动力学演化。<br><br>他研究的系统类型广泛，包括热木星与暖木星、次土星、褐矮星以及多行星系统，尤其关注自转-轨道排列、轨道偏心率、行星多重性以及恒星伴星所扮演的角色。通过将对单个系统的细致刻画与高一致性样本和统计研究相结合，他的工作旨在揭示行星系统如何形成、迁移与演化。",
+        notebookTitle: "宪钰的个人笔记本已上线！",
+        notebookBody: '点击 <a href="https://notebooklm.google.com/notebook/830eb0e4-405b-4bbd-ada4-9749b0973c52" target="_blank">这里</a> 提问、分享想法，并进一步了解宪钰的研究。',
+        newsTitle: "最新动态",
+        news: '<span class="news-new"><span class="news-badge">最新</span>2026年5月：新论文发表！《A Homogeneous Catalog of Rossiter-McLaughlin Systems: Distinct e&ndash;&lambda; Trends in Three Gas-Giant Mass Regimes》。<a href="https://arxiv.org/abs/2605.28719" target="_blank">链接</a></span> <br>\n\n    2026年1月：新论文发表！《Unified Kraft Break at ~6500 K: A Newly Identified Single-Star Obliquity Transition Matches the Classical Rotation Break》。<a href="https://ui.adsabs.harvard.edu/abs/2026ApJ...996L...7W/abstract" target="_blank">链接</a> <br>\n\n    2025年5月：高质量比系统排列论文被 AAS Nova 报道。请阅读 Lexi Gault 撰写的精彩文章。<a href="https://aasnova.org/2025/05/02/to-be-or-not-to-be-aligned-exploring-spin-orbit-alignment-trends-for-exoplanetary-systems/" target="_blank">链接</a> <br>\n\n    2025年2月：宪钰在帕萨迪纳举办的 Know Thy Star, Know Thy Planet 2 会议上展示了暖木星排列的工作。<a href="https://conference.ipac.caltech.edu/knowthystar2/page/agenda" target="_blank">链接</a> <br>\n\n    2024年12月：新论文发表！《From Misaligned Sub-Saturns to Aligned Brown Dwarfs: The Highest Mp/M* Systems Exhibit Low Obliquities, Even around Hot Stars》。<a href="https://arxiv.org/abs/2412.04438/" target="_blank">链接</a> <br>\n\n    2024年10月：暖木星排列论文被 AAS Nova 报道。请阅读 Ben Cassese 撰写的精彩文章。<a href="https://aasnova.org/2024/10/02/cool-it-down-warm-jupiters-are-better-aligned-than-hot-jupiters/" target="_blank">链接</a> <br>\n\n    Universe 期刊“系外行星的形成与演化”特刊征稿（特刊编辑：宪钰）：<a href="https://www.mdpi.com/journal/universe/special_issues/DI49OI4H5I" target="_blank">链接</a> <br>',
+        address: "印第安纳大学布卢明顿分校 天文系 <br>\n    727 E. 3rd St., Swain West 319, <br>\n    美国印第安纳州布卢明顿 47405 <br>",
+        footer: "&copy; 2026 汪宪钰 - 印第安纳大学布卢明顿分校 天文系"
+      };
+
+      var nodes = document.querySelectorAll("[data-i18n]");
+      var en = {};
+      nodes.forEach(function (el) { en[el.dataset.i18n] = el.innerHTML; });
+
+      var btn = document.getElementById("langToggle");
+
+      function setLang(lang) {
+        nodes.forEach(function (el) {
+          var key = el.dataset.i18n;
+          el.innerHTML = (lang === "zh" && zh[key] != null) ? zh[key] : en[key];
+        });
+        document.documentElement.lang = (lang === "zh") ? "zh" : "en";
+        if (btn) btn.textContent = (lang === "zh") ? "EN" : "中文";
+        try { localStorage.setItem("lang", lang); } catch (e) {}
+      }
+
+      // Priority: an explicit user choice (saved) > browser language > English.
+      var saved = null;
+      try { saved = localStorage.getItem("lang"); } catch (e) {}
+      if (saved !== "en" && saved !== "zh") {
+        var navLang = (navigator.language || navigator.userLanguage || "").toLowerCase();
+        saved = navLang.indexOf("zh") === 0 ? "zh" : "en";
+      }
+      setLang(saved);
+
+      if (btn) {
+        btn.addEventListener("click", function (e) {
+          e.preventDefault();
+          setLang(document.documentElement.lang === "zh" ? "en" : "zh");
+        });
+      }
+    })();
+  </script>
+
+  <!-- Name pronunciation via Web Speech API -->
+  <script>
+    (function () {
+      var supported = ("speechSynthesis" in window);
+
+      // No speech support: drop the clickable affordance on the name parts
+      // so they don't look interactive in vain.
+      if (!supported) {
+        var dead = document.querySelectorAll(".say");
+        for (var i = 0; i < dead.length; i++) {
+          dead[i].style.cursor = "";
+          dead[i].style.borderBottom = "none";
+        }
+        return;
+      }
+
+      var synth = window.speechSynthesis;
+
+      function zhVoice() {
+        var voices = synth.getVoices() || [];
+        return voices.filter(function (v) {
+          return v.lang && v.lang.toLowerCase().indexOf("zh") === 0;
+        })[0];
+      }
+
+      // Speak the Chinese text with a Mandarin voice when available;
+      // otherwise fall back to an English phonetic approximation.
+      function speak(zhText, enFallback, el) {
+        synth.cancel();
+        var v = zhVoice();
+        var u;
+        if (v) {
+          u = new SpeechSynthesisUtterance(zhText);
+          u.voice = v;
+          u.lang = v.lang;
+        } else {
+          u = new SpeechSynthesisUtterance(enFallback);
+          u.lang = "en-US";
+        }
+        u.rate = 0.9;
+        u.onstart = function () { if (el) el.classList.add("speaking"); };
+        u.onend = u.onerror = function () { if (el) el.classList.remove("speaking"); };
+        synth.speak(u);
+      }
+
+      // Voice list may load asynchronously; touch it early so it's ready on click.
+      if (typeof synth.onvoiceschanged !== "undefined") {
+        synth.onvoiceschanged = function () { synth.getVoices(); };
+      }
+      synth.getVoices();
+
+      // Per-part clicks. Delegated so it keeps working after the name's
+      // innerHTML is swapped by the language toggle.
+      document.addEventListener("click", function (e) {
+        var t = e.target.closest ? e.target.closest(".say") : null;
+        if (!t) return;
+        speak(t.getAttribute("data-say"), t.getAttribute("data-fallback"), t);
+      });
+    })();
+  </script>
 </body>
 </html>

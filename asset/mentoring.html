@@ -143,7 +143,7 @@
   <nav class="navbar navbar-expand-lg custom-navbar fixed-top">
     <a class="navbar-brand ms-5" href="../index.html" style="color: white;">Xian-Yu Wang</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-      MENU
+      <span data-i18n="menu">MENU</span>
   </button>
     <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
         <div class="navbar-nav">
@@ -151,9 +151,9 @@
           <!-- <a class="nav-item nav-link" href="https://ui.adsabs.harvard.edu/public-libraries/krPxY4SSRi25elahpTuSlg">NASA ADS Record</a>
           <a class="nav-item nav-link" href="https://scholar.google.com.au/citations?user=NtlbVe8AAAAJ&hl=en">Google Scholar</a> -->
           <!-- <a class="nav-item nav-link" href="files/cv.pdf">CV</a> -->
-          <a class="nav-item nav-link" href="research.html">Research</a>
-          <a class="nav-item nav-link" href="mentoring.html">Mentoring</a>
-          <a class="nav-item nav-link" href="deadlines.html">Deadlines</a>
+          <a class="nav-item nav-link" href="research.html" data-i18n="navResearch">Research</a>
+          <a class="nav-item nav-link" href="mentoring.html" data-i18n="navMentoring">Mentoring</a>
+          <a class="nav-item nav-link" href="#" id="langToggle" style="cursor:pointer;">中文</a>
           <!-- <a class="nav-item nav-link" href="#section2">Teaching/Outreach</a> -->
           <!-- <a class="nav-item nav-link" href="#section2">Online tools</a> -->
         </div>
@@ -172,9 +172,9 @@
         <div>
             <!-- <h2>High-Mass-Ratio Systems Tend to be Aligned</h2> -->
             <p><a href="https://www.jacerusznak.com/" target="_blank">Jace Rusznak</a></p>
-            <p>2023- (co-supervised with Prof. <a href="https://astro.indiana.edu/directory/faculty/wang-songhu.html" target="_blank">Songhu Wang</a>)</p>
-            <p>Jace is Indiana University's Department of Astronomy's inaugural Post-Baccalaureate researcher. Jace recently graduated from IU with a B.S. in Astronomy and Astrophysics in May of 2024. Jace is working on studying the orbital architectures of massive exoplanet systems through transit photometry, radial velocity, and Rossiter-McLaughlin measurements.</p>
-            <p style="font-size: 0.9rem;"> <a href="https://ui.adsabs.harvard.edu/abs/2024arXiv241204438R/abstract" target="_blank">[1] Rusznak, J., Wang, X.-Y., Rice, M., et al. 2024, arXiv:2412.04438. Accepted by ApJL.</a></p>
+            <p data-i18n="jaceSupervise">2023-2025 (co-supervised with Prof. <a href="https://astro.indiana.edu/directory/faculty/wang-songhu.html" target="_blank">Songhu Wang</a>)</p>
+            <p data-i18n="jaceDesc">Jace was the inaugural Post-Baccalaureate researcher in Indiana University's Department of Astronomy and graduated from IU with a B.S. in Astronomy and Astrophysics in May 2024. At IU, he studied the orbital architectures of massive exoplanet systems through transit photometry, radial velocity, and Rossiter-McLaughlin measurements. He is now a graduate student in the Department of Astronomy &amp; Astrophysics at Pennsylvania State University.</p>
+            <p style="font-size: 0.9rem;"> <a href="https://ui.adsabs.harvard.edu/abs/2024arXiv241204438R/abstract" target="_blank">[1] Rusznak, J., Wang, X.-Y., Rice, M., et al. 2025, ApJL, 983, L42.</a></p>
         </div>
         <img src="../img/jace.jpg" alt="Planetary Orbit" class="planet-image" style="width: 20%;">
     </div>
@@ -184,9 +184,9 @@
     <div class="dark-section">
       <div>
           <!-- <h2>High-Mass-Ratio Systems Tend to be Aligned</h2> -->
-          <p>Jiamei Yang</p>
-          <p>2020-2021 (co-supervised with Prof. <a href="https://apd.wh.sdu.edu.cn/info/1508/1898.htm" target="_blank">Kai Li</a>)</p>
-          <p>Jiamei is currently a Ph.D. candidate at Beijing Normal University, working with Prof. <a href="https://xingwei-astro.github.io/index.html" target="_blank">Xing Wei</a>. Jiamei is working on using N-body/hydrodynamical simulations to study exomoon migration in circumplanetary disks.</p>
+          <p data-i18n="jiameiName">Jiamei Yang</p>
+          <p data-i18n="jiameiSupervise">2020-2021 (co-supervised with Prof. <a href="https://apd.wh.sdu.edu.cn/info/1508/1898.htm" target="_blank">Kai Li</a>)</p>
+          <p data-i18n="jiameiDesc">Jiamei is currently a Ph.D. candidate at Beijing Normal University, working with Prof. <a href="https://xingwei-astro.github.io/index.html" target="_blank">Xing Wei</a>. Jiamei is working on using N-body/hydrodynamical simulations to study exomoon migration in circumplanetary disks.</p>
           <p style="font-size: 0.9rem;"> <a href="https://ui.adsabs.harvard.edu/abs/2021ApJS..255...15W/abstract" target="_blank">Yang, J.-M., Wang, X.-Y., Li, K., et al. 2021, PASJ, 73, 1010</a></p>
       </div>
       <img src="../img/jiamei.jpg" alt="Planetary Orbit" class="planet-image" style="width: 20%;">
@@ -196,8 +196,58 @@
 
     <!-- Footer -->
     <footer class="footer">
-        <p>&copy; 2025 Xian-Yu Wang - Department of Astronomy, Indiana University Bloomington</p>
+        <p data-i18n="footer">&copy; 2025 Xian-Yu Wang - Department of Astronomy, Indiana University Bloomington</p>
     </footer>
 
+  <!-- Simple EN / 中文 language toggle -->
+  <script>
+    (function () {
+      // Chinese translations. English is read from the page itself on load,
+      // so only the Chinese versions need to be maintained here.
+      var zh = {
+        menu: "菜单",
+        navResearch: "研究",
+        navMentoring: "指导",
+        jaceSupervise: '2023–2025（与 <a href="https://astro.indiana.edu/directory/faculty/wang-songhu.html" target="_blank">王松虎</a> 教授共同指导）',
+        jaceDesc: "Jace 曾是印第安纳大学天文系首位博士后预备（Post-Baccalaureate）研究员，并于 2024 年 5 月从印第安纳大学获得天文学与天体物理学学士学位。在印第安纳大学期间，他通过凌星测光、视向速度和 Rossiter–McLaughlin 测量研究大质量系外行星系统的轨道结构。他目前是宾夕法尼亚州立大学（Penn State）天文与天体物理系的研究生。",
+        jiameiName: "杨佳美",
+        jiameiSupervise: '2020–2021（与 <a href="https://apd.wh.sdu.edu.cn/info/1508/1898.htm" target="_blank">李凯</a> 教授共同指导）',
+        jiameiDesc: '杨佳美目前是北京师范大学的博士研究生，导师为 <a href="https://xingwei-astro.github.io/index.html" target="_blank">魏星</a> 教授。她正在使用 N 体/流体动力学模拟来研究行星周盘中系外卫星的迁移。',
+        footer: "&copy; 2025 汪宪钰 - 印第安纳大学布卢明顿分校 天文系"
+      };
+
+      var nodes = document.querySelectorAll("[data-i18n]");
+      var en = {};
+      nodes.forEach(function (el) { en[el.dataset.i18n] = el.innerHTML; });
+
+      var btn = document.getElementById("langToggle");
+
+      function setLang(lang) {
+        nodes.forEach(function (el) {
+          var key = el.dataset.i18n;
+          el.innerHTML = (lang === "zh" && zh[key] != null) ? zh[key] : en[key];
+        });
+        document.documentElement.lang = (lang === "zh") ? "zh" : "en";
+        if (btn) btn.textContent = (lang === "zh") ? "EN" : "中文";
+        try { localStorage.setItem("lang", lang); } catch (e) {}
+      }
+
+      // Priority: an explicit user choice (saved) > browser language > English.
+      var saved = null;
+      try { saved = localStorage.getItem("lang"); } catch (e) {}
+      if (saved !== "en" && saved !== "zh") {
+        var navLang = (navigator.language || navigator.userLanguage || "").toLowerCase();
+        saved = navLang.indexOf("zh") === 0 ? "zh" : "en";
+      }
+      setLang(saved);
+
+      if (btn) {
+        btn.addEventListener("click", function (e) {
+          e.preventDefault();
+          setLang(document.documentElement.lang === "zh" ? "en" : "zh");
+        });
+      }
+    })();
+  </script>
 </body>
 </html>

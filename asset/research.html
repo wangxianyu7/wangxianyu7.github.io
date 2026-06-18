@@ -143,7 +143,7 @@
   <nav class="navbar navbar-expand-lg custom-navbar fixed-top">
     <a class="navbar-brand ms-5" href="../index.html" style="color: white;">Xian-Yu Wang</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-      MENU
+      <span data-i18n="menu">MENU</span>
   </button>
     <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
         <div class="navbar-nav">
@@ -151,9 +151,9 @@
           <!-- <a class="nav-item nav-link" href="https://ui.adsabs.harvard.edu/public-libraries/krPxY4SSRi25elahpTuSlg">NASA ADS Record</a>
           <a class="nav-item nav-link" href="https://scholar.google.com.au/citations?user=NtlbVe8AAAAJ&hl=en">Google Scholar</a> -->
           <!-- <a class="nav-item nav-link" href="files/cv.pdf">CV</a> -->
-          <a class="nav-item nav-link" href="research.html">Research</a>
-          <a class="nav-item nav-link" href="mentoring.html">Mentoring</a>
-          <a class="nav-item nav-link" href="deadlines.html">Deadlines</a>
+          <a class="nav-item nav-link" href="research.html" data-i18n="navResearch">Research</a>
+          <a class="nav-item nav-link" href="mentoring.html" data-i18n="navMentoring">Mentoring</a>
+          <a class="nav-item nav-link" href="#" id="langToggle" style="cursor:pointer;">中文</a>
           <!-- <a class="nav-item nav-link" href="#section2">Teaching/Outreach</a> -->
           <!-- <a class="nav-item nav-link" href="#section2">Online tools</a> -->
         </div>
@@ -167,16 +167,28 @@
         <!-- <h1>Most Hot Jupiters Are Alone</h1> -->
     </div>
 
+    <!-- Latest: e-lambda Trends in Three Gas-Giant Mass Regimes -->
+    <div class="dark-section">
+        <img src="../img/elambda.png" alt="Sky-projected obliquity versus orbital eccentricity for sub-Saturns, Jupiters, and super-Jupiters/brown dwarfs" class="planet-image" style="width: 50%;">
+        <div>
+            <h2>A Homogeneous Catalog of Rossiter-McLaughlin Systems: Distinct e&ndash;&lambda; Trends in Three Gas-Giant Mass Regimes</h2>
+            <p data-i18n="absElambda">Stellar obliquity (&lambda;) and orbital eccentricity (e) both trace the dynamical histories of close-in giant planets, but the observational picture has long been assembled from heterogeneous analyses that blur population-level trends. We homogeneously refit 255 systems with Rossiter-McLaughlin (RM) measurements through a joint global fit to spectral energy distributions, transit light curves, transit timing, and out-of-transit and in-transit radial velocities, yielding self-consistent posteriors for both stars and planets. Restricting to 145 single-star systems with reliable planet masses, we uncover pronounced, mass-dependent structure in the e&ndash;&lambda; plane: (i) sub-Saturns (M<sub>p</sub> &lesssim; 0.3 M<sub>J</sub>) can be both eccentric and misaligned; (ii) Jupiters (0.3 &lesssim; M<sub>p</sub> &lesssim; 3 M<sub>J</sub>) are misaligned only on near-circular orbits; and (iii) super-Jupiters and brown dwarfs (M<sub>p</sub> &gtrsim; 3 M<sub>J</sub>) stay aligned across the full eccentricity range. A two-dimensional Kolmogorov&ndash;Smirnov test confirms that the joint (e, &lambda;) distributions differ significantly among the three mass regimes. These trends show that &lambda; depends jointly on eccentricity and planet mass, implying that obliquity alone is not a unique tracer of evolutionary history.</p>
+
+            <p style="font-size: 0.9rem;"> <a href="https://arxiv.org/abs/2605.28719" target="_blank">[1] Wang, X.-Y., Wang, S., &amp; Batygin, K. 2026, arXiv:2605.28719. [Accepted Date: May 2026]</a> <a href="https://www.stellarobliquity.com" target="_blank" style="color: #e67300;">Catalog Website</a></p>
+        </div>
+    </div>
+    <div class="separator"></div>
+
     <!-- First Section -->
 
     <div class="dark-section">
         <div>
             <h2>Unified Kraft Break at ~6500 K</h2>
-            <p>
+            <p data-i18n="absKraft">
               The stellar obliquity transition, defined by a T<sub>eff</sub> cut separating aligned from misaligned hot Jupiter systems, has long been assumed to coincide with the rotational Kraft break. Yet the commonly quoted obliquity transition (6100 or 6250 K) sits a few hundred kelvin cooler than the rotational break (~6500 K), posing a fundamental inconsistency. We show this offset arises primarily from binaries/multiple-star systems, which drive the cooler stellar obliquity transition (6105<sup>+123</sup><sub>-133</sub> K), although the underlying cause remains ambiguous. After removing binaries and higher-order multiples, the single-star stellar obliquity transition shifts upward to 6447<sup>+85</sup><sub>-119</sub> K, in excellent agreement with the single-star rotation break (6510<sup>+97</sup><sub>-127</sub> K). This revision has two immediate consequences for understanding the origin and evolution of spin-orbit misalignment. First, the upward shift reclassifies some hosts previously labeled ‘hot’ into the cooler regime; consequently, there are very few RM measurements of non-hot-Jupiter planets around genuinely hot stars (T<sub>eff</sub> &gt; 6500 K), and previously reported alignment trends for these classes of systems (e.g., warm Jupiters and compact multi-planet systems) lose the power to discriminate the central question: are large misalignments unique to hot-Jupiter-like planets that can be delivered by high-e migration, or are hot stars intrinsically more misaligned across architectures? Second, a single-star stellar obliquity transition near 6500 K, coincident with the rotational break, favors tidal dissipation in outer convective envelopes; as these envelopes thin with increasing T<sub>eff</sub>, inertial-wave damping and magnetic braking weaken in tandem.
             </p>
 
-            <p style="font-size: 0.9rem;"> <a href="https://arxiv.org/abs/2511.15610" target="_blank">[1] Wang, X.-Y., Wang, S., & Ong, J. M. J. 2025, arXiv:2511.15610, accepted for publication in ApJL.  [Citations:N/A, Pub Date: Nov 2025]</a></p>
+            <p style="font-size: 0.9rem;"> <a href="https://ui.adsabs.harvard.edu/abs/2026ApJ...996L...7W/abstract" target="_blank">[1] Wang, X.-Y., Wang, S., & Ong, J. M. J. 2026, ApJL, 996, L7.  [Citations:8, Pub Date: 2026]</a></p>
 
         </div>
         <img src="../img/nkb.png" alt="Planetary Orbit" class="planet-image" style="width: 50%;">
@@ -187,7 +199,7 @@
         <img src="../img/ss.png" alt="Planetary Orbit" class="planet-image" style="width: 50%;">
         <div>
             <h2>Sub-Saturn Perpendicular Pattern Extends Into the Hot-Star Regime</h2>
-            <p>Sub-Saturns, planets smaller than Saturn but larger than Neptune, have recently been reported to preferentially occupy near-polar orbits. Yet this a conclusion has been based almost entirely on systems with cool stars. Measurements of stellar obliquity for sub-Saturns around hot stars remain extremely limited, and this scarcity of data hinders deeper investigation into the mechanisms capable of generating such extreme orbital tilts. Expanding the census into the hot-star regime is therefore essential for testing whether the polar preference persists and for constraining the underlying excitation processes. We extended stellar obliquity measurements of sub-Saturns into the hot-star regime and found that the perpendicular pattern persists, although with a slightly lower tilt of about 70° rather than a fully polar 90°. This sub-polar configuration is consistent with predictions from the secular resonance-crossing mechanism.</p>
+            <p data-i18n="absSubSaturn">Sub-Saturns, planets smaller than Saturn but larger than Neptune, have recently been reported to preferentially occupy near-polar orbits. Yet this a conclusion has been based almost entirely on systems with cool stars. Measurements of stellar obliquity for sub-Saturns around hot stars remain extremely limited, and this scarcity of data hinders deeper investigation into the mechanisms capable of generating such extreme orbital tilts. Expanding the census into the hot-star regime is therefore essential for testing whether the polar preference persists and for constraining the underlying excitation processes. We extended stellar obliquity measurements of sub-Saturns into the hot-star regime and found that the perpendicular pattern persists, although with a slightly lower tilt of about 70° rather than a fully polar 90°. This sub-polar configuration is consistent with predictions from the secular resonance-crossing mechanism.</p>
 
             <p style="font-size: 0.9rem;"> <a href="https://ui.adsabs.harvard.edu/abs/2024arXiv241204438R/abstract" target="_blank">[1] Dugan, E., Wang, X.-Y., Heron, A., et al. 2025, ApJL, 994, L23. [Citations:N/A, Pub Date: Nov 2025]</a> <a href="https://www.youtube.com/watch?v=Z7niXAHqkLg&t=800s" target="_blank" style="color: #e67300;">AAS Press Release</a></p>
             <p style="font-size: 0.9rem;"> <a href="https://ui.adsabs.harvard.edu/abs/2023ApJ...949L..35H/abstract" target="_blank">[2] Hixenbaugh, K., Wang, X.-Y., Rice, M., et al. 2023, ApJL, 949, 2, L35 [Citations:15]</a></p>
@@ -199,7 +211,7 @@
     <div class="dark-section">
         <div>
             <h2>High-Mass-Ratio Systems Tend to be Aligned</h2>
-            <p>The stellar obliquity of Brown Dwarfs is an underexplored regime due to the lack of transiting BDs before the launch of the TESS satellite, which is now rapidly expanding the known BD population. We find that systems with high planet-to-star mass ratios (MP/M∗ > 2 × 10⁻³), including Brown Dwarfs and super-Jupiters, exhibit low stellar obliquities, even around hot stars. This alignment contrasts with the significant misalignments observed in lower mass ratio systems, suggesting a fundamental distinction in their formation and dynamical evolution. Our analysis also highlights XO-3 as an outlier, with a significant misalignment possibly linked to an undetected stellar companion. (Note: As of December 6, 2024, the stellar companion was detected by Prof. Adam Kraus.) These results imply that massive companions retain their primordial alignment due to their isolated formation environments, whereas lower-mass planets experience greater dynamical instabilities, leading to a wider range of obliquities.</p>
+            <p data-i18n="absHighMassRatio">The stellar obliquity of Brown Dwarfs is an underexplored regime due to the lack of transiting BDs before the launch of the TESS satellite, which is now rapidly expanding the known BD population. We find that systems with high planet-to-star mass ratios (MP/M∗ > 2 × 10⁻³), including Brown Dwarfs and super-Jupiters, exhibit low stellar obliquities, even around hot stars. This alignment contrasts with the significant misalignments observed in lower mass ratio systems, suggesting a fundamental distinction in their formation and dynamical evolution. Our analysis also highlights XO-3 as an outlier, with a significant misalignment possibly linked to an undetected stellar companion. (Note: As of December 6, 2024, the stellar companion was detected by Prof. Adam Kraus.) These results imply that massive companions retain their primordial alignment due to their isolated formation environments, whereas lower-mass planets experience greater dynamical instabilities, leading to a wider range of obliquities.</p>
 
             <p style="font-size: 0.9rem;"> <a href="https://ui.adsabs.harvard.edu/abs/2024arXiv241204438R/abstract" target="_blank">[1] Rusznak, J., Wang, X.-Y., Rice, M., et al. 2025, ApJL, 983, 2, L42. [Citations:8]</a> <a href="https://aasnova.org/2025/05/02/to-be-or-not-to-be-aligned-exploring-spin-orbit-alignment-trends-for-exoplanetary-systems/" target="_blank" style="color: #e67300;">AAS Nova Highlight</a></p>
             <p style="font-size: 0.9rem;"> <a href="https://ui.adsabs.harvard.edu/abs/2024AJ....168..145F/abstract" target="_blank">[2]  Ferreira dos Santos, T., Rice, M., Wang, X.-Y., et al. 2024, AJ, 168, 145. [Citations:15]</a></p>
@@ -213,7 +225,7 @@
         <img src="../img/WJ.png" alt="Planetary Orbit" class="planet-image" style="width: 50%;">
         <div>
             <h2>Single-Star Warm Jupiter Systems Tend to be Aligned, Even Around Hot Hosts</h2>
-            <p>The stellar obliquity distribution of warm-Jupiter systems is crucial for constraining the dynamical history of Jovian exoplanets, as the tidal detachment of warm Jupiters likely preserves their primordial obliquities. However, the sample size of warm-Jupiter systems with measured stellar obliquities has historically been limited compared to that of hot Jupiters, particularly in hot-star systems.
+            <p data-i18n="absWarmJupiter">The stellar obliquity distribution of warm-Jupiter systems is crucial for constraining the dynamical history of Jovian exoplanets, as the tidal detachment of warm Jupiters likely preserves their primordial obliquities. However, the sample size of warm-Jupiter systems with measured stellar obliquities has historically been limited compared to that of hot Jupiters, particularly in hot-star systems.
 
               In the SOLES project, we have contributed 15 new warm-Jupiter measurements, nearly doubling the sample of warm Jupiters with stellar obliquity measurements. Our analysis reveals that single-star warm-Jupiter systems tend to be aligned, even around hot stellar hosts. The current distribution of spin-orbit measurements for Jovian exoplanets indicates that misalignments are neither universal nor primordial phenomena affecting all types of planets. The absence of misalignments in single-star warm-Jupiter systems further suggests that many hot Jupiters, by contrast, have undergone a dynamically violent history.</p>
 
@@ -230,9 +242,9 @@
     <div class="dark-section">
       <div>
           <h2>Compact Multi-planet Systems Tend to be Aligned</h2>
-          <p>Compact multi-planet systems tend to be aligned was first mentioned by  <a href="https://ui.adsabs.harvard.edu/abs/2013ApJ...771...11A/abstract" target="_blank">Albrecht et al. (2013)</a>. However, the compact multi-planet systems with stellar obliquity measurements are relatively rare compared to hot Jupiter samples. In this work, we present the sky-projected obliquity measurement of WASP-148b, a hot Jupiter in a compact multi-planet system, using data from the WIYN/NEID and Keck/HIRES spectrographs. Our findings show that WASP-148b has a low obliquity, suggesting that its orbit is well-aligned with the spin of its host star. This result aligns with previous observations that compact multi-planet systems around cool stars tend to exhibit low stellar obliquities, implying a formation history with minimal dynamical disturbances.</p>
+          <p data-i18n="absCompact1">Compact multi-planet systems tend to be aligned was first mentioned by  <a href="https://ui.adsabs.harvard.edu/abs/2013ApJ...771...11A/abstract" target="_blank">Albrecht et al. (2013)</a>. However, the compact multi-planet systems with stellar obliquity measurements are relatively rare compared to hot Jupiter samples. In this work, we present the sky-projected obliquity measurement of WASP-148b, a hot Jupiter in a compact multi-planet system, using data from the WIYN/NEID and Keck/HIRES spectrographs. Our findings show that WASP-148b has a low obliquity, suggesting that its orbit is well-aligned with the spin of its host star. This result aligns with previous observations that compact multi-planet systems around cool stars tend to exhibit low stellar obliquities, implying a formation history with minimal dynamical disturbances.</p>
 
-          <p>In contrast, high-mass and hot stars more frequently host misaligned planetary orbits, including both isolated hot Jupiters and compact multi-planet systems. This suggests that spin-orbit misalignments may be linked to the presence of distant giant planet perturbers, which are more common around these stars. Our study supports the idea that compact multi-planet systems generally form through relatively quiescent processes, whereas systems with misaligned planets, particularly those around hot stars, may have undergone external gravitational perturbations. </p>
+          <p data-i18n="absCompact2">In contrast, high-mass and hot stars more frequently host misaligned planetary orbits, including both isolated hot Jupiters and compact multi-planet systems. This suggests that spin-orbit misalignments may be linked to the presence of distant giant planet perturbers, which are more common around these stars. Our study supports the idea that compact multi-planet systems generally form through relatively quiescent processes, whereas systems with misaligned planets, particularly those around hot stars, may have undergone external gravitational perturbations. </p>
 
           <p style="font-size: 0.9rem;"> <a href="https://ui.adsabs.harvard.edu/abs/2022ApJ...926L...8W/abstract" target="_blank">[1] Wang, X.-Y., Rice, M., Wang, S., et al. 2022, ApJL, 926, L8 [Citations:38]</a></p>
       </div>
@@ -245,7 +257,7 @@
   <div class="dark-section">
     <div>
         <h2>Most Hot <strong>Jupiters</strong> Are Alone</h2>
-        <p>Many hot Jupiters were initially thought to be solitary based on transit surveys. However, these surveys are less sensitive to smaller or non-transiting planets that might gravitationally perturb the hot Jupiter's orbit. The Transiting Exoplanet Monitoring Project (TEMP) addressed this limitation by conducting long-term, high-precision photometric follow-up, including Transit Timing Variation (TTV) analysis, using ground-based telescopes such as those at Xinglong Observatory in China. Analyzing the timing of transits in systems like HAT-P-25b and a larger sample of 39 hot Jupiters, TEMP found no compelling evidence for nearby planetary companions in resonance, which lends support to hot Jupiter formation mechanisms like high-eccentricity migration that tend to result in isolated hot Jupiters.</p>
+        <p data-i18n="absAlone">Many hot Jupiters were initially thought to be solitary based on transit surveys. However, these surveys are less sensitive to smaller or non-transiting planets that might gravitationally perturb the hot Jupiter's orbit. The Transiting Exoplanet Monitoring Project (TEMP) addressed this limitation by conducting long-term, high-precision photometric follow-up, including Transit Timing Variation (TTV) analysis, using ground-based telescopes such as those at Xinglong Observatory in China. Analyzing the timing of transits in systems like HAT-P-25b and a larger sample of 39 hot Jupiters, TEMP found no compelling evidence for nearby planetary companions in resonance, which lends support to hot Jupiter formation mechanisms like high-eccentricity migration that tend to result in isolated hot Jupiters.</p>
 
         <p style="font-size: 0.9rem;"> <a href="https://ui.adsabs.harvard.edu/abs/2021ApJS..255...15W/abstract" target="_blank">[1] Wang, X.-Y., Wang, Y.-H., Wang, S., et al. 2021, ApJS, 255, 15. [Citations:29]</a></p>
         <p style="font-size: 0.9rem;"> <a href="https://ui.adsabs.harvard.edu/abs/2018AJ....156..181W/abstract" target="_blank">[2] Wang, S., Wang, X.-Y., Wang, Y.-H., et al. 2018, AJ, 156, 181. [Citations:18]</a></p>
@@ -256,8 +268,63 @@
 
     <!-- Footer -->
     <footer class="footer">
-        <p>&copy; 2025 Xian-Yu Wang - Department of Astronomy, Indiana University Bloomington</p>
+        <p data-i18n="footer">&copy; 2025 Xian-Yu Wang - Department of Astronomy, Indiana University Bloomington</p>
     </footer>
 
+  <!-- Simple EN / 中文 language toggle -->
+  <script>
+    (function () {
+      // Chinese translations. English is read from the page itself on load,
+      // so only the Chinese versions need to be maintained here.
+      // Note: per-paper English titles (the <h2> headings) and bibliographic
+      // citations are intentionally kept in English in both languages.
+      var zh = {
+        menu: "菜单",
+        navResearch: "研究",
+        navMentoring: "指导",
+        absElambda: '自转轨道角（&lambda;）与轨道偏心率（e）都记录着近距巨行星的动力学历史，但以往的观测图景由各不相同的分析方法拼凑而成，模糊了群体层面的趋势。我们通过对光谱能量分布、凌星光变曲线、凌星时刻以及凌星前后的视向速度进行联合全局拟合，均匀地重新拟合了 255 个具有 Rossiter-McLaughlin（RM）测量的系统，得到了恒星与行星自洽的后验分布。在限定于 145 个具有可靠行星质量的单星系统后，我们在 e&ndash;&lambda; 平面上发现了显著的、随行星质量变化的结构：(i) 次土星（M<sub>p</sub> &lesssim; 0.3 M<sub>J</sub>）既可以是高偏心率的，也可以是失准的；(ii) 木星类行星（0.3 &lesssim; M<sub>p</sub> &lesssim; 3 M<sub>J</sub>）只有在近圆轨道上才会失准；(iii) 超级木星与褐矮星（M<sub>p</sub> &gtrsim; 3 M<sub>J</sub>）则在整个偏心率范围内都保持排列良好。二维 Kolmogorov&ndash;Smirnov 检验证实，这三个质量区间的联合 (e, &lambda;) 分布存在显著差异。这些趋势表明，&lambda; 同时依赖于偏心率与行星质量，意味着仅凭倾角并不能唯一地追溯演化历史。',
+        absKraft: '自转轨道角转变由一个区分排列良好与失准的热木星系统的有效温度（T<sub>eff</sub>）界限来定义，长期以来被认为与自转的 Kraft 断点相重合。然而，常被引用的倾角转变温度（6100 或 6250 K）比自转断点（~6500 K）低了几百开尔文，构成了一个根本性的矛盾。我们的研究表明，这一偏差主要来自双星/多星系统，正是它们驱动了较低的自转轨道角转变（6105<sup>+123</sup><sub>-133</sub> K），尽管其根本原因仍不明确。在剔除双星和更高阶的多星系统后，单星的自转轨道角转变上移至 6447<sup>+85</sup><sub>-119</sub> K，与单星自转断点（6510<sup>+97</sup><sub>-127</sub> K）高度吻合。这一修正对理解自转-轨道失准的起源与演化有两个直接影响。首先，这一上移将一些此前被标记为“热”的宿主星重新归类到较冷的区间；因此，真正的热恒星（T<sub>eff</sub> &gt; 6500 K）周围非热木星行星的 RM 测量极少，而此前针对这些类型系统（如暖木星和紧凑多行星系统）报告的排列趋势，便失去了区分核心问题的能力：大幅失准是否仅出现在可经由高偏心率迁移送达的类热木星行星上，还是热恒星在各种轨道结构下本质上都更易失准？其次，单星自转轨道角转变接近 6500 K，与自转断点相重合，支持外层对流包层中的潮汐耗散机制；随着有效温度升高、这些包层变薄，惯性波阻尼与磁制动同步减弱。',
+        absSubSaturn: "次土星（sub-Saturns）是指比土星小但比海王星大的行星，近来有报告指出它们更倾向于占据近极轨道。然而这一结论几乎完全基于冷恒星系统。热恒星周围次土星的自转轨道角测量仍极为有限，数据的匮乏阻碍了对能够产生如此极端轨道倾斜的机制的深入研究。因此，将普查扩展到热恒星区间，对于检验这种极轨偏好是否依然存在、并约束其背后的激发过程至关重要。我们将次土星的自转轨道角测量扩展到热恒星区间，发现垂直轨道模式依然存在，只是倾斜角略低，约为 70° 而非完全极轨的 90°。这种亚极轨构型与久期共振穿越（secular resonance-crossing）机制的预言相一致。",
+        absHighMassRatio: "由于在 TESS 卫星发射之前缺乏凌星褐矮星（BD），褐矮星的自转轨道角一直是一个研究不足的领域；如今 TESS 正在迅速扩充已知的褐矮星样本。我们发现，具有高行星-恒星质量比（MP/M∗ > 2 × 10⁻³）的系统，包括褐矮星和超级木星，即使在热恒星周围也表现出较低的自转轨道角。这种排列与在较低质量比系统中观测到的显著失准形成对比，暗示二者在形成与动力学演化上存在根本差异。我们的分析还指出 XO-3 是一个离群点，其显著失准可能与一颗尚未探测到的伴星有关。（注：截至 2024 年 12 月 6 日，该伴星已由 Adam Kraus 教授探测到。）这些结果表明，大质量伴天体由于其孤立的形成环境而保留了原初的排列状态，而较低质量的行星则经历了更强的动力学不稳定性，从而呈现出更宽的倾角分布。",
+        absWarmJupiter: "暖木星系统的自转轨道角分布对于约束类木系外行星的动力学历史至关重要，因为暖木星的潮汐脱离很可能保留了它们的原初倾角。然而，与热木星相比，已测得自转轨道角的暖木星系统样本量历来有限，尤其是在热恒星系统中。在 SOLES 项目中，我们贡献了 15 个新的暖木星测量，使具有自转轨道角测量的暖木星样本几乎翻倍。我们的分析表明，单星暖木星系统倾向于排列良好，即使在热恒星宿主周围也是如此。目前类木系外行星的自转-轨道测量分布表明，失准既非普遍现象，也非影响所有类型行星的原初现象。单星暖木星系统中失准的缺失进一步暗示，相比之下，许多热木星经历了动力学上剧烈的历史。",
+        absCompact1: '紧凑多行星系统倾向于排列良好这一观点最早由 <a href="https://ui.adsabs.harvard.edu/abs/2013ApJ...771...11A/abstract" target="_blank">Albrecht 等人（2013）</a> 提出。然而，与热木星样本相比，具有自转轨道角测量的紧凑多行星系统相对稀少。在这项工作中，我们利用 WIYN/NEID 和 Keck/HIRES 光谱仪的数据，给出了紧凑多行星系统中的热木星 WASP-148b 的天空投影倾角测量。我们的结果表明，WASP-148b 具有较低的倾角，说明其轨道与宿主星的自转轴排列良好。这一结果与此前的观测一致：冷恒星周围的紧凑多行星系统往往表现出较低的自转轨道角，暗示其形成历史中的动力学扰动极小。',
+        absCompact2: "相比之下，大质量和热恒星更常拥有失准的行星轨道，既包括孤立的热木星，也包括紧凑多行星系统。这表明自转-轨道失准可能与遥远巨行星摄动天体的存在有关，而这类摄动天体在这些恒星周围更为常见。我们的研究支持这样的观点：紧凑多行星系统通常通过相对平静的过程形成，而拥有失准行星的系统，尤其是热恒星周围的系统，可能经历了外部引力摄动。",
+        absAlone: "基于凌星巡天，许多热木星最初被认为是孤立的。然而，这些巡天对可能在引力上摄动热木星轨道的较小行星或非凌星行星不够敏感。凌星系外行星监测项目（TEMP）通过开展长期、高精度的测光跟踪——包括凌星计时变化（TTV）分析，并使用如中国兴隆观测站等地基望远镜——来弥补这一局限。通过分析 HAT-P-25b 等系统以及一个更大的 39 颗热木星样本的凌星时刻，TEMP 未发现近邻行星伴天体处于共振的有力证据，这支持了诸如高偏心率迁移这类倾向于产生孤立热木星的形成机制。",
+        footer: "&copy; 2025 汪宪钰 - 印第安纳大学布卢明顿分校 天文系"
+      };
+
+      var nodes = document.querySelectorAll("[data-i18n]");
+      var en = {};
+      nodes.forEach(function (el) { en[el.dataset.i18n] = el.innerHTML; });
+
+      var btn = document.getElementById("langToggle");
+
+      function setLang(lang) {
+        nodes.forEach(function (el) {
+          var key = el.dataset.i18n;
+          el.innerHTML = (lang === "zh" && zh[key] != null) ? zh[key] : en[key];
+        });
+        document.documentElement.lang = (lang === "zh") ? "zh" : "en";
+        if (btn) btn.textContent = (lang === "zh") ? "EN" : "中文";
+        try { localStorage.setItem("lang", lang); } catch (e) {}
+      }
+
+      // Priority: an explicit user choice (saved) > browser language > English.
+      var saved = null;
+      try { saved = localStorage.getItem("lang"); } catch (e) {}
+      if (saved !== "en" && saved !== "zh") {
+        var navLang = (navigator.language || navigator.userLanguage || "").toLowerCase();
+        saved = navLang.indexOf("zh") === 0 ? "zh" : "en";
+      }
+      setLang(saved);
+
+      if (btn) {
+        btn.addEventListener("click", function (e) {
+          e.preventDefault();
+          setLang(document.documentElement.lang === "zh" ? "en" : "zh");
+        });
+      }
+    })();
+  </script>
 </body>
 </html>
