@@ -606,12 +606,24 @@ function fillSites(){
   sel.value = cur;
 }
 fillSites();
-sel.value = 1;
+sel.value = localStorage.getItem('tp_site') ?? 1;
+if(!SITES[sel.value]) sel.value = 1;
 function siteChanged(){
   const s = SITES[sel.value];
   if(s[2]!==null){ document.getElementById('lat').value=s[2]; document.getElementById('lon').value=s[3]; }
+  localStorage.setItem('tp_site', sel.value);
 }
+['lat','lon'].forEach(id=>document.getElementById(id).addEventListener('change', e=>{
+  localStorage.setItem('tp_'+id, e.target.value);
+  sel.value = 0;                      // manual coords -> Custom
+  localStorage.setItem('tp_site', 0);
+}));
 siteChanged();
+if(String(sel.value)==='0'){          // restore saved custom coordinates
+  const la = localStorage.getItem('tp_lat'), lo = localStorage.getItem('tp_lon');
+  if(la) document.getElementById('lat').value = la;
+  if(lo) document.getElementById('lon').value = lo;
+}
 const savedTheme = localStorage.getItem('tp_theme');
 if(savedTheme){ document.documentElement.dataset.theme = savedTheme;
   document.getElementById('themebtn').innerHTML = savedTheme==='light' ? '&#9789;' : '&#9788;'; }
