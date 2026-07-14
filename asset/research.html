@@ -154,6 +154,12 @@
           <!-- <a class="nav-item nav-link" href="files/cv.pdf">CV</a> -->
           <a class="nav-item nav-link" href="research.html" data-i18n="navResearch">Research</a>
           <a class="nav-item nav-link" href="mentoring.html" data-i18n="navMentoring">Mentoring</a>
+            <div class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="dataCodeDrop" data-toggle="dropdown" aria-expanded="false" data-i18n="navDataCode">Data &amp; Code</a>
+              <div class="dropdown-menu" aria-labelledby="dataCodeDrop">
+                <a class="dropdown-item" href="../tools/transit_predictor.html" data-i18n="navTransitPredictor">Transit Predictor</a>
+              </div>
+            </div>
           <a class="nav-item nav-link" href="#" id="langToggle" style="cursor:pointer;">中文</a>
           <!-- <a class="nav-item nav-link" href="#section2">Teaching/Outreach</a> -->
           <!-- <a class="nav-item nav-link" href="#section2">Online tools</a> -->
@@ -283,6 +289,8 @@
         menu: "菜单",
         navResearch: "研究",
         navMentoring: "指导",
+        navDataCode: "数据与代码",
+        navTransitPredictor: "凌星预报",
         absElambda: '自转轨道角（&lambda;）与轨道偏心率（e）都记录着近距巨行星的动力学历史，但以往的观测图景由各不相同的分析方法拼凑而成，模糊了群体层面的趋势。我们通过对光谱能量分布、凌星光变曲线、凌星时刻以及凌星前后的视向速度进行联合全局拟合，均匀地重新拟合了 255 个具有 Rossiter-McLaughlin（RM）测量的系统，得到了恒星与行星自洽的后验分布。在限定于 145 个具有可靠行星质量的单星系统后，我们在 e&ndash;&lambda; 平面上发现了显著的、随行星质量变化的结构：(i) 次土星（M<sub>p</sub> &lesssim; 0.3 M<sub>J</sub>）既可以是高偏心率的，也可以是失准的；(ii) 木星类行星（0.3 &lesssim; M<sub>p</sub> &lesssim; 3 M<sub>J</sub>）只有在近圆轨道上才会失准；(iii) 超级木星与褐矮星（M<sub>p</sub> &gtrsim; 3 M<sub>J</sub>）则在整个偏心率范围内都保持排列良好。二维 Kolmogorov&ndash;Smirnov 检验证实，这三个质量区间的联合 (e, &lambda;) 分布存在显著差异。这些趋势表明，&lambda; 同时依赖于偏心率与行星质量，意味着仅凭倾角并不能唯一地追溯演化历史。',
         absKraft: '自转轨道角转变由一个区分排列良好与失准的热木星系统的有效温度（T<sub>eff</sub>）界限来定义，长期以来被认为与自转的 Kraft 断点相重合。然而，常被引用的倾角转变温度（6100 或 6250 K）比自转断点（~6500 K）低了几百开尔文，构成了一个根本性的矛盾。我们的研究表明，这一偏差主要来自双星/多星系统，正是它们驱动了较低的自转轨道角转变（6105<sup>+123</sup><sub>-133</sub> K），尽管其根本原因仍不明确。在剔除双星和更高阶的多星系统后，单星的自转轨道角转变上移至 6447<sup>+85</sup><sub>-119</sub> K，与单星自转断点（6510<sup>+97</sup><sub>-127</sub> K）高度吻合。这一修正对理解自转-轨道失准的起源与演化有两个直接影响。首先，这一上移将一些此前被标记为“热”的宿主星重新归类到较冷的区间；因此，真正的热恒星（T<sub>eff</sub> &gt; 6500 K）周围非热木星行星的 RM 测量极少，而此前针对这些类型系统（如暖木星和紧凑多行星系统）报告的排列趋势，便失去了区分核心问题的能力：大幅失准是否仅出现在可经由高偏心率迁移送达的类热木星行星上，还是热恒星在各种轨道结构下本质上都更易失准？其次，单星自转轨道角转变接近 6500 K，与自转断点相重合，支持外层对流包层中的潮汐耗散机制；随着有效温度升高、这些包层变薄，惯性波阻尼与磁制动同步减弱。',
         absSubSaturn: "次土星（sub-Saturns）是指比土星小但比海王星大的行星，近来有报告指出它们更倾向于占据近极轨道。然而这一结论几乎完全基于冷恒星系统。热恒星周围次土星的自转轨道角测量仍极为有限，数据的匮乏阻碍了对能够产生如此极端轨道倾斜的机制的深入研究。因此，将普查扩展到热恒星区间，对于检验这种极轨偏好是否依然存在、并约束其背后的激发过程至关重要。我们将次土星的自转轨道角测量扩展到热恒星区间，发现垂直轨道模式依然存在，只是倾斜角略低，约为 70° 而非完全极轨的 90°。这种亚极轨构型与久期共振穿越（secular resonance-crossing）机制的预言相一致。",
