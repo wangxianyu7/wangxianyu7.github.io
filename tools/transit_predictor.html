@@ -145,7 +145,7 @@ const I18N = {
        catinfo:(n,d)=>`目录:${n} 个目标(NEA+TOI,${d})`,
        clickrow:"点击表格行查看 airmass 图", lgt:"目标", lgs:"太阳", lgm:"月亮", plotof:(dt)=>`${dt} 当夜 — 高度角 / 大气质量(UTC)`},
 };
-let lang = localStorage.getItem('tp_lang') || 'en';
+let lang = localStorage.getItem('tp_lang') || ((navigator.language || 'en').toLowerCase().startsWith('zh') ? 'zh' : 'en');
 
 function applyLang(){
   const L = I18N[lang];
