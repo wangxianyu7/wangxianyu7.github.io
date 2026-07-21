@@ -61,6 +61,8 @@ datalist{max-height:200px}
     <div><label data-i18n="dur">Duration (h)</label><input class="num" id="dur" value=""></div>
     <div><label>RA (deg)</label><input class="num" id="ra" value=""></div>
     <div><label>Dec (deg)</label><input class="num" id="dec" value=""></div>
+    <div><label data-i18n="depthlbl">Depth (ppm)</label><input class="num" id="depth" value=""></div>
+    <div><label data-i18n="maglbl">Mag</label><input class="num" id="mag" value="" style="width:70px"></div>
   </div>
 </div>
 
@@ -121,7 +123,7 @@ const SITES = [
 
 const I18N = {
   en: {title:"Transit Predictor", planet:"Planet name (NEA / TOI)", resolve:"Resolve",
-       period:"Period (d)", tc:"T_c (BJD_TDB)", dur:"Duration (h)", site:"Observatory",
+       period:"Period (d)", tc:"T_c (BJD_TDB)", dur:"Duration (h)", depthlbl:"Depth (ppm)", maglbl:"Mag", site:"Observatory",
        lat:"Lat (deg)", lon:"Lon (deg, E+)", start:"Start (UTC)", end:"End (UTC)",
        minalt:"Min altitude (°)", sunalt:"Sun below (°)", showall:"Show all", predict:"Predict",
        note:"Times are UTC. BJD_TDB↔UTC offset (~70 s) and barycentric light travel are ignored — fine for scheduling, not for timing analysis. Full = entire transit above altitude limit in dark time; Partial = mid-transit observable.",
@@ -133,7 +135,7 @@ const I18N = {
        catinfo:(n,d)=>`catalog: ${n} objects (NEA+TOI, ${d})`,
        clickrow:"click a row for the airmass plot", lgt:"target", lgs:"Sun", lgm:"Moon", plotof:(dt)=>`Night of ${dt} — altitude / airmass (UTC)`},
   zh: {title:"凌星预报", planet:"行星名(NEA / TOI)", resolve:"解析",
-       period:"周期 (天)", tc:"T_c (BJD_TDB)", dur:"持续 (小时)", site:"台站",
+       period:"周期 (天)", tc:"T_c (BJD_TDB)", dur:"持续 (小时)", depthlbl:"深度 (ppm)", maglbl:"星等", site:"台站",
        lat:"纬度 (°)", lon:"经度 (°, 东+)", start:"起始 (UTC)", end:"截止 (UTC)",
        minalt:"最低高度角 (°)", sunalt:"太阳低于 (°)", showall:"显示全部", predict:"预报",
        note:"时间为 UTC。忽略 BJD_TDB↔UTC 差(~70 秒)与光行时 —— 排观测足够,做计时分析不行。Full = 整个凌星在高度限以上且处于暗夜;Partial = 凌星中点可观测。",
@@ -184,11 +186,13 @@ function resolve(){
   document.getElementById('P').value = r[3];
   document.getElementById('Tc').value = r[4];
   document.getElementById('dur').value = r[5] ?? '';
+  document.getElementById('depth').value = r[7] ?? '';
+  document.getElementById('mag').value = r[8] ?? '';
   el.style.color = 'var(--dim)';
   curTarget = r;
-  const dep = r[7] ? `, depth=${r[7]>=10000?(r[7]/1e4).toFixed(2)+'%':r[7]+' ppm'}` : '';
-  const mag = r[8] ? `, ${r[9]}=${r[8]}` : '';
-  el.textContent = L.resolvedAs(`${r[0]}  P=${r[3]} d, Tc=${r[4]}, dur=${r[5]??'?'} h${dep}${mag}`, r[6]);
+  const host = r[0].replace(/(\s+[a-z]\d*|\.\d+)$/i, '');
+  el.innerHTML = L.resolvedAs(`${r[0]} (${r[9]??'mag'})`, r[6]) +
+    ` &middot; <a href="https://exofop.ipac.caltech.edu/tess/target.php?id=${encodeURIComponent(host)}" target="_blank" rel="noopener" style="color:inherit">ExoFOP</a>`;
 }
 document.getElementById('name').addEventListener('input', e=>{
   const q = e.target.value.trim().toLowerCase();
@@ -459,9 +463,9 @@ function drawTransitSim(r){
   const minalt = parseFloat(document.getElementById('minalt').value) || 0;
   const sunlim = parseFloat(document.getElementById('sunalt').value);
   const durH = (r.teg - r.tin)*24;
-  const nm = document.getElementById('name').value.trim();
-  const known = curTarget && lookup(nm) === curTarget && curTarget[7];
-  const depth = known ? curTarget[7]/1e6 : 0.01;
+  const depthPpm = parseFloat(document.getElementById('depth').value);
+  const known = depthPpm > 0;
+  const depth = known ? depthPpm/1e6 : 0.01;
   const t14 = durH, tau = 0.15*t14;
   const pad = Math.max(0.6, 0.35*t14);
   const x0 = -t14/2 - pad, x1 = t14/2 + pad;
@@ -521,7 +525,8 @@ function drawTransitSim(r){
   c.textAlign='left'; c.fillStyle = T.text; c.font='11.5px sans-serif';
   const dtxt = known ? (depth>=1e-2 ? (depth*100).toFixed(2)+'%' : (depth*1e6).toFixed(0)+' ppm')
                      : (lang==='zh' ? '深度未知,按 1% 示意' : 'depth unknown, 1% shown');
-  const mtxt = (known && curTarget[8]) ? `  ${curTarget[9]}=${curTarget[8]}` : '';
+  const magv = document.getElementById('mag').value.trim();
+  const mtxt = magv ? `  ${(curTarget && curTarget[9]) || 'mag'}=${magv}` : '';
   const stxt = lang==='zh' ? {full:'完整可观测',partial:'部分可观测',no:'不可观测'}[r.status]
                            : {full:'fully observable',partial:'partially observable',no:'not observable'}[r.status];
   c.fillText((lang==='zh' ? '模拟凌星  深度 ' : 'simulated transit  depth ') + dtxt + mtxt + '  \u00b7 ' + stxt, ml, 16);
