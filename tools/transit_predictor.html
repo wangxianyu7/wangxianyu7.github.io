@@ -184,6 +184,12 @@ function resolve(){
   const r = lookup(document.getElementById('name').value);
   const el = document.getElementById('resolved');
   if(!r){ el.textContent = L.notfound; el.style.color='#d9534f'; return; }
+  if(curTarget !== r){   // stale results/plot belong to the previous target
+    document.getElementById('plotwrap').style.display = 'none';
+    document.getElementById('out').innerHTML = '';
+    document.getElementById('summary').textContent = '';
+    lastResult = lastPlotRow = null; simSnap = ampSnap = null;
+  }
   document.getElementById('ra').value = r[1];
   document.getElementById('dec').value = r[2];
   document.getElementById('P').value = r[3];
