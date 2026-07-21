@@ -197,6 +197,23 @@ function resolve(){
   const host = r[0].replace(/(\s+[a-z]\d*|\.\d+)$/i, '');
   el.innerHTML = L.resolvedAs(`${r[0]} (${bandName(r[9])})`, r[6]) +
     ` &middot; <a href="https://exofop.ipac.caltech.edu/tess/target.php?id=${encodeURIComponent(host)}" target="_blank" rel="noopener" style="color:inherit">ExoFOP</a>`;
+  if(r[9]==='T' && r[8]!=null) fetchVmag(r);
+}
+/* TOI rows only carry TESS mag; pull V from TIC v8.2 via VizieR TAP (CORS-enabled; ExoFOP itself is not) */
+async function fetchVmag(r){
+  const q = `SELECT TOP 20 Vmag,Tmag FROM "IV/39/tic82" WHERE 1=CONTAINS(POINT('ICRS',RAJ2000,DEJ2000),CIRCLE('ICRS',${r[1]},${r[2]},0.005))`;
+  try{
+    const j = await (await fetch('https://tapvizier.cds.unistra.fr/TAPVizieR/tap/sync?REQUEST=doQuery&LANG=ADQL&FORMAT=json&QUERY=' + encodeURIComponent(q))).json();
+    const rows = (j.data||[]).filter(d=>d[0]!=null && d[1]!=null);
+    if(!rows.length) return;
+    rows.sort((a,b)=>Math.abs(a[1]-r[8])-Math.abs(b[1]-r[8]));
+    const magEl = document.getElementById('mag');
+    if(curTarget===r && magEl.value == String(r[8])){
+      r[8] = Math.round(rows[0][0]*100)/100; r[9] = 'V';
+      magEl.value = r[8];
+      setMagLabel();
+    }
+  }catch(e){}
 }
 document.getElementById('name').addEventListener('input', e=>{
   const q = e.target.value.trim().toLowerCase();
