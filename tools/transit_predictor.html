@@ -194,6 +194,7 @@ document.getElementById('name').addEventListener('input', e=>{
   const q = e.target.value.trim().toLowerCase();
   const dl = document.getElementById('namelist');
   dl.innerHTML = '';
+  if(IDX.has(q.replace(/[\s_-]+/g,''))) resolve();
   if(q.length < 2) return;
   CATALOG.filter(r=>r[0].toLowerCase().includes(q)).slice(0,15)
          .forEach(r=>{const o=document.createElement('option');o.value=r[0];dl.appendChild(o);});
