@@ -62,7 +62,7 @@ datalist{max-height:200px}
     <div><label>RA (deg)</label><input class="num" id="ra" value=""></div>
     <div><label>Dec (deg)</label><input class="num" id="dec" value=""></div>
     <div><label data-i18n="depthlbl">Depth (ppm)</label><input class="num" id="depth" value=""></div>
-    <div><label data-i18n="maglbl">Mag</label><input class="num" id="mag" value="" style="width:70px"></div>
+    <div><label id="maglabel" data-i18n="maglbl">Mag</label><input class="num" id="mag" value="" style="width:70px"></div>
   </div>
 </div>
 
@@ -155,6 +155,7 @@ function applyLang(){
   document.getElementById('langbtn').textContent = lang==='en' ? '中文' : 'EN';
   document.getElementById('catinfo').textContent = L.catinfo(CATALOG.length, CATALOG_DATE);
   document.documentElement.lang = lang==='en' ? 'en' : 'zh-CN';
+  setMagLabel();
 }
 function toggleTheme(){
   const t = document.documentElement.dataset.theme==='light' ? 'dark' : 'light';
@@ -176,6 +177,8 @@ function lookup(q){
   const hits = CATALOG.filter(r=>r[0].toLowerCase().replace(/[\s_-]+/g,'').startsWith(q));
   return hits.length ? hits[0] : null;
 }
+function bandName(b){ return b==='T' ? (lang==='zh'?'TESS 星等':'TESS mag') : b ? `${b} ${lang==='zh'?'星等':'mag'}` : I18N[lang].maglbl; }
+function setMagLabel(){ document.getElementById('maglabel').textContent = bandName(curTarget && curTarget[9]); }
 function resolve(){
   const L = I18N[lang];
   const r = lookup(document.getElementById('name').value);
@@ -190,8 +193,9 @@ function resolve(){
   document.getElementById('mag').value = r[8] ?? '';
   el.style.color = 'var(--dim)';
   curTarget = r;
+  setMagLabel();
   const host = r[0].replace(/(\s+[a-z]\d*|\.\d+)$/i, '');
-  el.innerHTML = L.resolvedAs(`${r[0]} (${r[9]??'mag'})`, r[6]) +
+  el.innerHTML = L.resolvedAs(`${r[0]} (${bandName(r[9])})`, r[6]) +
     ` &middot; <a href="https://exofop.ipac.caltech.edu/tess/target.php?id=${encodeURIComponent(host)}" target="_blank" rel="noopener" style="color:inherit">ExoFOP</a>`;
 }
 document.getElementById('name').addEventListener('input', e=>{
@@ -526,7 +530,8 @@ function drawTransitSim(r){
   const dtxt = known ? (depth>=1e-2 ? (depth*100).toFixed(2)+'%' : (depth*1e6).toFixed(0)+' ppm')
                      : (lang==='zh' ? '深度未知,按 1% 示意' : 'depth unknown, 1% shown');
   const magv = document.getElementById('mag').value.trim();
-  const mtxt = magv ? `  ${(curTarget && curTarget[9]) || 'mag'}=${magv}` : '';
+  const band = (curTarget && curTarget[9]) || 'mag';
+  const mtxt = magv ? `  ${band==='T'?'TESS':band}=${magv}` : '';
   const stxt = lang==='zh' ? {full:'完整可观测',partial:'部分可观测',no:'不可观测'}[r.status]
                            : {full:'fully observable',partial:'partially observable',no:'not observable'}[r.status];
   c.fillText((lang==='zh' ? '模拟凌星  深度 ' : 'simulated transit  depth ') + dtxt + mtxt + '  \u00b7 ' + stxt, ml, 16);
