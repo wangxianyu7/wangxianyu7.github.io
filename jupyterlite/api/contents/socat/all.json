@@ -1,0 +1,57 @@
+{
+  "content": [
+    {
+      "content": null,
+      "created": "2026-06-19T21:31:10.168764Z",
+      "format": null,
+      "hash": null,
+      "hash_algorithm": null,
+      "last_modified": "2026-06-19T21:27:58.985656Z",
+      "mimetype": "text/x-python",
+      "name": "__init__.py",
+      "path": "socat/__init__.py",
+      "size": 109,
+      "type": "file",
+      "writable": true
+    },
+    {
+      "content": null,
+      "created": "2026-06-20T00:14:11.936883Z",
+      "format": null,
+      "hash": null,
+      "hash_algorithm": null,
+      "last_modified": "2026-06-20T00:13:47.092796Z",
+      "mimetype": "text/x-python",
+      "name": "istar.py",
+      "path": "socat/istar.py",
+      "size": 9833,
+      "type": "file",
+      "writable": true
+    },
+    {
+      "content": null,
+      "created": "2026-06-19T21:31:10.169692Z",
+      "format": null,
+      "hash": null,
+      "hash_algorithm": null,
+      "last_modified": "2026-06-19T21:00:44.047163Z",
+      "mimetype": "text/x-python",
+      "name": "rm_model.py",
+      "path": "socat/rm_model.py",
+      "size": 9542,
+      "type": "file",
+      "writable": true
+    }
+  ],
+  "created": "2026-06-20T00:14:11.936604Z",
+  "format": "json",
+  "hash": null,
+  "hash_algorithm": null,
+  "last_modified": "2026-06-20T00:14:11.936604Z",
+  "mimetype": null,
+  "name": "socat",
+  "path": "socat",
+  "size": null,
+  "type": "directory",
+  "writable": true
+}
