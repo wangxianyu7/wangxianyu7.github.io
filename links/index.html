@@ -6,15 +6,28 @@
 <meta name="robots" content="noindex">
 <title>Links</title>
 <style>
-  body { max-width: 720px; margin: 3rem auto; padding: 0 1rem; background: #38383b; color: #fff; font-family: sans-serif; line-height: 1.8; }
-  a, a:visited { color: #9ecbff; }
-  li { margin-bottom: .4rem; }
+  body { max-width: 760px; margin: 3rem auto; padding: 0 1rem; background: #38383b; color: #fff; font-family: sans-serif; line-height: 1.7; }
+  a, a:visited { color: #9ecbff; word-break: break-all; }
+  h3 { margin-top: 2rem; border-bottom: 1px solid #666; }
+  h4 { margin-bottom: .2rem; color: #ccc; }
+  li { margin-bottom: .3rem; }
+  .quick { background: #2b2b2e; padding: .5rem 1rem; border-radius: 6px; }
 </style>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/marked/12.0.2/marked.min.js"></script>
 </head>
 <body>
 <h1>Links</h1>
-<ul>
+<ul class="quick">
   <li><a href="https://exoplanetarchive.ipac.caltech.edu/cgi-bin/TransitView/nph-visibletbls?dataset=transit">NASA Exoplanet Archive — Transit Service (visible transits)</a></li>
 </ul>
+<p><small>Below is rendered live from <a href="https://github.com/wangxianyu7/AstroRepo/blob/main/UsefulLinks.md">AstroRepo/UsefulLinks.md</a>. Edit that file to update.</small></p>
+<div id="md">Loading…</div>
+<script>
+  // ponytail: fetch at load; no build step, md stays the single source of truth
+  fetch('https://raw.githubusercontent.com/wangxianyu7/AstroRepo/main/UsefulLinks.md')
+    .then(r => r.text())
+    .then(t => { document.getElementById('md').innerHTML = marked.parse(t); })
+    .catch(() => { document.getElementById('md').textContent = 'Failed to load UsefulLinks.md'; });
+</script>
 </body>
 </html>
