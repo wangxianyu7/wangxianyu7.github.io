@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Limb-Darkening (u1, u2)</title>
+<style>
+:root{--bg:#14161a;--panel:#1d2026;--fg:#e8e6e1;--dim:#9a968e;--acc:#e8a33d;--ok:#5cb85c;--input:#101216;--bd:#333;--line:#24262c;--btn:#2b2f38}
+[data-theme=light]{--bg:#f0eee8;--panel:#fff;--fg:#2b2a27;--dim:#6f6b62;--acc:#c07d10;--ok:#3d8b3d;--input:#faf9f5;--bd:#d5d2ca;--line:#e6e3db;--btn:#eceae3}
+*{box-sizing:border-box}
+body{margin:0;font:14px/1.5 -apple-system,'Helvetica Neue',sans-serif;background:var(--bg);color:var(--fg);padding:18px}
+h1{font-size:18px;margin:0 0 4px;display:flex;align-items:center;gap:12px}
+.sub{font-size:12px;color:var(--dim);margin:0 0 14px}
+#langbtn,#themebtn{background:var(--btn);color:var(--fg);border:1px solid var(--bd);border-radius:6px;padding:4px 12px;cursor:pointer}
+#themebtn{margin-left:auto}
+.panel{background:var(--panel);border-radius:10px;padding:14px 16px;margin-bottom:14px}
+.row{display:flex;flex-wrap:wrap;gap:14px;align-items:flex-end}
+label{display:block;font-size:11px;color:var(--dim);margin-bottom:3px}
+input,select{background:var(--input);color:var(--fg);border:1px solid var(--bd);border-radius:6px;padding:6px 8px;font-size:13px}
+input:focus,select:focus{outline:1px solid var(--acc)}
+.num{width:110px}
+button.go{background:var(--acc);color:#fff;font-weight:600;border:0;border-radius:6px;padding:8px 22px;cursor:pointer;font-size:14px}
+button.go:hover{filter:brightness(1.1)}
+button.dl{background:var(--btn);color:var(--fg);border:1px solid var(--bd);border-radius:6px;padding:7px 14px;cursor:pointer;font-size:13px}
+table{border-collapse:collapse;width:100%;max-width:420px;font-size:13px}
+th,td{padding:5px 12px;text-align:right;border-bottom:1px solid var(--line);white-space:nowrap}
+th{color:var(--dim);font-weight:500}
+td:first-child,th:first-child{text-align:left}
+#msg{font-size:12px;color:var(--acc);min-height:17px;margin:6px 0}
+.note{font-size:11px;color:var(--dim);margin-top:10px;max-width:640px}
+a{color:var(--acc)}
+</style>
+</head>
+<body>
+<h1><span data-i18n="title">Limb-Darkening Coefficients</span>
+<button id="themebtn" onclick="toggleTheme()">&#9788;</button>
+<button id="langbtn" onclick="toggleLang()">中文</button></h1>
+<p class="sub" data-i18n="sub">Quadratic LD (u1, u2) from Claret &amp; Bloemen (2011) — enter Teff, [Fe/H], logg.</p>
+
+<div class="panel">
+  <div class="row">
+    <div><label data-i18n="teff">Teff [K]</label><input class="num" id="teff" value="5555"></div>
+    <div><label>[Fe/H]</label><input class="num" id="feh" value="0.099"></div>
+    <div><label data-i18n="logg">logg [cgs]</label><input class="num" id="logg" value="4.496"></div>
+    <div><label data-i18n="model">model</label>
+      <select id="model" onchange="syncOpts()"><option>ATLAS</option><option>PHOENIX</option></select></div>
+    <div><label data-i18n="method">method</label>
+      <select id="method"><option value="L">L (least-sq)</option><option value="F">F (flux-cons)</option></select></div>
+    <div><label>vt [km/s]</label><select id="vt"></select></div>
+    <button class="go" onclick="go()" data-i18n="compute">Compute</button>
+  </div>
+  <div id="msg"></div>
+</div>
+
+<div class="panel">
+  <div style="display:flex;align-items:center;gap:12px;margin-bottom:8px">
+    <strong data-i18n="results">Results</strong>
+    <button class="dl" onclick="download_()" data-i18n="dl">Download .txt</button>
+  </div>
+  <table><thead><tr><th data-i18n="band">band</th><th>u1</th><th>u2</th></tr></thead>
+  <tbody id="tb"></tbody></table>
+</div>
+
+<p class="note" data-i18n="note1">Full [Fe/H] grid only at vt=2 (ATLAS L.2 / F.2). ATLAS vt=0/1/4/8 and all PHOENIX tables are solar-only ([Fe/H]=0); feh is ignored there. PHOENIX lacks TESS/Spitzer.</p>
+<p class="note">Limb-darkening tables and interpolation ported from
+<a href="https://github.com/jdeast/EXOFASTv2" target="_blank" rel="noopener">EXOFASTv2</a>
+(<code>quadld.pro</code>, &copy; Jason Eastman). Please cite
+<a href="https://ui.adsabs.harvard.edu/abs/2019PASP..131i4502E" target="_blank" rel="noopener">Eastman et al. 2019</a>
+and
+<a href="https://ui.adsabs.harvard.edu/abs/2011A%26A...529A..75C" target="_blank" rel="noopener">Claret &amp; Bloemen 2011</a>
+if you use these values. Interpolation runs entirely in your browser.</p>
+
+<script>
+const DATADIR="ld_data/";
+const cache={};
+const VT={ATLAS:[0,1,2,4,8],PHOENIX:[2]};
+let lastRows=[], lastHdr="";
+
+function syncOpts(){
+  const m=document.getElementById('model').value;
+  const sel=document.getElementById('vt'); const cur=sel.value;
+  sel.innerHTML="";
+  VT[m].forEach(v=>{const o=document.createElement('option');o.value=v;o.text=v;if(''+v===cur)o.selected=true;sel.appendChild(o);});
+  if(m==='PHOENIX') sel.value='2';
+}
+function locate(ax,v){const n=ax.length; if(n===1)return[0,0]; let i=0; while(i<n-2&&v>ax[i+1])i++; return[i,(v-ax[i])/(ax[i+1]-ax[i])];}
+function interpAll(d,teff,feh,logg){
+  const nl=d.logg.length,nt=d.teff.length,nf=d.feh.length;
+  const [ig,fg]=locate(d.logg,logg),[it,ft]=locate(d.teff,teff);
+  const out={};
+  const wG=[[0,1-fg],[1,fg]],wT=[[0,1-ft],[1,ft]];
+  if(d.ndim===3){
+    const [ifeh,ff]=locate(d.feh,feh),wF=[[0,1-ff],[1,ff]];
+    for(const b in d.bands){out[b]=['u1','u2'].map(k=>{const A=d.bands[b][k];let v=0;
+      for(const[df,a]of wF)for(const[dt,c]of wT)for(const[dg,e]of wG)v+=a*c*e*A[((ifeh+df)*nt+(it+dt))*nl+(ig+dg)];return v;});}
+  }else{
+    for(const b in d.bands){out[b]=['u1','u2'].map(k=>{const A=d.bands[b][k];let v=0;
+      for(const[dt,c]of wT)for(const[dg,e]of wG)v+=c*e*A[(it+dt)*nl+(ig+dg)];return v;});}
+  }
+  return out;
+}
+async function go(){
+  const model=document.getElementById('model').value, method=document.getElementById('method').value, vt=document.getElementById('vt').value;
+  const teff=+document.getElementById('teff').value, feh=+document.getElementById('feh').value, logg=+document.getElementById('logg').value;
+  const msg=document.getElementById('msg'); msg.textContent="";
+  const key=`${model}.${method}.${vt}`;
+  let d=cache[key];
+  if(!d){ try{ const r=await fetch(DATADIR+key+".json"); if(!r.ok)throw 0; d=await r.json(); cache[key]=d; }
+          catch(e){ msg.textContent=(L==='zh'?"没有此表: ":"No table: ")+key; return; } }
+  const warns=[];
+  if(teff<d.teff[0]||teff>d.teff[d.teff.length-1]||logg<d.logg[0]||logg>d.logg[d.logg.length-1])
+    warns.push(L==='zh'?"超出网格,已外推":"outside grid, extrapolated");
+  if(d.ndim===2 && Math.abs(feh-d.feh[0])>1e-6)
+    warns.push(L==='zh'?`该表仅 [Fe/H]=${d.feh[0]}, 已忽略 feh`:`table is [Fe/H]=${d.feh[0]} only, feh ignored`);
+  const res=interpAll(d,teff,feh,logg);
+  const tb=document.getElementById('tb'); tb.innerHTML=""; lastRows=[];
+  for(const b in res){const[u1,u2]=res[b];
+    const tr=document.createElement('tr');
+    tr.innerHTML=`<td>${b}</td><td>${u1.toFixed(5)}</td><td>${u2.toFixed(5)}</td>`;
+    tb.appendChild(tr); lastRows.push([b,u1.toFixed(5),u2.toFixed(5)]);}
+  lastHdr=`# Quadratic LD (u1,u2) Claret & Bloemen 2011\n# Teff=${teff} [Fe/H]=${feh} logg=${logg}  model=${model} method=${method} vt=${vt}\n# band\tu1\tu2`;
+  msg.textContent=warns.join(" · ");
+}
+function download_(){
+  if(!lastRows.length){go();return;}
+  const txt=lastHdr+"\n"+lastRows.map(r=>r.join("\t")).join("\n")+"\n";
+  const a=document.createElement('a');
+  a.href=URL.createObjectURL(new Blob([txt],{type:'text/plain'}));
+  a.download="u1u2.txt"; a.click();
+}
+/* theme + lang */
+function toggleTheme(){const h=document.documentElement;h.dataset.theme=h.dataset.theme==='light'?'':'light';localStorage.ldtheme=h.dataset.theme;}
+if(localStorage.ldtheme)document.documentElement.dataset.theme=localStorage.ldtheme;
+const I18N={zh:{title:"临边昏暗系数",sub:"二次临边昏暗 (u1, u2),来自 Claret & Bloemen (2011) — 输入 Teff、[Fe/H]、logg。",
+ teff:"有效温度 [K]",logg:"logg [cgs]",model:"模型",method:"方法",compute:"计算",results:"结果",dl:"下载 .txt",band:"波段",
+ note1:"完整 [Fe/H] 网格只在 vt=2 (ATLAS L.2 / F.2)。ATLAS vt=0/1/4/8 及所有 PHOENIX 表仅太阳金属丰度 ([Fe/H]=0),feh 被忽略。PHOENIX 没有 TESS/Spitzer。"}};
+let L='en';
+function toggleLang(){L=L==='en'?'zh':'en';localStorage.ldlang=L;applyLang();}
+function applyLang(){document.getElementById('langbtn').textContent=L==='en'?'中文':'EN';
+ document.querySelectorAll('[data-i18n]').forEach(e=>{const k=e.getAttribute('data-i18n');
+   if(L==='zh'&&I18N.zh[k])e.textContent=I18N.zh[k]; else e.textContent=e.getAttribute('data-en')||e.textContent;});}
+document.querySelectorAll('[data-i18n]').forEach(e=>e.setAttribute('data-en',e.textContent));
+if(localStorage.ldlang==='zh'){L='zh';}
+syncOpts(); document.getElementById('vt').value='2'; applyLang(); go();
+</script>
+</body>
+</html>
